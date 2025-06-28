@@ -1,0 +1,33 @@
+ h1 {
+    color : red;
+    background-color: yellow;
+   }
+
+
+h2{
+   color: darkred;
+   background-color: yellow;
+}
+
+p {
+   color: rgb(63, 29, 228);
+}
+
+ol {
+   color: rgb(63, 29, 228);
+}
+
+caption{
+   color: rgb(198, 17, 17);
+}
+ .a {
+   background-color: rgb(0, 125, 226);
+}
+ 
+ .b {
+   background-color: aqua;
+ }
+
+ .c  {
+   background-color: rgb(3, 177, 177);
+ }
