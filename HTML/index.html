@@ -1,15 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        
-    </title>
-</head><h2></h2>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon Clone</title>
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+</head>
 <body>
-    <h1>learning html</h1>
-    <h2>Learning html tags</h2>
+  
+  <header class="navbar">
+    <div class="nav-left">
+      <a class="nav-logo" href="#">
+        <span class="logo-amazon">amazon<span class="logo-dot">.in</span></span>
+        <span class="logo-smile">⌣</span>
+      </a>
 
+      <div class="nav-location">
+        <span class="small">Deliver to</span>
+        <strong>India</strong>
+      </div>
+    </div>
+
+    <div class="nav-search">
+      <select class="search-select" aria-label="Search category">
+        <option selected>All</option>
+        <option>Alexa Skills</option>
+        <option>Books</option>
+        <option>Electronics</option>
+        <option>Fashion</option>
+        <option>Home & Kitchen</option>
+      </select>
+      <input class="search-input" type="text" placeholder="Search Amazon.in" />
+      <button class="search-btn" aria-label="Search">🔍</button>
+    </div>
+
+    <div class="nav-right">
+      <div class="nav-flag">🌐 EN</div>
+      <div class="nav-account">
+        <span class="small">Hello, sign in</span>
+        <strong>Account & Lists ▾</strong>
+      </div>
+      <div class="nav-returns">
+        <span class="small">Returns</span>
+        <strong>& Orders</strong>
+      </div>
+      <a class="nav-cart" href="#" aria-label="Cart">
+        🛒 <strong>Cart</strong>
+      </a>
+    </div>
+  </header>
+
+  
+  <nav class="panel">
+    <button class="panel-all">☰ All</button>
+    <a href="#">Today’s Deals</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Registry</a>
+    <a href="#">Gift Cards</a>
+    <a href="#">Sell</a>
+    <span class="panel-deals">Shop great deals now</span>
+  </nav>
+
+  
+  <section class="hero">
+    <button class="hero-arrow hero-prev" aria-label="Previous slide">‹</button>
+    <div class="hero-track">
+      
+      <img class="hero-slide" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2000&auto=format&fit=crop" alt="Big festive sale banner" />
+    </div>
+    <button class="hero-arrow hero-next" aria-label="Next slide">›</button>
+
+    <div class="hero-strip">
+      <p>You are on amazon.in. You can also shop on Amazon India for millions of products with fast local delivery.</p>
+      <a href="#">Click here to go to amazon.in</a>
+    </div>
+  </section>
+
+  
+  <main class="shop">
+  
+    <article class="box">
+      <h2>Revamp your home</h2>
+      <div class="box-grid">
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=800&auto=format&fit=crop" alt="Cushions & decor" />
+          <span>Cushions & decor</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" alt="Small storage" />
+          <span>Small storage</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?q=80&w=800&auto=format&fit=crop" alt="Lighting solutions" />
+          <span>Lighting</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=800&auto=format&fit=crop" alt="Home furnishings" />
+          <span>Furnishings</span>
+        </a>
+      </div>
+      <a class="shop-link" href="#">Explore more</a>
+    </article>
+
+  
+    <article class="box">
+      <h2>Electronics you’ll love</h2>
+      <div class="box-grid">
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop" alt="Mobiles" />
+          <span>Mobiles</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop" alt="Laptops" />
+          <span>Laptops</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41e5?q=80&w=800&auto=format&fit=crop" alt="Headphones" />
+          <span>Headphones</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop" alt="Wearables" />
+          <span>Wearables</span>
+        </a>
+      </div>
+      <a class="shop-link" href="#">See all deals</a>
+    </article>
+
+  
+    <article class="box">
+      <h2>Get your game on</h2>
+      <div class="box-grid">
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop" alt="Consoles" />
+          <span>Consoles</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1526401485004-2fda9f4bb6bd?q=80&w=800&auto=format&fit=crop" alt="Controllers" />
+          <span>Controllers</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop" alt="PC accessories" />
+          <span>PC accessories</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop" alt="Gaming chairs" />
+          <span>Gaming chairs</span>
+        </a>
+      </div>
+      <a class="shop-link" href="#">Explore gaming</a>
+    </article>
+
+    
+    <article class="box">
+      <h2>Fashion picks</h2>
+      <div class="box-grid">
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=800&auto=format&fit=crop" alt="Men" />
+          <span>Men</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800&auto=format&fit=crop" alt="Women" />
+          <span>Women</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop" alt="Watches" />
+          <span>Watches</span>
+        </a>
+        <a class="tile" href="#">
+          <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=800&auto=format&fit=crop" alt="Footwear" />
+          <span>Footwear</span>
+        </a>
+      </div>
+      <a class="shop-link" href="#">Shop the latest</a>
+    </article>
+  </main>
+
+  
+  <footer class="footer">
+    <a class="footer-backtop" href="#">Back to top ↑</a>
+
+    <div class="footer-links">
+      <div class="col">
+        <h4>Get to Know Us</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press Releases</a>
+        <a href="#">Amazon Science</a>
+      </div>
+      <div class="col">
+        <h4>Connect with Us</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div class="col">
+        <h4>Make Money with Us</h4>
+        <a href="#">Sell on Amazon</a>
+        <a href="#">Sell under Amazon Accelerator</a>
+        <a href="#">Protect and Build Your Brand</a>
+        <a href="#">Amazon Global Selling</a>
+      </div>
+      <div class="col">
+        <h4>Let Us Help You</h4>
+        <a href="#">Your Account</a>
+        <a href="#">Returns Centre</a>
+        <a href="#">100% Purchase Protection</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <span class="logo-amazon">amazon<span class="logo-dot">.in</span></span>
+        <span class="logo-smile">⌣</span>
+      </div>
+      <div class="footer-copy">© 2025 – This is a student-made clone for learning purposes.</div>
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      const track = document.querySelector(".hero-track");
+
+      
+      const slides = [
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=2000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2000&auto=format&fit=crop"
+      ];
+
+      let idx = 0;
+
+      function renderSlide(i) {
+        track.innerHTML = "";
+        const img = document.createElement("img");
+        img.className = "hero-slide";
+        img.src = slides[i];
+        img.alt = "Promotional banner " + (i + 1);
+        track.appendChild(img);
+      }
+
+      function next() {
+        idx = (idx + 1) % slides.length;
+        renderSlide(idx);
+      }
+
+      function prev() {
+        idx = (idx - 1 + slides.length) % slides.length;
+        renderSlide(idx);
+      }
+
+      
+      renderSlide(idx);
+
+    
+      let timer = setInterval(next, 3800);
+
+    
+      document.querySelector(".hero-next").addEventListener("click", () => {
+        next();
+        resetTimer();
+      });
+      document.querySelector(".hero-prev").addEventListener("click", () => {
+        prev();
+        resetTimer();
+      });
+
+      function resetTimer() {
+        clearInterval(timer);
+        timer = setInterval(next, 3800);
+      }
+    })();
+  </script>
 </body>
 </html>
