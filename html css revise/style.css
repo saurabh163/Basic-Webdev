@@ -1,78 +1,187 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #0a0c08, #0a070c);
+   display: flex;
+   justify-content: center;
+   align-items: center;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
-    background: #f0f2f5;
+    padding: 20px;
 }
 
 .card {
-    background: #fff;
-    padding: 20px;
-    width: 300px;
+   background: rgba(255, 255, 255, 0.15);
+   backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+     padding: 30px;
+  width: 380px;
     text-align: center;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 18px 45px rgba(254, 249, 249, 0.3);
 }
 
 .profile-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+  transition: transform 0.3s, border 0.3s;
+}
+
+.profile-photo:hover {
+  transform: scale(1.08);
+  border: 8px solid #00f2fe;
 }
 
 .card h2 {
-    font-size: 22px;
-    margin-bottom: 8px;
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-weight: 700;
 }
 
 .bio {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 15px;
+  font-size: 15px;
+  color: #f0f0f0;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.education, .skills, .contact {
+  text-align: left;
+  margin: 20px 0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.education h3, .skills h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #00f2fe;
+  text-align: center;
+}
+
+.education ul {
+  list-style: none;
+  font-size: 14px;
+  color: #fff;
+}
+
+.education li {
+  margin: 6px 0;
+  padding-left: 10px;
+  position: relative;
+}
+
+.education li::before {
+  content: "➤";
+  color: #00f2fe;
+  position: absolute;
+  left: -10px;
+}
+
+.contact {
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact p {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact i {
+  color: #00f2fe;
+  font-size: 16px;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.progress {
+  height: 10px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.progress div {
+  height: 100%;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  border-radius: 6px;
+  transition: width 0.5s ease-in-out;
+}
+
+.btn {
+  display: inline-block;
+  margin: 18px 0;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: rgb(159, 10, 10);
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+}
+
+.social-icons {
+  margin-top: 18px;
 }
 
 .social-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    margin: 0 5px;
-    background: #007bff;
-    color: #fff;
-    border-radius: 50%;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 0 8px;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
 }
 
 .social-icons a:hover {
-    background: #0056b3;
+  background: #00f2fe;
+  transform: scale(1.1);
+  color: #222;
 }
 
-@media (max-width: 400px) {
-    .card {
-        width: 90%;
-        padding: 15px;
-    }
-    .social-icons a {
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-    }
+@media (max-width: 420px) {
+  .card {
+    width: 95%;
+    padding: 20px;
+  }
 }
