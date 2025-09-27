@@ -12,13 +12,16 @@ body {
 }
 
 header h1 {
-  font-size: 28px;
-  margin-bottom: 6px;
+  color: #28009f;
+    font-size: 100px;
+  margin-bottom: 10px;
+
 }
 
 header p {
-  color: #555;
-  margin-bottom: 20px;
+  color: #04153ce9;
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
 .pricing-container {
@@ -38,18 +41,18 @@ header p {
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(240, 13, 13, 0.15);
 }
 
 .card h2 {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 8px;
 }
 
 .card .price {
   font-size: 18px;
-  color: #ffcb59;
+  color: #4c0255;
   margin-bottom: 12px;
   font-weight: bold;
 }
@@ -77,7 +80,7 @@ header p {
 }
 
 .card button:hover {
-  background-color: #dfe3ee;
+  background-color: #81a0f5;
 }
 
 .popular {
