@@ -1,91 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600;800&family=Poppins:wght@500;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
 
 body {
-  background-color: #90c3f7;
+  background: linear-gradient(135deg, #6dd5fa, #2980b9);
   text-align: center;
   padding: 20px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
 }
 
 header h1 {
-  color: #28009f;
-    font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
   margin-bottom: 10px;
-
+  color: #fff;
+  transition: color 0.3s;
 }
-
+header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  color: #f1f1f1;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+header h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #ff0000;
+  margin-bottom: 15px;
+  transition: color 0.3s;
+}
 header p {
-  color: #04153ce9;
-  font-size: 25px;
-  margin-bottom: 30px;
+  font-size: 22px;
+  color: #f9f9f9;
+  margin-bottom: 40px;
 }
+
+header h1:hover { color: #ffe600; }
+header h2:hover { color: #ff9f43; }
+header h3:hover { color: #00ffdd; }
 
 .pricing-container {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  width: 220px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  width: 260px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(240, 13, 13, 0.15);
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
 }
 
 .card h2 {
-  font-size: 30px;
-  margin-bottom: 8px;
-}
-
-.card .price {
-  font-size: 18px;
-  color: #4c0255;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
   margin-bottom: 12px;
+  color: #333;
+}
+.card .price {
+  font-size: 20px;
+  color: #6a11cb;
+  margin-bottom: 15px;
   font-weight: bold;
 }
 
-.card ul {
+.features li {
   list-style: none;
-  margin-bottom: 12px;
-  text-align: left;
-  padding-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #444;
 }
 
-.card ul li {
-  margin-bottom: 6px;
+.guarantee {
+  font-size: 14px;
+  font-weight: bold;
+  color: #008000;
+  margin: 10px 0;
 }
 
 .card button {
-  background-color: #2563eb;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 10px 14px;
+  border-radius: 10px;
+  padding: 14px 20px;
   cursor: pointer;
-  font-weight: 600;
-  transition: background-color 0.3s;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
 }
-
 .card button:hover {
-  background-color: #81a0f5;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
 .popular {
-  border: 2px solid #6324f6;
-  transform: scale(1.05);
+  border: 3px solid #6a11cb;
+}
+.popular .badge {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: #ff512f;
+  color: white;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 @media(max-width: 700px){
