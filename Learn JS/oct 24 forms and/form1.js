@@ -121,7 +121,7 @@ function checkAge() {
 
 
 
-// check mail//
+// check email//
 
 
 function checkEmailEnd() {
@@ -131,5 +131,19 @@ function checkEmailEnd() {
     return false;
   }
   document.getElementById("msg").innerText = "Valid email!";
+  return true;
+}
+
+
+
+// username withaut space //
+
+function noSpace() {
+  let u = document.getElementById("user").value;
+  if (u.includes(" ")) {
+    document.getElementById("show").innerText = "No spaces allowed in username";
+    return false;
+  }
+  document.getElementById("show").innerText = "Username looks good";
   return true;
 }
