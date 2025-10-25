@@ -189,3 +189,12 @@ function togglePass() {
     p.type = "password";
   }
 }
+
+
+
+// live characters count //
+
+function countChar() {
+  let text = document.getElementById("text").value;
+  document.getElementById("count").innerText = text.length + " characters";
+}
