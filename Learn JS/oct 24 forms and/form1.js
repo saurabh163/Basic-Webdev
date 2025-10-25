@@ -147,3 +147,17 @@ function noSpace() {
   document.getElementById("show").innerText = "Username looks good";
   return true;
 }
+
+
+
+ // mobile number must be 10 numbers //
+
+ function checkPhone() {
+  let num = document.getElementById("phone").value;
+  if (num.length !== 10) {
+    document.getElementById("msg").innerText = "Phone must be 10 digits";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Phone valid!";
+  return true;
+}
