@@ -150,7 +150,7 @@ function noSpace() {
 
 
 
- // mobile number must be 10 numbers //
+ // mobile number must be 10 Digits //
 
  function checkPhone() {
   let num = document.getElementById("phone").value;
@@ -159,5 +159,19 @@ function noSpace() {
     return false;
   }
   document.getElementById("msg").innerText = "Phone valid!";
+  return true;
+}
+
+
+
+// check box check //
+
+function checkBox() {
+  let box = document.getElementById("agree");
+  if (!box.checked) {
+    document.getElementById("msg").innerText = "Please accept the terms";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Thank you";
   return true;
 }
