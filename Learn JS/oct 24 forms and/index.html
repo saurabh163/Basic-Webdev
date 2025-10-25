@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form 1</title>
+</head>
+<body>
+  <h2>Check Empty Field</h2>
+  <form onsubmit="return checkEmpty()">
+    <input type="text" id="username" placeholder="Enter your name">
+    <button type="submit">Submit</button>
+      <p id="message"></p>
+
+  </form>
+
+  <form onsubmit="return validateEmail()">
+  <input type="text" id="email" placeholder="Enter email">
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+  
+</form>
+
+<form onsubmit="return validatePassword()">
+  <input type="password" id="pass" placeholder="Enter password">
+  <button type="submit">Submit</button>
+  <p id="output"></p>
+  
+</form>
+
+
+<form onsubmit="return checkMatch()">
+  <input type="password" id="p1" placeholder="Enter password"><br>
+  <input type="password" id="p2" placeholder="Confirm password"><br>
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+
+</form>
+
+<form onsubmit="return checkNumber()">
+  <input type="text" id="num" placeholder="Enter number">
+  <button type="submit">Submit</button>
+  <p id="result"></p>
+
+</form>
+
+<form onsubmit="return checkSelect()">
+  <select id="city">
+    <option value="">--Select City--</option>
+    <option value="Hinganghat">Hinganghat</option>
+    <option value="Nagpur">Nagpur</option>
+  </select>
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+
+</form>
+
+<form onsubmit="return allCheck()">
+  <input type="text" id="name" placeholder="Name"><br>
+  <input type="text" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button type="submit">Submit</button>
+  <p id="alert"></p>
+</form>
+
+<form onsubmit="return checkAge()">
+  <input type="number" id="age" placeholder="Enter your age">
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+</form>
+
+
+  <script src="form1.js"></script>
+</body>
+</html>
