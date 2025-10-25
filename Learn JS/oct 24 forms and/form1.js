@@ -175,3 +175,17 @@ function checkBox() {
   document.getElementById("msg").innerText = "Thank you";
   return true;
 }
+
+
+
+
+// sshow password toggel //
+
+function togglePass() {
+  let p = document.getElementById("pass");
+  if (p.type === "password") {
+    p.type = "text";
+  } else {
+    p.type = "password";
+  }
+}
