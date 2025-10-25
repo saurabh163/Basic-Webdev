@@ -118,3 +118,18 @@ function checkAge() {
   document.getElementById("msg").innerText = "Welcome to form and form validation";
   return true;
 }
+
+
+
+// check mail//
+
+
+function checkEmailEnd() {
+  let email = document.getElementById("email").value;
+  if (!email.endsWith(".com")) {
+    document.getElementById("msg").innerText = "Email must end with .com";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Valid email!";
+  return true;
+}
