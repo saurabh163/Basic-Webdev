@@ -280,3 +280,29 @@ function limitText() {
 function showGender(ele) {
   document.getElementById("msg").innerText = "Selected: " + ele.value;
 }
+
+
+
+// highlighte empty files //
+
+function highlightEmpty() {
+  let n = document.getElementById("n");
+  let e = document.getElementById("e");
+  let valid = true;
+
+  if (n.value === "") {
+    n.style.border = "2px solid red";
+    valid = false;
+  } else {
+    n.style.border = "2px solid green";
+  }
+
+  if (e.value === "") {
+    e.style.border = "2px solid red";
+    valid = false;
+  } else {
+    e.style.border = "2px solid green";
+  }
+
+  return valid;
+}
