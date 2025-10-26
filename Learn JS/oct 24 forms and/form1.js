@@ -272,3 +272,11 @@ function limitText() {
     document.getElementById("msg").innerText = text.length + "/20";
   }
 }
+  
+
+
+// show select gender //
+
+function showGender(ele) {
+  document.getElementById("msg").innerText = "Selected: " + ele.value;
+}
