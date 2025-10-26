@@ -198,3 +198,17 @@ function countChar() {
   let text = document.getElementById("text").value;
   document.getElementById("count").innerText = text.length + " characters";
 }
+
+
+
+///  charactor  numbers name //
+
+function checkName() {
+  let name = document.getElementById("name").value;
+  if (name.length < 3) {
+    document.getElementById("msg").innerText = "Name must be at least 3 letters!";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Name looks good!";
+  return true;
+}
