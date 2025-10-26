@@ -212,3 +212,17 @@ function checkName() {
   document.getElementById("msg").innerText = "Name looks good!";
   return true;
 }
+
+
+/// if mail @ and '.' validation//
+
+function checkEmail() {
+  let email = document.getElementById("email").value;
+  if (email.includes("@") && email.includes(".")) {
+    document.getElementById("output").innerText = "Valid email!";
+    return true;
+  } else {
+    document.getElementById("output").innerText = "Invalid email!";
+    return false;
+  }
+}
