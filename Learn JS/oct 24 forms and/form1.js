@@ -344,3 +344,5 @@ function confirmEmail() {
   document.getElementById("msg").innerText = "Emails match ";
   return true;
 }
+
+
