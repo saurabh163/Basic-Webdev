@@ -57,3 +57,16 @@ if (isLoggedIn) {
 } else {
   console.log("Please Login");
 }
+
+
+
+
+///  problem 06 //
+
+let marks = 33;
+
+if (marks >= 35) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
