@@ -45,3 +45,15 @@ if (a > b) {
 } else {
   console.log("b is greater");
 }
+
+
+
+// problem 05 //
+
+let isLoggedIn = true;
+
+if (isLoggedIn) {
+  console.log("Welcome Back!");
+} else {
+  console.log("Please Login");
+}
