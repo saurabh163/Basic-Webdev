@@ -99,3 +99,16 @@ if (num > 0) {
 } else {
   console.log("Number is Zero");
 }
+
+
+// problem 09 //
+
+
+let correctPassword = "12345";
+let userInput = "12345";
+
+if (userInput === correctPassword) {
+  console.log("Login Successful ");
+} else {
+  console.log("Incorrect Password ");
+}
