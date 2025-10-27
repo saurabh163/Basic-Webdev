@@ -84,3 +84,18 @@ if (total > 500) {
 } else {
   console.log("No discount available");
 }
+
+
+
+//problem 08 //
+
+
+let Num = 0;
+
+if (num > 0) {
+  console.log("Positive number");
+} else if (num < 0) {
+  console.log("Negative number");
+} else {
+  console.log("Number is Zero");
+}
