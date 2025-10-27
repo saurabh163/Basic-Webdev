@@ -31,3 +31,17 @@ if (num % 2 == 0) {
 } else {
   console.log("Odd Number");
 }
+
+
+
+
+// problem 04 //
+
+let a = 10;
+let b = 25;
+
+if (a > b) {
+  console.log("a is greater");
+} else {
+  console.log("b is greater");
+}
