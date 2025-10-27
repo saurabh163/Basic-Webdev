@@ -139,7 +139,20 @@ if (marks >= 90) {
 
 } else if (marks >= 50) {
   console.log("Grade: C");
-  
+
 } else {
   console.log("Fail");
+}
+
+
+
+// problem 12 // 
+
+let Age = 20;
+let hasID = true;
+
+if (age >= 18 && hasID) {
+  console.log("You can vote ✅");
+} else {
+  console.log("You cannot vote ❌");
 }
