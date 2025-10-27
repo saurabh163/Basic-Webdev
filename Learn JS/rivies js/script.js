@@ -70,3 +70,17 @@ if (marks >= 35) {
 } else {
   console.log("Fail");
 }
+
+
+
+
+ /// problem 07 //
+
+
+ let total = 600;
+
+if (total > 500) {
+  console.log("You got 10% discount!");
+} else {
+  console.log("No discount available");
+}
