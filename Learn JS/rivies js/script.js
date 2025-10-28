@@ -192,3 +192,15 @@ if (gudduAge >= 12 && hasPermissionSlip) {
 } else {
   console.log("Stay home Guddu ");
 }
+
+
+// problem 16 //
+
+let pappuBattery = 15;
+
+if (pappuBattery < 20) {
+  console.log("Pappu, charge your phone ");
+  
+} else {
+  console.log("Battery is fine ");
+}
