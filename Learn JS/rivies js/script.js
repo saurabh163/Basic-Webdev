@@ -164,7 +164,19 @@ let chintuHomework = false;
 
 if (chintuHomework) {
   console.log("Good job Chintu ");
-  
+
 } else {
   console.log("Chintu go do your homework ");
+}
+
+
+// problem 14//
+
+let babluMarks = 80;
+
+if (babluMarks >= 60) {
+  console.log("Bablu gets samosa treat ");
+  
+} else {
+  console.log("No samosa for Bablu ");
 }
