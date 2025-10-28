@@ -226,7 +226,20 @@ let buntyMobileData = true;
 
 if (buntyWifi || buntyMobileData) {
   console.log("Bunty is online ");
-  
+
 } else {
   console.log("Bunty is offline ");
+}
+
+
+// problem 19 //
+
+let pinkyMoney = 40;
+let iceCreamPrice = 35;
+
+if (pinkyMoney >= iceCreamPrice) {
+  console.log("Pinky bought ice-cream ");
+
+} else {
+  console.log("Pinky needs more money ");
 }
