@@ -253,7 +253,20 @@ let lalluCatch = true;
 
 if (lalluRuns > 20 && lalluCatch) {
   console.log("Lallu selected in cricket team ");
-  
+
 } else {
   console.log("Try again next time Lallu ");
+}
+
+
+// problem 21 //
+
+let ovenTemp = 180;
+let cakeTime = 30;
+
+if (ovenTemp >= 180 && cakeTime >= 30) {
+  console.log("Cake is ready ");
+
+} else {
+  console.log("Wait thoda aur Dolly ");
 }
