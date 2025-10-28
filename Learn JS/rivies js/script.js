@@ -243,3 +243,17 @@ if (pinkyMoney >= iceCreamPrice) {
 } else {
   console.log("Pinky needs more money ");
 }
+
+
+
+// problem 20 //
+
+let lalluRuns = 25;
+let lalluCatch = true;
+
+if (lalluRuns > 20 && lalluCatch) {
+  console.log("Lallu selected in cricket team ");
+  
+} else {
+  console.log("Try again next time Lallu ");
+}
