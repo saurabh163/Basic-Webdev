@@ -217,3 +217,16 @@ if (montyAge >= 18 || withParents) {
 } else {
   console.log("Monty not allowed ");
 }
+
+
+//  problem 18 //
+
+let buntyWifi = false;
+let buntyMobileData = true;
+
+if (buntyWifi || buntyMobileData) {
+  console.log("Bunty is online ");
+  
+} else {
+  console.log("Bunty is offline ");
+}
