@@ -200,7 +200,20 @@ let pappuBattery = 15;
 
 if (pappuBattery < 20) {
   console.log("Pappu, charge your phone ");
-  
+
 } else {
   console.log("Battery is fine ");
+}
+
+
+// problem 17 //
+
+let montyAge = 15;
+let withParents = false;
+
+if (montyAge >= 18 || withParents) {
+  console.log("Monty can watch movie ");
+
+} else {
+  console.log("Monty not allowed ");
 }
