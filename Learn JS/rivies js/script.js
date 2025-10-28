@@ -152,7 +152,19 @@ let Age = 20;
 let hasID = true;
 
 if (age >= 18 && hasID) {
-  console.log("You can vote ✅");
+  console.log("You can vote ");
 } else {
-  console.log("You cannot vote ❌");
+  console.log("You cannot vote ");
+}
+
+
+// problem 13 //
+
+let chintuHomework = false;
+
+if (chintuHomework) {
+  console.log("Good job Chintu ");
+  
+} else {
+  console.log("Chintu go do your homework ");
 }
