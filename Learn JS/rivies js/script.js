@@ -270,3 +270,16 @@ if (ovenTemp >= 180 && cakeTime >= 30) {
 } else {
   console.log("Wait thoda aur Dolly ");
 }
+
+
+// problem 22 //
+
+let rajuBattery = 100;
+let chargingPlugged = false;
+
+if (rajuBattery < 30 && !chargingPlugged) {
+  console.log("Raju plug in your charger ");
+  
+} else {
+  console.log("All good Raju ");
+}
