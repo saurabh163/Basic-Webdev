@@ -176,7 +176,19 @@ let babluMarks = 80;
 
 if (babluMarks >= 60) {
   console.log("Bablu gets samosa treat ");
-  
+
 } else {
   console.log("No samosa for Bablu ");
+}
+
+
+// problem 15 //
+
+let gudduAge = 13;
+let hasPermissionSlip = true;
+
+if (gudduAge >= 12 && hasPermissionSlip) {
+  console.log("Guddu can go to picnic ");
+} else {
+  console.log("Stay home Guddu ");
 }
