@@ -70,3 +70,40 @@ body {
   border-radius: 4px;
   text-decoration: none;
 }
+
+
+/* FEATURES */
+.features {
+  background: #f2f4f8;
+  text-align: center;
+  padding: 40px 0;
+}
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.feature {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  padding: 20px;
+}
+.feature img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.feature h3 {
+  color: #0078ff;
+  margin-bottom: 8px;
+}
+.feature p {
+  color: #555;
+  font-size: 14px;
+}
