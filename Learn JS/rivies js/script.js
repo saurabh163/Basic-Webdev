@@ -1,7 +1,7 @@
 
 // problem 01 //
 
-let num = -5;
+let nUm = -5;
 
 if (num > 0) {
   console.log("Number is Positive");
