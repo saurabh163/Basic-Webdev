@@ -110,6 +110,7 @@ body {
 
 
 /* pricing  */
+
 .pricing {
   text-align: center;
   padding: 40px 0;
@@ -139,4 +140,25 @@ body {
 }
 .card ul li {
   margin-bottom: 5px;
+}
+
+
+/* CONTACT */
+.contact {
+  background: #f2f4f8;
+  text-align: center;
+  padding: 40px 0;
+}
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
