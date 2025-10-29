@@ -3,3 +3,36 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.logo span {
+  color: #0078ff;
+}
+.navbar a {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+.navbar a:hover {
+  color: #0078ff;
+}
