@@ -531,3 +531,11 @@ function getEven(arr) {
   return arr.filter(num => num % 2 === 0);
 }
 console.log(getEven([2, 5, 7, 8, 10]));
+
+
+
+// problem 42 //
+
+let user = { name: "Ravi", age: 21 };
+user.country = "India";
+console.log(user);
