@@ -501,3 +501,14 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 console.log("True count:", count);
+
+
+
+// problem 39 //
+
+
+let person = { name: "Amit", age: 22, city: "Pune" };
+
+for (let key in person) {
+  console.log(key + ":", person[key]);
+}
