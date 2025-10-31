@@ -512,3 +512,13 @@ let person = { name: "Amit", age: 22, city: "Pune" };
 for (let key in person) {
   console.log(key + ":", person[key]);
 }
+
+
+// problem 40 //
+
+let word = "computer";
+if (word.includes("a")) {
+  console.log("Contains 'a'");
+} else {
+  console.log("Does not contain 'a'");
+}
