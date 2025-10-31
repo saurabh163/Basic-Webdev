@@ -522,3 +522,12 @@ if (word.includes("a")) {
 } else {
   console.log("Does not contain 'a'");
 }
+
+
+
+// problem 41 //
+
+function getEven(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+console.log(getEven([2, 5, 7, 8, 10]));
