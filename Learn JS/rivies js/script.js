@@ -465,3 +465,17 @@ function checkEvenOdd(num) {
   }
 }
 checkEvenOdd(9);
+
+
+
+// // problem 36 //
+
+let numbers = [5, 8, 2, 9, 1];
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largest) {
+    largest = numbers[i];
+  }
+}
+console.log("Largest:", largest);
