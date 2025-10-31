@@ -554,3 +554,15 @@ for (let i = 0; i < Str.length; i++) {
   }
 }
 console.log("Vowels:", Count);
+
+
+// problem 44 //
+
+let Arr = [2, 4, 6, 8];
+let sum = 0;
+
+for (let i = 0; i < Arr.length; i++) {
+  sum += Arr[i];
+}
+console.log("Sum:", sum);
+
