@@ -486,3 +486,18 @@ console.log("Largest:", largest);
 let str = "hello";
 let reversed = str.split("").reverse().join("");
 console.log(reversed);
+
+
+
+// problem 38 //
+
+
+let arr = [true, false, true, true, false];
+let count = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === true) {
+    count++;
+  }
+}
+console.log("True count:", count);
