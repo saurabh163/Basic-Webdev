@@ -566,3 +566,7 @@ for (let i = 0; i < Arr.length; i++) {
 }
 console.log("Sum:", sum);
 
+
+
+// problem 45 //
+
