@@ -71,6 +71,19 @@ body {
   text-decoration: none;
 }
 
+.hero-img {
+  display: flex;
+  gap: 15px;
+}
+.hero-img img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.hero-img img:hover {
+  transform: scale(1.05);
+}
+
 
 /* FEATURES */
 .features {

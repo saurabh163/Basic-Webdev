@@ -283,3 +283,185 @@ if (rajuBattery < 30 && !chargingPlugged) {
 } else {
   console.log("All good Raju ");
 }
+
+
+
+// problem 23 //
+
+let numbRs = [10, 20, 30, 40, 50];
+
+for (let i = numbRs.length - 1; i >= 0; i--) {
+    console.log(numbRs[i]);
+}
+
+
+// problem 24 //
+
+function validateEmail() {
+  let email = document.getElementById("email").value;
+  if (!email.includes("@")) {
+    document.getElementById("msg").innerText = "Invalid email!";
+    return false;
+  } else {
+    document.getElementById("msg").innerText = "Valid email!";
+    return true;
+  }
+}
+
+
+
+// problem 25 //
+
+function checkMatch() {
+  let p1 = document.getElementById("p1").value;
+  let p2 = document.getElementById("p2").value;
+
+  if (p1 !== p2) {
+    document.getElementById("msg").innerText = "Passwords do not match";
+    return false;
+  }
+  document.getElementById("msg").innerText = "Passwords match ";
+  return true;
+}
+
+
+// problem 26 //
+
+function allCheck() {
+  let n = document.getElementById("name").value;
+  let e = document.getElementById("email").value;
+  let p = document.getElementById("password").value;
+
+  if (n === "" || e === "" || p === "") {
+    document.getElementById("alert").innerText = "All fields are required!";
+    return false;
+  }
+  document.getElementById("alert").innerText = "Form submitted successfully!";
+  return true;
+}
+
+
+
+// problem 27  //
+
+function togglePass() {
+  let p = document.getElementById("pass");
+  if (p.type === "password") {
+    p.type = "text";
+  } else {
+    p.type = "password";
+  }
+}
+
+
+
+// problem 28  //
+
+function showAlert() {
+  let u = document.getElementById("user").value;
+  let p = document.getElementById("pass").value;
+  if (u === "" || p === "") {
+    alert("Please fill all fields!");
+    return false;
+  }
+  alert("Form submitted successfully!");
+  return true;
+}
+
+
+
+// problem 29 //
+
+function highlightEmpty() {
+  let n = document.getElementById("n");
+  let e = document.getElementById("e");
+  let valid = true;
+
+  if (n.value === "") {
+    n.style.border = "2px solid red";
+    valid = false;
+  } else {
+    n.style.border = "2px solid green";
+  }
+
+  if (e.value === "") {
+    e.style.border = "2px solid red";
+    valid = false;
+  } else {
+    e.style.border = "2px solid green";
+  }
+
+  return valid;
+}
+
+
+// problem 30 //
+
+function checkPass() {
+  let pass = document.getElementById("pass").value;
+  let btn = document.getElementById("btn");
+
+  if (pass.length < 6) {
+    document.getElementById("msg").innerText = "Too short!";
+    btn.disabled = true;
+  } else {
+    document.getElementById("msg").innerText = "Looks strong!";
+    btn.disabled = false;
+  }
+}   
+
+// problem 31 //
+
+let buntyMaths = 80;
+let buntyScience = 70;
+let buntyEnglish = 90;
+
+let totalMarks = buntyMaths + buntyScience + buntyEnglish;
+let averageMarks = totalMarks / 3;
+
+console.log("Bunty’s total marks:", totalMarks);
+console.log("Bunty’s average marks:", averageMarks);
+
+
+// problem 32 //
+
+let pinkyName = "Pinky";
+let pinkyAge = 17;
+
+let sentence = pinkyName + " is " + pinkyAge + " years old.";
+console.log(sentence);
+
+
+
+// problem 33 ///
+
+let gardenLength = 12;
+let gardenWidth = 8;
+
+let area = gardenLength * gardenWidth;
+
+console.log("Chintu’s garden area is:", area, "square meters 🌿");
+
+
+
+// problem 34 //
+
+let babluName = "bablu the great";
+let upperName = babluName.toUpperCase();
+let shortName = babluName.slice(0, 5);
+
+console.log("Full name in caps:", upperName);
+console.log("Short name:", shortName);
+
+
+
+// problem 35 //
+
+function checkEvenOdd(num) {
+  if (num % 2 === 0) {
+    console.log(num + " is Even");
+  } else {
+    console.log(num + " is Odd");
+  }
+}
+checkEvenOdd(9);

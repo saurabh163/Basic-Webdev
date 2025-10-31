@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+     <form onsubmit="return validateEmail()">
+  <input type="text" id="email" placeholder="Enter email">
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+  
+</form>
+
+<form onsubmit="return checkMatch()">
+  <input type="password" id="p1" placeholder="Enter password"><br>
+  <input type="password" id="p2" placeholder="Confirm password"><br>
+  <button type="submit">Submit</button>
+  <p id="msg"></p>
+
+</form>
+
+<form onsubmit="return allCheck()">
+  <input type="text" id="name" placeholder="Name"><br>
+  <input type="text" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button type="submit">Submit</button>
+  <p id="alert"></p>
+</form>
+
+<input type="password" id="pass" placeholder="Enter password">
+<button onclick="togglePass()">Show/Hide</button>
+
+<form onsubmit="return showAlert()">
+  <input type="text" id="user" placeholder="Enter username"><br>
+  <input type="password" id="pass" placeholder="Enter password"><br>
+  <button>Submit</button>
+</form>
+
+<form onsubmit="return highlightEmpty()">
+  <input type="text" id="n" placeholder="Name"><br>
+  <input type="text" id="e" placeholder="Email"><br>
+  <button>Submit</button>
+</form>
+
+<input type="password" id="pass" placeholder="Enter password" onkeyup="checkPass()">
+<button id="btn" disabled>Submit</button>
+<p id="msg"></p>
+
+
       <script src="script.js"></script>
 
 </head>
