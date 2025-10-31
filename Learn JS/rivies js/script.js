@@ -539,3 +539,18 @@ console.log(getEven([2, 5, 7, 8, 10]));
 let user = { name: "Ravi", age: 21 };
 user.country = "India";
 console.log(user);
+
+
+
+// problem 43 //
+
+let Str = "javascript";
+let Count = 0;
+let vowels = "aeiou";
+
+for (let i = 0; i < Str.length; i++) {
+  if (vowels.includes(Str[i])) {
+    Count++;
+  }
+}
+console.log("Vowels:", Count);
