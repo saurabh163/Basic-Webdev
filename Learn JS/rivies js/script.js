@@ -617,3 +617,11 @@ console.log(squareArray([2, 3, 4]));
 let nums = [5, 10, 15, 20];
 let allPositive = nums.every(n => n > 0);
 console.log(allPositive);
+
+
+
+// problem 51 //
+
+let numS = [2, 5, 12, 8, 15];
+let first = numS.find(n => n > 10);
+console.log(first);
