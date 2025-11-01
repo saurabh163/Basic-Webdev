@@ -595,3 +595,8 @@ let aRr = [3, 6, 9, 12, 15];
 let even = aRr.filter(num => num % 2 === 0);
 console.log(even);
 
+// problem 48 /
+
+let MArks = [80, 75, 90, 85];
+let tOtal = MArks.reduce((sum, val) => sum + val, 0);
+console.log("Total:", tOtal);
