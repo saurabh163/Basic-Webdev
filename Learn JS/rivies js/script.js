@@ -656,3 +656,8 @@ let students = [
 let toTal = students.reduce((sum, s) => sum + s.age, 0);
 let avg = toTal / students.length;
 console.log("Average age:", avg);
+
+
+
+// problem 55 //
+
