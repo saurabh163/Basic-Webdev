@@ -625,3 +625,13 @@ console.log(allPositive);
 let numS = [2, 5, 12, 8, 15];
 let first = numS.find(n => n > 10);
 console.log(first);
+
+
+
+// problem 52 //
+
+
+let A = [1, 2];
+let B = [3, 4];
+let result = a.concat(b);
+console.log(result);
