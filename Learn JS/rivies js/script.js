@@ -609,3 +609,11 @@ function squareArray(arr) {
   return arr.map(num => num * num);
 }
 console.log(squareArray([2, 3, 4]));
+
+
+
+// problem 50 //
+
+let nums = [5, 10, 15, 20];
+let allPositive = nums.every(n => n > 0);
+console.log(allPositive);
