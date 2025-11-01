@@ -586,3 +586,12 @@ let users = [
 
 let names = users.map(user => user.name);
 console.log(names);
+
+
+
+// problem 47 //
+
+let aRr = [3, 6, 9, 12, 15];
+let even = aRr.filter(num => num % 2 === 0);
+console.log(even);
+
