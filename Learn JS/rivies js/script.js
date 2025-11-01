@@ -573,3 +573,16 @@ console.log("Sum:", sum);
 let Numbers = [2, 4, 6];
 let doubled = numbers.map(num => num * 2);
 console.log(doubled);
+
+
+
+// problem 46 //
+
+let users = [
+  { name: "Amit", age: 20 },
+  { name: "Ravi", age: 25 },
+  { name: "Sita", age: 19 }
+];
+
+let names = users.map(user => user.name);
+console.log(names);
