@@ -635,3 +635,10 @@ let A = [1, 2];
 let B = [3, 4];
 let result = a.concat(b);
 console.log(result);
+
+
+
+// problem 53 //
+
+let name = "javascript";
+console.log(name.toUpperCase());
