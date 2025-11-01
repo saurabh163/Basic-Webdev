@@ -600,3 +600,12 @@ console.log(even);
 let MArks = [80, 75, 90, 85];
 let tOtal = MArks.reduce((sum, val) => sum + val, 0);
 console.log("Total:", tOtal);
+
+
+
+// problem 49 //
+
+function squareArray(arr) {
+  return arr.map(num => num * num);
+}
+console.log(squareArray([2, 3, 4]));
