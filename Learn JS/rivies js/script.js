@@ -642,3 +642,17 @@ console.log(result);
 
 let name = "javascript";
 console.log(name.toUpperCase());
+
+
+
+// problem 54 //
+
+let students = [
+  { name: "Amit", age: 20 },
+  { name: "Ravi", age: 25 },
+  { name: "Sita", age: 22 }
+];
+
+let toTal = students.reduce((sum, s) => sum + s.age, 0);
+let avg = toTal / students.length;
+console.log("Average age:", avg);
