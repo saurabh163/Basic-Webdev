@@ -661,3 +661,12 @@ console.log("Average age:", avg);
 
 // problem 55 //
 
+let checkNum = 0;
+
+if (checkNum > 0) {
+  console.log("Positive Number");
+} else if (checkNum < 0) {
+  console.log("Negative Number");
+} else {
+  console.log("Number is Zero");
+}
