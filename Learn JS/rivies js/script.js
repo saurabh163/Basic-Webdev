@@ -725,3 +725,16 @@ let colors = ["red", "green", "blue", "yellow"];
 for (let i = colors.length - 1; i >= 0; i--) {
   console.log(colors[i]);
 }
+
+
+// problem 62 //
+
+let marksList = [45, 60, 22, 90, 55];
+let min = marksList[0];
+
+for (let i = 1; i < marksList.length; i++) {
+  if (marksList[i] < min) {
+    min = marksList[i];
+  }
+}
+console.log("Minimum marks:", min);
