@@ -698,3 +698,11 @@ for (let i = 0; i < friendList.length; i++) {
   }
 }
 
+
+
+// problem 59 //
+
+function findSquare(num) {
+  return num * num;
+}
+console.log(findSquare(6));
