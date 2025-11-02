@@ -717,3 +717,11 @@ if (luckyNumber % 3 === 0 && luckyNumber % 5 === 0) {
 } else {
   console.log("Not divisible by both");
 }
+
+
+// problem 61 // 
+
+let colors = ["red", "green", "blue", "yellow"];
+for (let i = colors.length - 1; i >= 0; i--) {
+  console.log(colors[i]);
+}
