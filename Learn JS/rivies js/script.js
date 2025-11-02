@@ -670,3 +670,9 @@ if (checkNum > 0) {
 } else {
   console.log("Number is Zero");
 }
+
+
+// problem 56 //
+
+let movieTitle = "Avengers";
+console.log("Length of movie name:", movieTitle.length);
