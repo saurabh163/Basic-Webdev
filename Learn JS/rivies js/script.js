@@ -748,3 +748,20 @@ if (quote.includes("JavaScript")) {
 } else {
   console.log("Word not found!");
 }
+
+
+
+// problem 64  //
+
+let numArray = [1, 2, 3, 4, 5, 6];
+let evenCount = 0;
+let oddCount = 0;
+
+for (let i = 0; i < numArray.length; i++) {
+  if (numArray[i] % 2 === 0) {
+    evenCount++;
+  } else {
+    oddCount++;
+  }
+}
+console.log("Even:", evenCount, "Odd:", oddCount);
