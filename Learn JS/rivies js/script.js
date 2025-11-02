@@ -738,3 +738,13 @@ for (let i = 1; i < marksList.length; i++) {
   }
 }
 console.log("Minimum marks:", min);
+
+
+// problem 63 //
+
+let quote = "Learning JavaScript is fun";
+if (quote.includes("JavaScript")) {
+  console.log("Word found!");
+} else {
+  console.log("Word not found!");
+}
