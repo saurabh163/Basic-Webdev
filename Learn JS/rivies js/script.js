@@ -687,3 +687,14 @@ for (let i = 0; i < fiveNums.length; i++) {
   totAl += fiveNums[i];
 }
 console.log("Total Sum:", totAl);
+
+
+// problem 58 //
+
+let friendList = ["Amit", "Ravi", "Anita", "Sita", "Arjun"];
+for (let i = 0; i < friendList.length; i++) {
+  if (friendList[i].startsWith("A")) {
+    console.log(friendList[i]);
+  }
+}
+
