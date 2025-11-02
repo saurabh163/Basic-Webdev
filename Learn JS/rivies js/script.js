@@ -706,3 +706,14 @@ function findSquare(num) {
   return num * num;
 }
 console.log(findSquare(6));
+
+
+
+// problem 60 //
+
+let luckyNumber = 15;
+if (luckyNumber % 3 === 0 && luckyNumber % 5 === 0) {
+  console.log("Divisible by both 3 and 5");
+} else {
+  console.log("Not divisible by both");
+}
