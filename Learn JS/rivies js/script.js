@@ -676,3 +676,14 @@ if (checkNum > 0) {
 
 let movieTitle = "Avengers";
 console.log("Length of movie name:", movieTitle.length);
+
+
+// problem 57 //
+
+let fiveNums = [2, 4, 6, 8, 10];
+let totAl = 0;
+
+for (let i = 0; i < fiveNums.length; i++) {
+  totAl += fiveNums[i];
+}
+console.log("Total Sum:", totAl);
