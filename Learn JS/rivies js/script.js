@@ -807,3 +807,15 @@ function checkDriving(age) {
 
 checkDriving(16); 
 checkDriving(20); 
+
+
+
+  /// problem 67 // 
+
+  let magicNum = 11;
+
+if (magicNum % 2 === 0) {
+  console.log(magicNum, "is Even ");
+} else {
+  console.log(magicNum, "is Odd ");
+}
