@@ -882,3 +882,15 @@ if (tempValue > 0) {
 } else {
   console.log("Zero ");
 }
+
+
+
+ /// problem 73 //
+
+ let examMarks = 42;
+
+if (examMarks >= 40) {
+  console.log("Pass ");
+} else {
+  console.log("Fail ");
+}
