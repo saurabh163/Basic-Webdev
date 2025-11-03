@@ -867,3 +867,18 @@ if (alpha > beta && alpha > gamma) {
 } else {
   console.log("Gamma is biggest ");
 }
+
+
+
+
+/// problem 72 //
+
+let tempValue = -3;
+
+if (tempValue > 0) {
+  console.log("Positive ");
+} else if (tempValue < 0) {
+  console.log("Negative ");
+} else {
+  console.log("Zero ");
+}
