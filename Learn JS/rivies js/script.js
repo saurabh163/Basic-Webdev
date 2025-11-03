@@ -819,3 +819,15 @@ if (magicNum % 2 === 0) {
 } else {
   console.log(magicNum, "is Odd ");
 }
+
+
+
+ // problem 68 //
+
+ let powerA = 55, powerB = 32;
+
+if (powerA > powerB) {
+  console.log(powerA, "is stronger ");
+} else {
+  console.log(powerB, "is stronger ");
+}
