@@ -842,3 +842,15 @@ if (citizenAge >= 18) {
 } else {
   console.log(" Not Eligible");
 }
+
+
+
+// problem 70 //
+
+let hobbyLine = "I like to code every day";
+
+if (hobbyLine.includes("code")) {
+  console.log("Cool! You’re a coder ");
+} else {
+  console.log("No coding found ");
+}
