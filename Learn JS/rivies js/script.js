@@ -831,3 +831,14 @@ if (powerA > powerB) {
 } else {
   console.log(powerB, "is stronger ");
 }
+
+
+// problem 69 //
+
+let citizenAge = 19;
+
+if (citizenAge >= 18) {
+  console.log(" Eligible for Voting");
+} else {
+  console.log(" Not Eligible");
+}
