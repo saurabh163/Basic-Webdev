@@ -901,3 +901,16 @@ if (examMarks >= 40) {
 for (let step = 1; step <= 5; step++) {
   console.log("Step number:", step);
 }
+
+
+
+/// problem 75 //
+
+let pocketMoney = [50, 100, 75, 25];
+let totalCash = 0;
+
+for (let i = 0; i < pocketMoney.length; i++) {
+  totalCash += pocketMoney[i];
+}
+
+console.log("Total Pocket Money:", totalCash);
