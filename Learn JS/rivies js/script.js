@@ -894,3 +894,10 @@ if (examMarks >= 40) {
 } else {
   console.log("Fail ");
 }
+
+
+// probem 74 //
+
+for (let step = 1; step <= 5; step++) {
+  console.log("Step number:", step);
+}
