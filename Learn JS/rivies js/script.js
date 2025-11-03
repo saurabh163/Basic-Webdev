@@ -854,3 +854,16 @@ if (hobbyLine.includes("code")) {
 } else {
   console.log("No coding found ");
 }
+
+
+// problem 71 //
+
+let alpha = 14, beta = 22, gamma = 9;
+
+if (alpha > beta && alpha > gamma) {
+  console.log("Alpha is biggest ");
+} else if (beta > gamma) {
+  console.log("Beta is biggest ");
+} else {
+  console.log("Gamma is biggest ");
+}
