@@ -765,3 +765,27 @@ for (let i = 0; i < numArray.length; i++) {
   }
 }
 console.log("Even:", evenCount, "Odd:", oddCount);
+
+
+
+
+/// problem 65 //
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
