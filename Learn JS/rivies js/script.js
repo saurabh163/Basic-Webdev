@@ -789,3 +789,21 @@ function checkResult(marks) {
 checkResult(0);  
 checkResult(25); 
 checkResult(60);  
+
+
+
+/// problem 66 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
