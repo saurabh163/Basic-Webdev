@@ -64,3 +64,18 @@ body {
   padding: 50px 20px;
 }
 
+/* menu section Styles */
+
+.menu {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
