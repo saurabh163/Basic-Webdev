@@ -78,4 +78,23 @@ body {
   flex-wrap: wrap;
 }
 
+/*  contact section Styles */
 
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff0e0;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.contact button {
+  background: #ff9f43;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
