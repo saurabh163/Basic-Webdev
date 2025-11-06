@@ -98,3 +98,13 @@ body {
   padding: 10px 20px;
   color: white;
 }
+
+
+/*  footer Styles */
+
+.footer {
+  background: #ff9f43;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
