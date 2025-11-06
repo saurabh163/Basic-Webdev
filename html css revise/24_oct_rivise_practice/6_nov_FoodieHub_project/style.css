@@ -36,3 +36,31 @@ body {
 }
 
 
+/* hero section Styles */
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  color: rgb(19, 7, 7);
+}
+
+.hero button {
+  background: #ff9f43;
+  border: none;
+  padding: 10px 20px;
+  color: rgb(23, 15, 15);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #ff7f27;
+}
+
+/* about section Styles */
+
+.about {
+  text-align: center;
+  padding: 50px 20px;
+}
+
