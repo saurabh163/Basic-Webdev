@@ -1221,3 +1221,17 @@ for (let i = 0; i < pocketCoins.length; i++) {
   totalCoins += pocketCoins[i];
 }
 console.log("Total coins:", totalCoins);
+
+
+
+// problem 103 //
+
+let mountainHeights = [120, 340, 560, 220, 800];
+let tallest = mountainHeights[0];
+
+for (let i = 1; i < mountainHeights.length; i++) {
+  if (mountainHeights[i] > tallest) {
+    tallest = mountainHeights[i];
+  }
+}
+console.log("Tallest mountain height:", tallest);
