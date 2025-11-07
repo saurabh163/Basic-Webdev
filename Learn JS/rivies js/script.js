@@ -1210,3 +1210,14 @@ let heroNames = ["Ironman", "Thor", "Hulk", "Loki"];
 for (let i = 0; i < heroNames.length; i++) {
   console.log(heroNames[i]);
 }
+
+
+// problem 102 //
+
+let pocketCoins = [10, 20, 30, 40];
+let totalCoins = 0;
+
+for (let i = 0; i < pocketCoins.length; i++) {
+  totalCoins += pocketCoins[i];
+}
+console.log("Total coins:", totalCoins);
