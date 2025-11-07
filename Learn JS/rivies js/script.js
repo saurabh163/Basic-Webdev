@@ -1235,3 +1235,16 @@ for (let i = 1; i < mountainHeights.length; i++) {
   }
 }
 console.log("Tallest mountain height:", tallest);
+
+
+// problem 104 //
+
+let bookPages = [450, 120, 300, 220];
+let smallest = bookPages[0];
+
+for (let i = 1; i < bookPages.length; i++) {
+  if (bookPages[i] < smallest) {
+    smallest = bookPages[i];
+  }
+}
+console.log("Smallest page count:", smallest);
