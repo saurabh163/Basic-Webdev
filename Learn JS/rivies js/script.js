@@ -1261,3 +1261,13 @@ for (let i = 0; i < numberSet.length; i++) {
   }
 }
 console.log("Total even numbers:", evencOunt);
+
+
+// problem 106//
+
+let cityList = ["Delhi", "Mumbai", "Chennai", "Pune"];
+
+for (let i = cityList.length - 1; i >= 0; i--) {
+  console.log(cityList[i]);
+}
+
