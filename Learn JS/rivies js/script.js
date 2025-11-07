@@ -1271,3 +1271,17 @@ for (let i = cityList.length - 1; i >= 0; i--) {
   console.log(cityList[i]);
 }
 
+// problem 107 //
+
+let marksLst = [70, 80, 90, 60];
+let tOtalMarks = 0;
+
+for (let i = 0; i < marksLst.length; i++) {
+  tOtalMarks += marksLst[i];
+}
+let AvgMarks = tOtalMarks / marksLst.length;
+console.log("Average Marks:", AvgMarks);
+
+
+// problem 108 //
+
