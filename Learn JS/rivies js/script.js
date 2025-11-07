@@ -1292,3 +1292,15 @@ for (let i = 0; i < priceList.length; i++) {
   newPrices.push(priceList[i] * 2);
 }
 console.log("Doubled Prices:", newPrices);
+
+
+// problem 109 //
+
+let fruitBasket = ["Apple", "Mango", "Banana"];
+let searchFruit = "Mango";
+
+if (fruitBasket.includes(searchFruit)) {
+  console.log(searchFruit, "is available ");
+} else {
+  console.log(searchFruit, "not found");
+}
