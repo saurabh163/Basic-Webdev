@@ -1248,3 +1248,16 @@ for (let i = 1; i < bookPages.length; i++) {
   }
 }
 console.log("Smallest page count:", smallest);
+
+
+// problwm 105 //
+
+let numberSet = [3, 6, 8, 11, 20];
+let evencOunt = 0;
+
+for (let i = 0; i < numberSet.length; i++) {
+  if (numberSet[i] % 2 === 0) {
+    evencOunt++;
+  }
+}
+console.log("Total even numbers:", evencOunt);
