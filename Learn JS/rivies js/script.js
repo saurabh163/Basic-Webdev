@@ -914,3 +914,299 @@ for (let i = 0; i < pocketMoney.length; i++) {
 }
 
 console.log("Total Pocket Money:", totalCash);
+
+
+
+// problem 76 //
+
+let roomTemp = 32;
+
+if (roomTemp > 30) {
+  console.log("Too Hot ");
+} else {
+  console.log("Nice and Cool ");
+}
+
+
+
+// problem 77 //
+
+let userPassword = "hello123";
+
+if (userPassword.length >= 8) {
+  console.log("Strong Password ");
+} else {
+  console.log("Weak Password ");
+}
+
+
+
+/// problem 78 //
+
+let finalMarks = 82;
+
+if (finalMarks >= 75) {
+  console.log("Distinction ");
+} else if (finalMarks >= 40) {
+  console.log("Pass ");
+} else {
+  console.log("Fail ");
+}
+
+
+
+/// problem 79 //
+
+let rectLength = 10;
+let rectWidth = 6;
+let rectArea = rectLength * rectWidth;
+
+console.log("Rectangle Area:", rectArea);
+
+
+// problem 80 //
+
+let fruitsList = ["Apple", "Banana", "Mango", "Orange"];
+let lastFruit = fruitsList[fruitsList.length - 1];
+
+console.log("Last fruit is:", lastFruit);
+
+
+
+// problem 81 //
+
+for (let num = 1; num <= 10; num++) {
+  if (num % 2 === 0) {
+    console.log("Even number:", num);
+  }
+}
+
+
+
+/// problem 82 ///
+
+let userMinutes = 5;
+let seconds = userMinutes * 60;
+
+console.log(userMinutes, "minutes =", seconds, "seconds");
+
+
+
+/// problem 83 //
+
+let enteredName = "";
+
+if (enteredName === "") {
+  console.log("Name is empty ");
+} else {
+  console.log("Welcome,", enteredName);
+}
+
+
+// problem 84 //
+
+let bonusPoints = 40;
+
+if (bonusPoints % 10 === 0) {
+  console.log("Perfect multiple of 10 ");
+} else {
+  console.log("Not a multiple ");
+}
+
+
+
+//  problem 85 //
+
+let smallNote = "JavaScript is easy";
+let charCount = smallNote.length;
+
+console.log("Total characters:", charCount);
+
+
+
+//  problem 86  //
+
+let testNum = 12;
+
+if (testNum % 2 === 0 && testNum % 3 === 0) {
+  console.log("Divisible by both 2 and 3 ");
+} else {
+  console.log("Not divisible ");
+}
+
+
+// problem 87 //
+
+let tableNum = 5;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${tableNum} × ${i} = ${tableNum * i}`);
+}
+
+
+// problem 88 //
+
+let playerName = "Saurabh";
+
+if (playerName.startsWith("S")) {
+  console.log("Name starts with S ");
+} else {
+  console.log("Name doesn’t start with S ");
+}
+
+
+
+// problem 89 //
+
+let math = 78, sci = 85, eng = 90;
+let avgMarks = (math + sci + eng) / 3;
+
+console.log("Average Marks:", avgMarks);
+
+
+/// problem 90 //
+
+
+let favMovies = ["KGF", "Pushpa", "Leo", "Dune", "Batman", "RRR"];
+
+if (favMovies.length > 5) {
+  console.log("Big movie list ");
+} else {
+  console.log("Small movie list ");
+}
+
+
+
+ // problem 90 /
+
+ let tempCelsius = 30;
+let tempFahrenheit = (tempCelsius * 9/5) + 32;
+
+console.log("Temperature in Fahrenheit:", tempFahrenheit);
+
+
+
+// problem 91 //
+
+let randomNums = [2, 5, 8, 11, 14];
+let evenSum = 0;
+
+for (let i = 0; i < randomNums.length; i++) {
+  if (randomNums[i] % 2 === 0) {
+    evenSum += randomNums[i];
+  }
+}
+console.log("Sum of even numbers:", evenSum);
+
+
+// problem 92 //
+
+let userAge = 17;
+
+if (userAge >= 18) {
+  console.log("Adult ");
+} else {
+  console.log("Minor ");
+}
+
+
+// problem93 //
+
+let countryName = "India";
+
+for (let i = 0; i < countryName.length; i++) {
+  console.log(countryName[i]);
+}
+
+
+// problem 94 //
+
+let boxValues = [10, 5, 7, 3, 9];
+let minValue = boxValues[0];
+
+for (let i = 1; i < boxValues.length; i++) {
+  if (boxValues[i] < minValue) {
+    minValue = boxValues[i];
+  }
+}
+console.log("Smallest number:", minValue);
+
+
+
+// problem 95 //
+
+let magicValue = 45;
+
+if (magicValue % 5 === 0) {
+  console.log(magicValue, "is a multiple of 5");
+} else {
+  console.log(magicValue, "is not a multiple");
+}
+
+
+// problem 96 //
+
+let calcNum = 4;
+let square = calcNum * calcNum;
+let cube = calcNum * calcNum * calcNum;
+
+console.log("Square:", square, "Cube:", cube);
+
+
+ // problem 97 //
+
+ let websiteName = "openai.com";
+
+if (websiteName.endsWith(".com")) {
+  console.log("This is a .com website ");
+} else {
+  console.log("Not a .com domain ");
+}
+
+
+// pronblem 98 //
+
+let randomList = [3, 8, 12, 5, 10];
+let evEnCount = 0;
+
+for (let i = 0; i < randomList.length; i++) {
+  if (randomList[i] % 2 === 0) {
+    evEnCount++;
+  }
+}
+console.log("Total even numbers:", evEnCount);
+
+
+// problem 99 //
+
+let memberAge = 68;
+
+if (memberAge >= 60) {
+  console.log("Senior Citizen");
+} else {
+  console.log("Not a Senior Citizen");
+}
+
+
+/// problem 100 //
+
+let scoreBoard = [22, 45, 67, 89, 34];
+let highestScore = scoreBoard[0];
+
+for (let i = 1; i < scoreBoard.length; i++) {
+  if (scoreBoard[i] > highestScore) {
+    highestScore = scoreBoard[i];
+  }
+}
+
+console.log("Highest score is:", highestScore);
+
+
+
+// problem 101 //
+
+let heroNames = ["Ironman", "Thor", "Hulk", "Loki"];
+
+for (let i = 0; i < heroNames.length; i++) {
+  console.log(heroNames[i]);
+}
