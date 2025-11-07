@@ -1285,3 +1285,10 @@ console.log("Average Marks:", AvgMarks);
 
 // problem 108 //
 
+let priceList = [10, 20, 30, 40];
+let newPrices = [];
+
+for (let i = 0; i < priceList.length; i++) {
+  newPrices.push(priceList[i] * 2);
+}
+console.log("Doubled Prices:", newPrices);
