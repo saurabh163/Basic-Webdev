@@ -1304,3 +1304,6 @@ if (fruitBasket.includes(searchFruit)) {
 } else {
   console.log(searchFruit, "not found");
 }
+
+
+// problem 110 //
