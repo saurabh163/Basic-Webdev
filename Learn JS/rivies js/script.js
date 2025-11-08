@@ -1407,3 +1407,19 @@ for (let i = 0; i < ageList.length; i++) {
   updatedAges.push(ageList[i] + 10);
 }
 console.log("After adding 10:", updatedAges);
+
+
+ // problem 119 //
+
+
+ let carBrands = ["Tata", "BMW", "Audi", "Kia"];
+let searchCar = "Audi";
+let foundIndex = -1;
+
+for (let i = 0; i < carBrands.length; i++) {
+  if (carBrands[i] === searchCar) {
+    foundIndex = i;
+    break;
+  }
+}
+console.log("Index of", searchCar, "is:", foundIndex);
