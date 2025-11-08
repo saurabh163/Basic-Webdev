@@ -1338,3 +1338,16 @@ for (let i = 0; i < RandomNums.length; i++) {
   totalProduct *= RandomNums[i];
 }
 console.log("Product of all numbers:", totalProduct);
+
+
+/// problem 113 //
+
+let speedList = [50, 120, 75, 200, 90];
+let below100 = 0;
+
+for (let i = 0; i < speedList.length; i++) {
+  if (speedList[i] < 100) {
+    below100++;
+  }
+}
+console.log("Count below 100:", below100);
