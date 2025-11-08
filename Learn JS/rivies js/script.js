@@ -1351,3 +1351,13 @@ for (let i = 0; i < speedList.length; i++) {
   }
 }
 console.log("Count below 100:", below100);
+
+
+// problem 114 //
+
+let friendNames = ["Raj", "Simran", "Amit", "Rohit", "Om"];
+for (let i = 0; i < friendNames.length; i++) {
+  if (friendNames[i].length > 4) {
+    console.log(friendNames[i]);
+  }
+}
