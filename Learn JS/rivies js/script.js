@@ -1327,3 +1327,14 @@ for (let i = 0; i < numCollection.length; i++) {
     console.log("Odd number:", numCollection[i]);
   }
 }
+
+
+// problwm 112 //
+
+let RandomNums = [2, 3, 4, 5];
+let totalProduct = 1;
+
+for (let i = 0; i < RandomNums.length; i++) {
+  totalProduct *= RandomNums[i];
+}
+console.log("Product of all numbers:", totalProduct);
