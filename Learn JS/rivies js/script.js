@@ -1372,3 +1372,14 @@ for (let i = 0; i < cartPrices.length; i++) {
   totalPrice += cartPrices[i];
 }
 console.log("Total Price ₹:", totalPrice);
+
+
+// problem 116 //
+
+let colorList = ["Red", "Blue", "Green", "Yellow"];
+let reverseColors = [];
+
+for (let i = colorList.length - 1; i >= 0; i--) {
+  reverseColors.push(colorList[i]);
+}
+console.log("Reversed Array:", reverseColors);
