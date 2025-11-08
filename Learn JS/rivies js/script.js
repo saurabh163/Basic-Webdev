@@ -1383,3 +1383,16 @@ for (let i = colorList.length - 1; i >= 0; i--) {
   reverseColors.push(colorList[i]);
 }
 console.log("Reversed Array:", reverseColors);
+
+
+// problem 117 //
+
+let mixValues = [-2, 5, -7, 8, 3, -1];
+let positiveCount = 0;
+
+for (let i = 0; i < mixValues.length; i++) {
+  if (mixValues[i] > 0) {
+    positiveCount++;
+  }
+}
+console.log("Positive numbers count:", positiveCount);
