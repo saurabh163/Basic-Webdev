@@ -1361,3 +1361,14 @@ for (let i = 0; i < friendNames.length; i++) {
     console.log(friendNames[i]);
   }
 }
+
+
+// problem 115 //
+
+let cartPrices = [120, 250, 60, 90];
+let totalPrice = 0;
+
+for (let i = 0; i < cartPrices.length; i++) {
+  totalPrice += cartPrices[i];
+}
+console.log("Total Price ₹:", totalPrice);
