@@ -1396,3 +1396,14 @@ for (let i = 0; i < mixValues.length; i++) {
   }
 }
 console.log("Positive numbers count:", positiveCount);
+
+
+// problem 118 //
+
+let ageList = [12, 18, 25, 30];
+let updatedAges = [];
+
+for (let i = 0; i < ageList.length; i++) {
+  updatedAges.push(ageList[i] + 10);
+}
+console.log("After adding 10:", updatedAges);
