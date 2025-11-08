@@ -1307,3 +1307,12 @@ if (fruitBasket.includes(searchFruit)) {
 
 
 // problem 110 //
+
+
+let subjectMarks = [78, 85, 92, 88, 70];
+let totalMarKs = 0;
+
+for (let i = 0; i < subjectMarks.length; i++) {
+  totalMarKs += subjectMarks[i];
+}
+console.log("Total Marks:", totalMarKs);
