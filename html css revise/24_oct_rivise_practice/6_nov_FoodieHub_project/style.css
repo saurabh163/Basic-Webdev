@@ -119,12 +119,37 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* Newsletter Section */
 
-/*  footer Styles */
+.newsletter {
+  background-color: #ff7b00;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+.newsletter button {
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  color: #ff7b00;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.newsletter button:hover {
+  background-color: #ffe0b2;
+}
 
-.footer {
-  background: #ff9f43;
+/*  footer Section */
+
+footer {
+  background-color: #222;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
