@@ -153,3 +153,23 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+
+/*  Back-to-top Section */
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff7b00;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.back-to-top:hover {
+  background: #ff9933;
+}
+
