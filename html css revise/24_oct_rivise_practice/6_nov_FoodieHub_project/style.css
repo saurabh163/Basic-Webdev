@@ -125,6 +125,20 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+@media (max-width: 768px) {
+  .hero, .menu-items, .testimonial-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .hero-text h1 {
+    font-size: 28px;
+  }
+}
+
+
 /* Newsletter Section */
 
 .newsletter {
