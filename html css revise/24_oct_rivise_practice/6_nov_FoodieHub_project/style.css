@@ -198,3 +198,6 @@ footer {
   background: #ff9933;
 }
 
+button:hover {
+  opacity: 0.9;
+}
