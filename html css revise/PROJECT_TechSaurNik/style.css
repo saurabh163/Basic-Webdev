@@ -75,3 +75,27 @@ nav ul li a:hover {
 .about h2 {
   color: #0056b3;
 }
+
+
+/* service section */
+
+.services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 200px;
+  padding: 20px;
+  font-weight: bold;
+}
