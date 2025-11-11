@@ -34,3 +34,31 @@ nav ul li a {
 nav ul li a:hover {
   color: #00bcd4;
 }
+
+
+/* hero section */
+
+.hero {
+  background: linear-gradient(to right, #007bff, #00bcd4);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  background-color: white;
+  color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
