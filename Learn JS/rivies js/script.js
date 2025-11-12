@@ -1736,3 +1736,32 @@ else {
   console.log("No Discount, Please Pay Full Amount");
   console.log("Total Bill:");
 }
+
+
+// roblem 138 //
+
+let MaRks = 85;
+
+if (MaRks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (MaRks > 100) {
+  console.log("Marks cannot be more than 100");
+} 
+
+else if (MaRks < 35) {
+  console.log("Fail");
+} 
+
+else if (MaRks >= 35 && MaRks <= 60) {
+  console.log("Pass");
+} 
+
+else if (MaRks >= 61 && MaRks <= 80) {
+  console.log("First Class");
+} 
+
+else {
+  console.log("Distinction");
+}
