@@ -1801,3 +1801,21 @@ if (withdraw <= balance) {
 } else {
     console.log("Insufficient Balance");
 }
+
+
+// problem 141//
+
+let marKs = 85; 
+
+ if (marKs >= 90) 
+    console.log(" Grade A ");
+
+  else if (marKs >= 75) 
+    console.log(" Grade B ");
+
+  else if (marKs >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
