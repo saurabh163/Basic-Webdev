@@ -1713,3 +1713,26 @@ else {
   console.log("No Discount, Please Pay Full Amount");
   console.log("Total Fare");
 }
+
+// problem 137 //
+
+let ticketPrice = 250;
+let tickets = 10;
+
+let Total = ticketPrice * tickets;
+
+if (ticketPrice <= 0 || tickets <= 0) {
+  console.log("Invalid Input");
+}  
+
+else if (total > 2000) {
+  let discount = total * 0.10;
+  let finalBill = total - discount;
+  console.log("You got 10% Discount");
+  console.log("Final Bill:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Bill:");
+}
