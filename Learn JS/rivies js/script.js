@@ -1646,3 +1646,29 @@ calculateDiscount(800);
 calculateDiscount(2000);  
 
 calculateDiscount(6000);
+
+
+
+// problem 134 //
+
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+// function calls kiya gaya// 
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
