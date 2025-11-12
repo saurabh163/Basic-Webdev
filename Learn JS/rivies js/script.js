@@ -1690,3 +1690,26 @@ function checkDriving(age) {
 checkDriving(16); 
 checkDriving(20); 
 
+
+// problem 136 //
+
+let distance = 120;  
+let ratePerKm = 6;     
+
+let totalFare = distance * ratePerKm;  
+
+if (distance <= 0 || ratePerKm <= 0) {
+  console.log("Invalid Input");
+} 
+
+else if (totalFare > 500) {
+  let discount = totalFare * 0.10;       
+  let finalFare = totalFare - discount;  
+  console.log("You got 10% Off");
+  console.log("Final Fare:");
+} 
+
+else {
+  console.log("No Discount, Please Pay Full Amount");
+  console.log("Total Fare");
+}
