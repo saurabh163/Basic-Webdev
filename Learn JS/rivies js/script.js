@@ -1423,3 +1423,226 @@ for (let i = 0; i < carBrands.length; i++) {
   }
 }
 console.log("Index of", searchCar, "is:", foundIndex);
+
+
+ // problem 120 //
+
+let nuMB = 10;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(numB + " x " + i + " = " + (numB * i));
+}
+
+ // problem 121 //
+
+ for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
+
+
+ // problem 122 //
+
+ let value = [10, 20, 30, 40, 50];
+
+for (let i = value.length - 1; i >= 0; i--) {
+    console.log(value[i]);
+}
+
+
+ // problem 123 //
+
+let fruit = ["Apple", "Bnana", "Mango"];
+
+for (let i = 0; i < fruit.length; i++) {
+    console.log(fruit[i]);
+}
+
+ // problem 124 //
+
+ for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
+
+
+// problem 125 //
+
+let nuMS = 9;
+
+if (nuMS % 2 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
+
+
+// problem 126 //
+
+let subjects = ["Math", "Science", "English"];
+let favSubject = "Science";
+
+if (subjects.includes(favSubject)) {
+    console.log(favSubject + " is one of your favorite subjects!");
+} else {
+    console.log(favSubject + " is not in your subject list.");
+}
+
+// problem 127 // 
+
+let isLogged = false;
+
+if (isLogged) {
+    console.log("Welcome back, user!");
+} else {
+    console.log("Please log in to continue.");
+}
+
+// problem 128 //
+
+
+let temperature = 32;
+
+if (temperature > 30) {
+    console.log("It's a hot day");
+} else {
+    console.log("The weather is cool");
+}
+
+// problem 129 //
+
+let mathMarks = 85;
+let scienceMarks = 90;
+
+if (mathMarks <= 0 || scienceMarks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (mathMarks < 35 || scienceMarks < 35) {
+  console.log("Fail");
+} 
+
+else if (mathMarks > 80 && scienceMarks > 80) {
+  console.log("Excellent good  Performance");
+} 
+
+else {
+  console.log("Pass");
+}
+
+ // problem 130 //
+
+ function checkNumber(num) {
+
+  num = Number(num);
+
+  if (num > 0) {
+    console.log("Number is positive");
+
+  } else if (num < 0) {
+    console.log("Number is negative");
+
+  } else {
+    console.log("Number is zero");
+  }
+}
+
+let UserInput = prompt("Enter a number:");
+
+checkNumber(UserInput);
+
+
+
+// problem 131 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
+}
+
+checkDriving(16); 
+checkDriving(20); 
+
+
+// problem 132 //
+
+function checkResults(marksList) {
+
+    for (let i = 0; i < marksList.length; i++) {
+        let marks = marksList[i];
+
+        if (marks >= 90) {
+            console.log("Student " + (i+1) + "Grade A");
+
+        } else if (marks >= 70) {
+            console.log("Student " + (i+1) + "Grade B");
+
+        } else if (marks >= 50) {
+            console.log("Student " + (i+1) + "Grade C ");
+
+        } else {
+            console.log("Student " + (i+1) + "Fail ");
+        }
+    }
+}
+
+let studentsMarks = [95, 82, 67, 45, 100];
+checkResults(studentsMarks);
+
+
+
+// problem 133 //
+
+function calculateDiscount(amount) 
+{
+  if (amount <= 0) {
+    console.log("Invalid Amount");
+  } 
+
+  else if (amount < 500) {
+    console.log("No Discount");
+  }
+
+  else if (amount <= 1000) {
+    let discount = amount * 0.10;
+    console.log("10% Discount Applied");
+  }
+
+  else if (amount <= 5000) {
+    let discount = amount * 0.20;
+    console.log("20% Discount Applied");
+  }
+
+  else {
+    let discount = amount * 0.30;
+    console.log("30% Discount Applied");
+  }
+}
+
+
+calculateDiscount(-200);  
+
+calculateDiscount(300);  
+
+calculateDiscount(800);  
+
+calculateDiscount(2000);  
+
+calculateDiscount(6000);
