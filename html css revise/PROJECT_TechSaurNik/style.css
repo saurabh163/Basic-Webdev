@@ -263,3 +263,10 @@ header {
 html {
   scroll-behavior: smooth;
 }
+
+
+/* input focuse style */
+
+input:focus, textarea:focus {
+  outline: 2px solid #00bcd4;
+}
