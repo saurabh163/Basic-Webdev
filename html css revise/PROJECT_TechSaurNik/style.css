@@ -282,3 +282,18 @@ h2 {
   font-size: 28px;
   margin-bottom: 15px;
 }
+
+
+/* final polish */
+
+.btn {
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
