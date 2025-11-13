@@ -204,3 +204,22 @@ section {
 .contact button:hover {
   background-color: #0097a7;
 }
+
+
+/* footor */
+
+footer {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+.social-links a {
+  color: white;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #00bcd4;
+}
