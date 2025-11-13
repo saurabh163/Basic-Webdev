@@ -206,7 +206,7 @@ section {
 }
 
 
-/* footor */
+/* footer */
 
 footer {
   background-color: #0056b3;
@@ -222,4 +222,29 @@ footer {
 }
 .social-links a:hover {
   color: #00bcd4;
+}
+
+
+/* responsive for mobile */
+
+@media (max-width: 768px) {
+  .service-cards, .portfolio-grid, .testimonial-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    background: #004494;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .container {
+    width: 95%;
+  }
 }
