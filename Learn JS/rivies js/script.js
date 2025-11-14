@@ -1854,3 +1854,14 @@ for (let i = 0; i < randOmNums.length; i++) {
   }
 }
 console.log("Sum of even numbers:", evenSUm);
+
+
+// problem 144 //
+
+let ArR = [2, 4, 6, 8];
+let sUm = 0;
+
+for (let i = 0; i < ArR.length; i++) {
+  sUm += ArR[i];
+}
+console.log("Sum:", sUm);
