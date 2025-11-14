@@ -40,7 +40,7 @@ nav ul li a:hover {
 
 .hero {
   background: linear-gradient(to right, #007bff, #00bcd4);
-  color: white;
+  color: rgb(234, 189, 220);
   text-align: center;
   padding: 100px 20px;
 }
@@ -55,13 +55,19 @@ nav ul li a:hover {
 }
 
 .btn {
-  background-color: white;
   color: #007bff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+
+.hero {
+  background-image: url("hero_img.webp");
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 /* about section */
