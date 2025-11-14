@@ -1865,3 +1865,17 @@ for (let i = 0; i < ArR.length; i++) {
   sUm += ArR[i];
 }
 console.log("Sum:", sUm);
+
+
+
+// problem 145 //
+
+
+
+let Mitrmandali = ["abhishek", "vaishnavi", "nikita", "saurah", "abhijeet"];
+for (let i = 0; i < Mitrmandali.length; i++) {
+  if (Mitrmandali[i].length > 4) {
+    console.log(Mitrmandali[i]);
+  }
+}
+
