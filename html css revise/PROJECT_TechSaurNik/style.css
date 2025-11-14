@@ -111,6 +111,23 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
 /* container */
 
 .container {
