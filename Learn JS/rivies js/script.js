@@ -1841,3 +1841,16 @@ let marKs = 85;
 }
 
 checkNumbers([5, -2, 0, 10, -7]);
+
+
+// problem 143 //
+
+let randOmNums = [2, 5, 8, 11, 14];
+let evenSUm = 0;
+
+for (let i = 0; i < randOmNums.length; i++) {
+  if (randOmNums[i] % 2 === 0) {
+    evenSUm += randOmNums[i];
+  }
+}
+console.log("Sum of even numbers:", evenSUm);
