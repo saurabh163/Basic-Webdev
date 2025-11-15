@@ -11,14 +11,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #60055f;
+  background: #1fd203;
   padding: 10px 40px;
 }
 
 .logo {
   font-size: 26px;
   font-weight: bold;
-  color: white;
+  color: rgb(11, 1, 1);
   letter-spacing: 1px;
 }
 
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00bcd4;
+  color: #031a1d;
 }
 
 
