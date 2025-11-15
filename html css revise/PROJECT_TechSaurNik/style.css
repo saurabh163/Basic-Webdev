@@ -3,26 +3,36 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background-color: #0056b3;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
+
 
 /* navbar */
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #60055f;
+  padding: 10px 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
 nav ul {
   display: flex;
-  justify-content: center;
+
   list-style: none;
   padding: 0;
-  background: #004494;
+
   margin: 0;
 }
 
 nav ul li {
-  margin: 10px;
+  margin-left: 25px;
 }
 
 nav ul li a {
@@ -34,6 +44,9 @@ nav ul li a {
 nav ul li a:hover {
   color: #00bcd4;
 }
+
+
+
 
 
 
