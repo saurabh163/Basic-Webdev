@@ -146,6 +146,11 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .card img {
   width: 80px;
   height: 80px;
