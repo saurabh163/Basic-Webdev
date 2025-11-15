@@ -90,29 +90,18 @@ nav ul li a:hover {
   font-weight: 600;
 }
 
+.hero-btn:hover {
+  background: #f0ae09;
+  color: white;
+}
+
 .hero-image {
   width: 450px;
   border-radius: 20px;
   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column-reverse;
-    text-align: center;
-    padding: 30px;
-  }
 
-  .hero-image {
-    width: 300px;
-    margin-bottom: 20px;
-  }
-
-  .hero-content h1 {
-    font-size: 36px;
-  }
-}
 
 
 
