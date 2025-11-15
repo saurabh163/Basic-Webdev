@@ -153,6 +153,10 @@ nav ul li a:hover {
   margin-bottom: 15px;
 }
 
+.card:hover img {
+  transform: scale(1.1);
+}
+
 .card h3 {
   margin-bottom: 10px;
   color: #0056b3;
@@ -160,7 +164,7 @@ nav ul li a:hover {
 
 .card p {
   font-size: 14px;
-  color: #f3e4e4;
+  color: #2c0505;
 }
 
 /* container */
