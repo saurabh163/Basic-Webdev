@@ -227,6 +227,17 @@ section {
   padding: 60px 0;
   text-align: center;
 }
+.testimonial:nth-child(1) {
+  transition: 0.3s ease;
+}
+
+.testimonial:nth-child(1):hover {
+  transform: translateY(-10px);
+  border: 2px solid #fd2020;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+
+}
+
 .testimonials h2 {
   color: #0056b3;
   margin-bottom: 40px;
