@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1fd203;
+  background: #fca0e9;
   padding: 10px 40px;
 }
 
@@ -163,6 +163,8 @@ nav ul li a:hover {
 .card:hover {
   transform: translateY(-10px) scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #250505;
+
 }
 
 .card img {
@@ -268,7 +270,7 @@ section {
   flex-wrap: wrap;
 }
 .testimonial {
-  background: white;
+  background: rgb(251, 212, 254);
   border-radius: 10px;
   width: 260px;
   padding: 25px;
@@ -318,14 +320,16 @@ section {
   cursor: pointer;
 }
 .contact button:hover {
-  background-color: #0097a7;
+  background-color: #e9328d;
+  transform: translateY(-5px);
+  border: 2px solid #f02020;
 }
 
 
 /* footer */
 
 footer {
-  background-color: #0056b3;
+  background-color: #051a30;
   color: white;
   text-align: center;
   padding: 20px 10px;
