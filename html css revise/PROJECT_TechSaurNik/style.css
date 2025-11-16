@@ -246,6 +246,16 @@ section {
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 
+.testimonial:nth-child(3) {
+  transition: 0.3s ease;
+}
+
+.testimonial:nth-child(3):hover {
+  transform: translateY(-10px);
+  border: 2px solid #f02020;
+  box-shadow: 0 5px 20px rgba(39, 1, 22, 0.4);
+}
+
 
 .testimonials h2 {
   color: #0056b3;
