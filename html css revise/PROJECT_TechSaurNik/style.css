@@ -235,8 +235,17 @@ section {
   transform: translateY(-10px);
   border: 2px solid #fd2020;
     filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
-
 }
+.testimonial:nth-child(2) {
+  transition: 0.3s ease;
+}
+
+.testimonial:nth-child(2):hover {
+  transform: scale(1.05);
+    border: 2px solid #fd2020;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
 
 .testimonials h2 {
   color: #0056b3;
