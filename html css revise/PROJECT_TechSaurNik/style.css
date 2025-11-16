@@ -99,6 +99,12 @@ nav ul li a:hover {
   width: 450px;
   border-radius: 20px;
   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.4));
+  transition: 0.4s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.07) rotate(1deg);
+  filter: drop-shadow(0 0 35px rgba(0, 200, 255, 0.6));
 }
 
 
