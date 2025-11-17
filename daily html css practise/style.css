@@ -60,6 +60,13 @@ body {
 }
 
 
+.login-box button:hover {
+  background: #a94444;
+  transform: scale(1.05);
+}
+
+
+
 /* flexbox */
 
 .container {
