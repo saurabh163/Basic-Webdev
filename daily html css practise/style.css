@@ -35,3 +35,13 @@
 }
 
 
+.price-card {
+  width: 220px;
+  padding: 20px;
+  border: 2px solid #444;
+  text-align: center;
+}
+.price-card button {
+  margin-top: 10px;
+  padding: 8px;
+}
