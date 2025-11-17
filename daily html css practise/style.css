@@ -9,3 +9,16 @@
   color: rgb(15, 4, 4);
   text-decoration: none;
 }
+
+
+.login-box {
+  width: 250px;
+  padding: 20px;
+  background: #de8888;
+  border-radius: 10px;
+}
+.login-box input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
