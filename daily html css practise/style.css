@@ -74,6 +74,19 @@ body {
   transform: scale(1.05);
 }
 
+.special-btn {
+  padding: 12px 20px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.special-btn:hover {
+  background: #5949c8;
+  transform: scale(1.07);
+}
+
 
 
 /* flexbox */
