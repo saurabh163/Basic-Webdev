@@ -156,6 +156,18 @@ body {
 }
 
 
+.quote-box {
+  padding: 20px;
+  background: #c1ffe0;
+  border-left: 15px solid #008362;
+  font-style: italic;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
 /* footer*/
 
 .footer {
