@@ -68,6 +68,19 @@ body {
   border-radius: 5px;
 }
 
+.login-box button {
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.login-box button:hover {
+  background: #000;
+  transform: translateY(-3px);
+}
+
 
 .login-box button:hover {
   background: #a94444;
