@@ -148,6 +148,14 @@ body {
 }
 
 
+.divider {
+  margin: 40px 0;
+  border: none;
+  height: 2px;
+  background: #bbb;
+}
+
+
 /* footer*/
 
 .footer {
