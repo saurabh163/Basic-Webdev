@@ -71,3 +71,11 @@ button {
     flex-direction: column;
   }
 }
+
+
+.tagline {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
