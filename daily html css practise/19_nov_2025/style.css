@@ -54,3 +54,12 @@ button {
   border-image: linear-gradient(to right, #ff512f, #dd2476) 1;
   border-radius: 5px;
 }
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .features {
+    flex-direction: column;
+  }
+}
