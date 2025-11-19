@@ -26,3 +26,11 @@
   text-align: center;
   border-radius: 10px;
 }
+
+
+.contact-card {
+  padding: 20px;
+  background: #ffe7c7;
+  border-radius: 10px;
+  width: 230px;
+}
