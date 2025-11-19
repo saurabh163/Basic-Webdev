@@ -27,6 +27,12 @@
   border-radius: 10px;
 }
 
+.feature:hover {
+  background: #bdf0ff;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
 
 .contact-card {
   padding: 20px;
