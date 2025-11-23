@@ -74,3 +74,11 @@ body {
   font-size: 12px;
 }
 
+
+.alert-success {
+  padding: 12px;
+ 
+  border-radius: 6px;
+  width: 250px;
+}
+
