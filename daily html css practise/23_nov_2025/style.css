@@ -15,3 +15,13 @@ body {
   color: #333;
   text-align: center;
 }
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
