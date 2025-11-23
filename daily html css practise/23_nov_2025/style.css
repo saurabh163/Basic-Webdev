@@ -17,14 +17,19 @@ body {
 }
 
 .btn {
-  padding: 10px 20px;
+  display: block;        
+  margin: 30px auto;     
+  
+  padding: 15px 35px;    
+  font-size: 20px;       
+  
   border: none;
-  background: #007bff;
-  color: white;
-  border-radius: 8px;
+  background: #670662;
+  color: rgb(18, 14, 18);
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: #e53df8;
 }
