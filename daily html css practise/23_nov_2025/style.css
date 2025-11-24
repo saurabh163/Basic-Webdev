@@ -68,6 +68,7 @@ body {
   border-radius: 50%;    
   margin-bottom: 10px;   
   border: 2px solid #ddd;
+  
 }
 
 .notify {
@@ -90,5 +91,22 @@ body {
   color: #155724;
   border-radius: 6px;
   width: 250px;
+}
+
+body {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.glow-btn {
+  padding: 15px 40px;
+  font-size: 20px;
+  color: #220f0f;
+  background: transparent;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #0ff;
 }
 
