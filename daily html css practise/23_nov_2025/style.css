@@ -158,3 +158,28 @@ body {
 .float-box:hover {
   transform: translateY(-15px);
 }
+
+.circle-menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.circle-menu div {
+  width: 60px;
+  height: 60px;
+  background: #ffb6c1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.circle-menu div:hover {
+  background: #ff6781;
+  transform: scale(1.2);
+}
