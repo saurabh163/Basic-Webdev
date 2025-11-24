@@ -113,3 +113,19 @@ body {
 .glow-btn:hover {
   box-shadow: 0 0 25px rgb(27, 65, 65), 0 0 60px #0ff inset;
 }
+
+.top {
+  height: 200px;
+  background: #ff9a9e;
+}
+
+.wave {
+  height: 60px;
+  background: url("https://svgshare.com/i/uE5.svg");
+  background-size: cover;
+}
+
+.bottom {
+  height: 200px;
+  background: #fad0c4;
+}
