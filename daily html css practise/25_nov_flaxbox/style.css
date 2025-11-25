@@ -34,3 +34,15 @@
 }
 
 
+.notify {
+  font-size: 20px;
+  position: relative;
+}
+.notify span {
+  background: red;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+
+
