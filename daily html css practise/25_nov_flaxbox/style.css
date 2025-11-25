@@ -3,6 +3,7 @@
   padding: 10px;
   display: flex;
   gap: 25px;
+  margin-bottom: 30px; 
 }
 .navbar a {
   color: rgb(33, 15, 15);
