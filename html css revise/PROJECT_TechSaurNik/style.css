@@ -11,7 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fca0e9;
+  background: #b771fc;
   padding: 10px 40px;
 }
 
@@ -324,6 +324,18 @@ section {
   transform: translateY(-5px);
   border: 2px solid #f02020;
 }
+
+/* Addmition form */ 
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f883f8;
+  padding: 30px;
+}
+
 
 
 /* footer */
