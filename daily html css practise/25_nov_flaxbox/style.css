@@ -10,6 +10,16 @@
   text-decoration: none;
 }
 
+.center-box {
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  text-align: center;
+  background: #ffe5e5;
+  border-radius: 8px;
+}
+
+
 .profile {
   width: 200px;
   padding: 20px;
@@ -50,6 +60,8 @@
   padding: 3px 8px;
   border-radius: 50%;
 }
+
+
 
 
 .footer {
