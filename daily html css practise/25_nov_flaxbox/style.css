@@ -81,6 +81,15 @@
   border-radius: 50%;
 }
 
+.big-btn {
+  padding: 12px 25px;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: 40px auto;
+  display: block;
+}
 
 
 
