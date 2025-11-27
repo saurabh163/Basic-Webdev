@@ -25,6 +25,20 @@
   text-decoration: none;
 }
 
+.login-box {
+  width: 250px;
+  padding: 20px;
+  background: #ffe4e1;
+  border-radius: 10px;
+}
+.login-box input, 
+.login-box button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+
 .center-box {
   width: 200px;
   padding: 20px;
