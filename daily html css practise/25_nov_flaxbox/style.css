@@ -132,6 +132,12 @@
   box-shadow: 0 2px 6px #ccc;
 }
 
+.price-card {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid #444;
+  text-align: center;
+}
 
 
 .footer {
