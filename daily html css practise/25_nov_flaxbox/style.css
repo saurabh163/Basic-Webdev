@@ -7,6 +7,11 @@
   color: #d5d1d1;
 }
 
+.heading {
+  text-align: center;
+  color: #333;
+}
+
 
 .navbar {
   background: rgb(237, 150, 150);
