@@ -14,7 +14,7 @@
 
 
 .navbar {
-  background: rgb(237, 150, 150);
+  background: rgb(244, 32, 32);
   padding: 10px;
   display: flex;
   gap: 25px;
@@ -28,7 +28,7 @@
 .login-box {
   width: 250px;
   padding: 20px;
-  background: #ffe4e1;
+  background: #f874de;
   border-radius: 10px;
 }
 .login-box input, 
@@ -65,7 +65,7 @@
 .price-box {
   width: 180px;
   padding: 20px;
-  background: #effaff;
+  background: #74caf2;
   border-radius: 6px;
   text-align: center;
   border: 1px solid #ccc;
