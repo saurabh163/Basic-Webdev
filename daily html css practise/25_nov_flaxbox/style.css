@@ -91,6 +91,13 @@
   display: block;
 }
 
+.box1 {
+  width: 200px;
+  height: 80px;
+  background: lightblue;
+  padding: 20px;
+}
+
 
 
 .footer {
