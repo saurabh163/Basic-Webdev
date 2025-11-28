@@ -31,3 +31,15 @@
   background: #d7ffd7;
   padding: 20px;
 }
+
+.wrap-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.w {
+  background: #ffeeba;
+  padding: 20px;
+  width: 60px;
+  text-align: center;
+}
