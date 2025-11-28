@@ -6,3 +6,13 @@
   background: lightblue;
   padding: 20px;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.b {
+  background: #ffd1d1;
+  padding: 20px;
+}
