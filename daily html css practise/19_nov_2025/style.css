@@ -53,3 +53,15 @@
   background: #c3f5ff;
   padding: 20px;
 }
+
+.full {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background: #fff3cd;
+  padding: 25px;
+  border-radius: 8px;
+}
