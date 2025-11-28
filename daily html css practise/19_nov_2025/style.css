@@ -24,3 +24,10 @@
   align-items: center;
   background: #eef0ff;
 }
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  background: #d7ffd7;
+  padding: 20px;
+}
