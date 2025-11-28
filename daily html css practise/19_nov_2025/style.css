@@ -43,3 +43,13 @@
   width: 60px;
   text-align: center;
 }
+
+.flex1 {
+  display: flex;
+  gap: 10px;
+}
+.it {
+  flex: 1;
+  background: #c3f5ff;
+  padding: 20px;
+}
