@@ -65,3 +65,9 @@
   padding: 25px;
   border-radius: 8px;
 }
+
+.right-box {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
