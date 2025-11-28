@@ -71,3 +71,14 @@
   justify-content: flex-end;
   padding: 20px;
 }
+
+
+.cards {
+  display: flex;
+  gap: 15px;
+}
+.c {
+  background: #e2e2ff;
+  padding: 20px;
+  flex: 1;
+}
