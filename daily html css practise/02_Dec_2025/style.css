@@ -32,3 +32,14 @@
   padding: 20px;
   background: coral;
 }
+
+
+.flex4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.col {
+  padding: 15px;
+  background: lightgreen;
+}
