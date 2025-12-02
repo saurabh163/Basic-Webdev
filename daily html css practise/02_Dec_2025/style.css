@@ -69,3 +69,18 @@
   background: #fff3cd;
   border-radius: 10px;
 }
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+.side {
+  width: 120px;
+  background: #c3f7c1;
+  padding: 20px;
+}
+.main {
+  flex: 1;
+  background: #f1f1f1;
+  padding: 20px;
+}
