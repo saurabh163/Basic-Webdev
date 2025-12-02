@@ -19,3 +19,16 @@
   padding: 20px;
   background: lightblue;
 }
+
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: #eee;
+}
+.item {
+  padding: 20px;
+  background: coral;
+}
