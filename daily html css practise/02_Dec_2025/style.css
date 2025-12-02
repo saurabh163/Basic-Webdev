@@ -3,6 +3,7 @@
   justify-content: space-around;
   background: #ffe6e6;
   padding: 12px;
+  margin-bottom: 25px; 
 }
 .nav-flex a {
   text-decoration: none;
@@ -14,6 +15,7 @@
 .flex1 {
   display: flex;
   gap: 10px;
+  margin-bottom: 25px;  
 }
 .box {
   padding: 20px;
@@ -27,6 +29,7 @@
   align-items: center;
   height: 200px;
   background: #eee;
+  margin-bottom: 25px;
 }
 .item {
   padding: 20px;
@@ -36,6 +39,7 @@
 .notification-row {
   display: flex;
   gap: 15px;
+  margin-bottom: 25px;
 }
 .note {
   padding: 10px 20px;
@@ -48,6 +52,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+    margin-bottom: 25px;
 }
 .col {
   padding: 15px;
@@ -58,6 +63,7 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 .boxw {
   width: 80px;
@@ -72,6 +78,7 @@
 .flex6 {
   display: flex;
   gap: 20px;
+  margin-bottom: 25px;
 }
 .card {
   width: 150px;
@@ -83,6 +90,7 @@
 .layout {
   display: flex;
   gap: 20px;
+  margin-bottom: 25px;
 }
 .side {
   width: 120px;
@@ -101,6 +109,7 @@
   justify-content: center;
   align-items: center;
   height: 300px;
+  margin-bottom: 25px;
 }
 .login-box {
   padding: 20px;
