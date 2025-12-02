@@ -43,3 +43,17 @@
   padding: 15px;
   background: lightgreen;
 }
+
+.flex5 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.boxw {
+  width: 80px;
+  height: 80px;
+  background: #d1ecf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
