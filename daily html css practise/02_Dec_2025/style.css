@@ -1,0 +1,10 @@
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+  background: #ffe6e6;
+  padding: 12px;
+}
+.nav-flex a {
+  text-decoration: none;
+  color: #333;
+}
