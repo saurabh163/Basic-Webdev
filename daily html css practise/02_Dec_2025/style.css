@@ -33,6 +33,16 @@
   background: coral;
 }
 
+.notification-row {
+  display: flex;
+  gap: 15px;
+}
+.note {
+  padding: 10px 20px;
+  background: #e2e3ff;
+  border-radius: 6px;
+}
+
 
 .flex4 {
   display: flex;
@@ -96,4 +106,15 @@
   padding: 20px;
   background: pink;
   border-radius: 8px;
+}
+
+
+.notification-row {
+  display: flex;
+  gap: 15px;
+}
+.note {
+  padding: 10px 20px;
+  background: #e2e3ff;
+  border-radius: 6px;
 }
