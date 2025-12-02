@@ -8,3 +8,14 @@
   text-decoration: none;
   color: #333;
 }
+
+
+
+.flex1 {
+  display: flex;
+  gap: 10px;
+}
+.box {
+  padding: 20px;
+  background: lightblue;
+}
