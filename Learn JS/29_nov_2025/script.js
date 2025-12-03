@@ -574,3 +574,10 @@ function checkDriving(age) {
     console.log("You can drive");
   }
 }
+
+checkDriving(16); 
+checkDriving(20); 
+
+
+//problem 41 //
+
