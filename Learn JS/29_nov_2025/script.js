@@ -418,3 +418,28 @@ else if (username !== "admin") {
 else if (password !== "1234") {
   console.log("Invalid Password ");
 }
+
+
+// problem 34 //
+
+let balance = 5000;
+
+let withdraw = 2000; 
+
+if (!withdraw) {
+  console.log("Please enter valid amount....!");
+} 
+
+else if (typeof withdraw !== "number" || withdraw <= 0) {
+  console.log("Invalid Amount");
+} 
+
+else if (withdraw > balance) {
+  console.log("Insufficient Balance");
+} 
+
+else {
+  balance = balance - withdraw;
+  console.log("Transaction Successful");
+  console.log("Remaining Balance");
+}
