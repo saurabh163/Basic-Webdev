@@ -541,18 +541,18 @@ else {
 
 // problem 39 //
 
-let distance = 120;  
-let ratePerKm = 6;     
+let diStance = 120;  
+let ratEPerKm = 6;     
 
-let totalFare = distance * ratePerKm;  
+let tOtalFare = diStance * ratEPerKm;  
 
-if (distance <= 0 || ratePerKm <= 0) {
+if (diStance <= 0 || ratEPerKm <= 0) {
   console.log("Invalid Input");
 } 
 
-else if (totalFare > 500) {
-  let discount = totalFare * 0.10;       
-  let finalFare = totalFare - discount;  
+else if (tOtalFare > 500) {
+  let discount = tOtalFare * 0.10;       
+  let finalFare = tOtalFare - discount;  
   console.log("You got 10% Off");
   console.log("Final Fare:");
 } 
@@ -560,4 +560,17 @@ else if (totalFare > 500) {
 else {
   console.log("No Discount, Please Pay Full Amount");
   console.log("Total Fare");
+}
+
+// problem 40 //
+
+function checkDriving(age) {
+
+  if (age < 18) {
+    console.log("You cannot drive");
+  
+  } else {
+
+    console.log("You can drive");
+  }
 }
