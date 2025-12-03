@@ -443,3 +443,31 @@ else {
   console.log("Transaction Successful");
   console.log("Remaining Balance");
 }
+
+// problem 35 //
+
+let Marks = 85;
+
+if (marks <= 0) {
+  console.log("Invalid Marks");
+} 
+
+else if (marks > 100) {
+  console.log("Marks cannot be more than 100");
+} 
+
+else if (marks < 35) {
+  console.log("Fail");
+} 
+
+else if (marks >= 35 && marks <= 60) {
+  console.log("Pass");
+} 
+
+else if (marks >= 61 && marks <= 80) {
+  console.log("First Class");
+} 
+
+else {
+  console.log("Distinction");
+}
