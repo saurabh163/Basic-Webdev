@@ -162,3 +162,17 @@
   align-items: center;
   color: white;
 }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box {
+  width: 120px;
+  background: teal;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
