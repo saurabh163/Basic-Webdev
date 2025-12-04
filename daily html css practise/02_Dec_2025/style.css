@@ -241,3 +241,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 150px;
+  background: #fff;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
