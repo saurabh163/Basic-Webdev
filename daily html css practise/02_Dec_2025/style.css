@@ -176,3 +176,17 @@
   color: white;
   text-align: center;
 }
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  padding: 30px;
+  background: purple;
+  color: white;
+  border-radius: 10px;
+}
