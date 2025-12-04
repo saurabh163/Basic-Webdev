@@ -127,3 +127,23 @@
   background: #e2e3ff;
   border-radius: 6px;
 }
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
