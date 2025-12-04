@@ -147,3 +147,18 @@
   font-weight: bold;
   border-radius: 10px;
 }
+
+
+.containers {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
