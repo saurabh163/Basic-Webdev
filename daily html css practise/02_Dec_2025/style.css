@@ -190,3 +190,17 @@
   color: white;
   border-radius: 10px;
 }
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  padding: 20px;
+}
+.box {
+  background: orange;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
