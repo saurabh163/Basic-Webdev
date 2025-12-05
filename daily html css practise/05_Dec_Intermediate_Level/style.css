@@ -84,3 +84,13 @@
   background: black;
   color: white;
 }
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background: lightblue;
+  font-size: 24px;
+}
