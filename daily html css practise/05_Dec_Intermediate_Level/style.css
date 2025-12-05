@@ -4,9 +4,21 @@
   padding: 5px;
   background: rgb(4, 24, 75);
   color: white;
+  margin: 10px;
 }
 .links a {
   margin-left: 15px;
   color: white;
   text-decoration: none;
+  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.item {
+  background: skyblue;
+  padding: 30px;
 }
