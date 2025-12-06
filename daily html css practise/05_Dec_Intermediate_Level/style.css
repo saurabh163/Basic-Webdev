@@ -119,3 +119,12 @@
   padding: 30px;
 }
 
+.center-box {
+  width: 200px;
+  height: 200px;
+  background: #ffecec;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
