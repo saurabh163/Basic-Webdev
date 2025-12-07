@@ -37,6 +37,11 @@
   width: 400px;
   border-radius: 12px;
 }
+.hero img:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+
+}
 .btn {
   margin-top: 15px;
   padding: 12px 25px;
