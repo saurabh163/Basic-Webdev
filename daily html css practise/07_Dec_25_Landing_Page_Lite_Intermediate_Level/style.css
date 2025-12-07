@@ -4,3 +4,19 @@
   font-family: Poppins, Arial;
   box-sizing: border-box;
 }
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #110149;
+  color: white;
+}
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
