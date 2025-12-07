@@ -76,3 +76,26 @@
   text-align: center;
   margin-top: 30px;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    /* Hero Section Responsive */
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+    /* Features Section Responsive */
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
