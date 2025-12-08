@@ -21,6 +21,12 @@
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  color: #ffdd57;
+  text-decoration: underline;
+}
+
+
 /* Hero Section */
 
 .hero {
