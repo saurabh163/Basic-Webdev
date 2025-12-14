@@ -49,3 +49,32 @@
    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+.contact-section { 
+  padding: 40px 0; 
+  display: flex;               
+  justify-content: center;     
+}
+
+.contact-form { 
+  display: flex;
+  flex-direction: column; 
+  gap: 12px; 
+  max-width: 600px;
+  width: 100%;                
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+}
