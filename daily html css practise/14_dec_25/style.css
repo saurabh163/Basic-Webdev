@@ -22,3 +22,29 @@
   cursor: pointer;
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 30px;
+  background: #8cbbea;
+}
+.hero-text {
+  max-width: 450px;
+
+}
+.btn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #0054ba;
+  transform: scale(1.05);
+   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
