@@ -35,3 +35,13 @@
   transform: scale(1.05);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.box {
+  padding: 30px;
+  background: #bfdbfe;
+  text-align: center;
+}
