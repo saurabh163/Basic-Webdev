@@ -1,4 +1,11 @@
 
+.head {
+  position: sticky;
+  top: 0;
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+}
 
 .nav {
   display: flex;
@@ -60,3 +67,4 @@
   outline: none;
   border-color: blue;
 }
+
