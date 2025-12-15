@@ -82,6 +82,14 @@
   }
 }
 
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
 .footer {
   padding: 20px;
   text-align: center;
