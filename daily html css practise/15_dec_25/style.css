@@ -51,3 +51,12 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   border-radius: 10px;
 }
+
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+.input:focus {
+  outline: none;
+  border-color: blue;
+}
