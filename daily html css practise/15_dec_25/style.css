@@ -1,9 +1,20 @@
-body {
+
+
+.nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #0f172a;
 }
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.nav h3 {
+  color: white;
+}
+
 .card {
   padding: 30px;
   background: #52b2f3;
@@ -23,3 +34,4 @@ body {
   background: #1e40af;
   transform: scale(1.05);
 }
+
