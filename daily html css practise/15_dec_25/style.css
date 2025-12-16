@@ -121,6 +121,14 @@
   background-position: right;
 }
 
+.icon {
+  font-size: 40px;
+  transition: 0.4s;
+}
+.icon:hover {
+  transform: rotate(360deg);
+}
+
 
 
 .footer {
