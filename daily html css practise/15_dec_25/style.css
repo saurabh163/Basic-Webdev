@@ -42,8 +42,7 @@
   transition: 0.3s;
 }
 .btn:hover {
-  background: #1e40af;
-  transform: scale(1.05);
+  box-shadow: 0 0 20px #0f1115;
 }
 
 .grid {
