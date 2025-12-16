@@ -24,6 +24,9 @@
 .nav h3 {
   color: white;
 }
+.nav a:hover {
+  color: #38bdf8;
+}
 
 .card {
   padding: 30px;
