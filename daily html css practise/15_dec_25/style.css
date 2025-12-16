@@ -75,6 +75,7 @@
 }
 .card:hover {
   transform: translateY(-12px);
+  border-color: #e20c28;
 }
 
 
