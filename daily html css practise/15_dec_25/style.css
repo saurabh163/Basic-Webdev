@@ -199,6 +199,18 @@
   content: " Now!";
 }
 
+.border-btn {
+  padding: 12px 30px;
+  background: transparent;
+  border: 2px solid #0ea5e9;
+  color: #0ea5e9;
+  position: relative;
+  transition: 0.3s;
+}
+.border-btn:hover {
+  background: #0ea5e9;
+  color: white;
+}
 
 
 
