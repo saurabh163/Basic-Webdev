@@ -186,6 +186,15 @@
   letter-spacing: 3px;
 }
 
+.shadow {
+  padding: 25px;
+  background: #fde68a;
+  transition: 0.3s;
+}
+.shadow:hover {
+  box-shadow: 0 0 0 8px rgba(0,0,0,0.2);
+}
+
 
 
 .footer {
