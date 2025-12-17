@@ -212,6 +212,16 @@
   color: white;
 }
 
+.grad-card {
+  padding: 30px;
+  background: linear-gradient(45deg, #93c5fd, #fca5a5);
+  transition: 0.4s;
+}
+.grad-card:hover {
+  background: linear-gradient(45deg, #6366f1, #ec4899);
+  color: white;
+}
+
 
 
 .footer {
