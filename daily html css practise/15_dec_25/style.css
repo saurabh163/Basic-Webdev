@@ -129,6 +129,28 @@
   transform: rotate(360deg);
 }
 
+.ripple {
+  padding: 12px 30px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.ripple:hover::after {
+  width: 200px;
+  height: 200px;
+}
+
 
 
 .footer {
