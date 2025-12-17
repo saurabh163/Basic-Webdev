@@ -222,6 +222,34 @@
   color: white;
 }
 
+.reveal-box {
+  width: 200px;
+  height: 100px;
+  background: #38bdf8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.reveal-box span {
+  position: absolute;
+  inset: 0;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: 0.4s;
+}
+
+.reveal-box:hover span {
+  transform: translateY(0);
+}
+
 
 
 .footer {
