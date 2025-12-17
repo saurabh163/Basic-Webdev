@@ -175,6 +175,17 @@
   background-size: 100%;
 }
 
+.icon-btn {
+  padding: 12px 25px;
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.icon-btn:hover {
+  letter-spacing: 3px;
+}
+
 
 
 .footer {
