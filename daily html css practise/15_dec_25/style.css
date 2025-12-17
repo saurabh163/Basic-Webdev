@@ -164,6 +164,17 @@
   transform: rotateY(180deg);
 }
 
+.grad {
+  background: linear-gradient(90deg, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 0%;
+  transition: 0.4s;
+}
+.grad:hover {
+  background-size: 100%;
+}
+
 
 
 .footer {
