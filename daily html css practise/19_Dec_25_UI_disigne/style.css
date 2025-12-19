@@ -53,4 +53,26 @@
   color: white;
   border-radius: 999px;
   font-size: 14px;
+  margin: 10px ;
 }
+
+.profile {
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgb(222, 202, 240);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.profile img {
+  width: 200px;          
+  height: 200px;         
+  object-fit: cover;    
+  border-radius: 25%;   
+  margin-bottom: 12px;
+}
+
+.profile h4 {
+  font-size: 30px;
+}
+
