@@ -21,9 +21,17 @@
   margin: 10px;
 }
 
+.ui-input {
+  padding: 14px;
+  width: 260px;
+  border-radius: 10px;
+  border: 1px solid #cbd5f5;
+}
+
+
 .primary-btn {
   padding: 14px 28px;
-  background: #4f46e5;
+  background: #71075e;
   color: white;
   border: none;
   border-radius: 10px;
