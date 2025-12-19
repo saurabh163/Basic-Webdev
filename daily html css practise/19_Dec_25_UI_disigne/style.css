@@ -1,3 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding:10px 10px;
+  background: #ae3596;
+}
+.navbar h3,
+.navbar a {
+  color: rgb(8, 1, 1);
+  text-decoration: aliceblue;
+  margin-left: 30px;
+}
+
+
 .card {
   padding: 24px;
   width: 280px;
