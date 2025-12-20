@@ -88,6 +88,17 @@
   font-size: 30px;
 }
 
+.feature {
+  padding: 25px;
+  border-radius: 14px;
+  background: #e0f2fe;
+  text-align: center;
+}
+.feature span {
+  font-size: 30px;
+}
+
+
 .ui-footer {
   padding: 30px;
   text-align: center;
