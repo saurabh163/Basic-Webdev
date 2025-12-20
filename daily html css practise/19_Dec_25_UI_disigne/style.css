@@ -120,6 +120,11 @@
   }
 }
 
+.soft {
+  padding: 80px 30px;
+  background: #f8fafc;
+}
+
 .ui-footer {
   padding: 30px;
   text-align: center;
