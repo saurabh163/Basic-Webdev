@@ -151,6 +151,18 @@
   place-items: center;
 }
 
+.btn{
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:linear-gradient(45deg,#6366f1,#22d3ee);
+  color:white;
+  transition:.4s;
+}
+.btn:hover{
+  transform:scale(1.1);
+}
+
 
 .ui-footer {
   padding: 30px;
