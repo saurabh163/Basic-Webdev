@@ -202,6 +202,14 @@
   border-radius:20px;
 }
 
+.icon-btn{
+  padding:14px 26px;
+  transition:.3s;
+}
+.icon-btn:hover{
+  padding-right:40px;
+}
+
 
 
 .ui-footer {
