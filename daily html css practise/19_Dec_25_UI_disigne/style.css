@@ -183,6 +183,18 @@
   transform:translateY(-10px);
 }
 
+.profile{
+  width:220px;
+  padding:25px;
+  text-align:center;
+  border-radius:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+.profile img{
+  width:80px;height:80px;
+  border-radius:50%;
+}
+
 
 
 .ui-footer {
