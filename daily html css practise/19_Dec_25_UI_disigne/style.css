@@ -210,6 +210,15 @@
   padding-right:40px;
 }
 
+input{
+  padding:12px;
+  border:2px solid #ccc;
+  transition:.3s;
+}
+input:focus{
+  border-color:#2563eb;
+}
+
 
 
 .ui-footer {
