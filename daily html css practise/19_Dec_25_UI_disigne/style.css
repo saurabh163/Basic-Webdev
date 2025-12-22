@@ -163,6 +163,17 @@
   transform:scale(1.1);
 }
 
+.card{
+  width:200px;padding:30px;
+  background:white;
+  box-shadow:0 8px 20px rgba(0,0,0,.1);
+  transition:.3s;
+}
+.card:hover{
+  transform:translateY(-10px);
+}
+
+
 
 .ui-footer {
   padding: 30px;
