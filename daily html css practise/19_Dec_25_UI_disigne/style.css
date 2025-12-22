@@ -16,12 +16,22 @@
   padding:10px 10px;
   background: #ae3596;
 }
-.navbar h3,
-.navbar a {
-  color: rgb(8, 1, 1);
-  text-decoration: aliceblue;
-  margin-left: 30px;
+.link{
+  position:relative;
+  text-decoration:none;
 }
+.link::after{
+  content:"";
+  height:2px;width:0;
+  background:black;
+  position:absolute;
+  bottom:-5px;left:0;
+  transition:.3s;
+}
+.link:hover::after{
+  width:100%;
+}
+
 
 
 .card {
