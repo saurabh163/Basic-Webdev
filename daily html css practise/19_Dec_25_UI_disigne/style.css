@@ -195,6 +195,13 @@
   border-radius:50%;
 }
 
+.glass{
+  padding:40px;
+  backdrop-filter:blur(10px);
+  background:rgba(255,255,255,.2);
+  border-radius:20px;
+}
+
 
 
 .ui-footer {
