@@ -271,6 +271,14 @@ input:focus{
   font-size:12px;
 }
 
+.testi{
+  max-width:300px;
+  padding:25px;
+  background:white;
+  border-left:4px solid #6366f1;
+  box-shadow:0 6px 20px rgba(0,0,0,.1);
+}
+
 
 
 .ui-footer {
