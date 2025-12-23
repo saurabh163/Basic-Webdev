@@ -244,6 +244,25 @@ input:focus{
   transform:scale(1.05);
 }
 
+.img-overlay{
+  position:relative;
+  width:300px;
+}
+.img-overlay span{
+  position:absolute;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,.6);
+  color:white;
+  opacity:0;
+  transition:.3s;
+}
+.img-overlay:hover span{
+  opacity:1;
+}
+
 
 
 .ui-footer {
