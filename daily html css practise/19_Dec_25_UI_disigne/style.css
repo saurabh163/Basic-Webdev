@@ -263,6 +263,14 @@ input:focus{
   opacity:1;
 }
 
+.badge{
+  padding:6px 14px;
+  background:#22c55e;
+  color:white;
+  border-radius:20px;
+  font-size:12px;
+}
+
 
 
 .ui-footer {
