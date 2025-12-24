@@ -2,6 +2,7 @@
   width:260px;
   height:160px;
   border-radius:12px;
+  margin: 10px;
   background:linear-gradient(
     90deg,#e9aa3d,#7aa0ed,#e65ac0
   );
@@ -10,4 +11,18 @@
 @keyframes load{
   0%{background-position:0%}
   100%{background-position:200%}
+}
+
+
+
+.neo{
+  padding:16px 32px;
+  border-radius:14px;
+  background:#e5e7eb;
+  box-shadow:6px 6px 12px #c7c9cc,
+             -6px -6px 12px #ffffff;
+}
+.neo:active{
+  box-shadow:inset 6px 6px 12px #c7c9cc,
+             inset -6px -6px 12px #ffffff;
 }
