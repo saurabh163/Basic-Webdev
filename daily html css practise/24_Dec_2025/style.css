@@ -19,10 +19,25 @@
   padding:16px 32px;
   border-radius:14px;
   background:#e5e7eb;
+  margin: 10px;
   box-shadow:6px 6px 12px #c7c9cc,
              -6px -6px 12px #ffffff;
 }
 .neo:active{
   box-shadow:inset 6px 6px 12px #c7c9cc,
              inset -6px -6px 12px #ffffff;
+}
+
+
+
+.timeline{
+  height:120px;
+  border-left:4px solid #6366f1;
+  margin-left:20px;
+}
+.dot{
+  width:14px;height:14px;
+  background:#6366f1;
+  border-radius:50%;
+  margin-left:-9px;
 }
