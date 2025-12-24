@@ -125,3 +125,14 @@
 }
 
 
+
+.media{
+  display:flex;
+  gap:16px;
+}
+@media(max-width:600px){
+  .media{
+    flex-direction:column;
+  }
+}
+
