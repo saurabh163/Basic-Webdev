@@ -48,6 +48,7 @@
 .progress{
   width:260px;
   height:10px;
+  margin: 10px;
   background:#e5e7eb;
   border-radius:10px;
 }
@@ -58,3 +59,16 @@
   background:#22c55e;
   border-radius:10px;
 }
+
+
+
+.price{
+  padding:30px;
+  border-radius:16px;
+  background:white;
+}
+.best{
+  outline:3px solid #6366f1;
+}
+
+
