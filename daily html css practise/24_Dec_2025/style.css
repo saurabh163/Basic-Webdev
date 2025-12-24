@@ -65,10 +65,31 @@
 .price{
   padding:30px;
   border-radius:16px;
-  background:white;
+  background:rgb(235, 179, 234);
+  margin: 10px;
 }
 .best{
   outline:3px solid #6366f1;
 }
 
 
+
+.tip{
+  position:relative;
+}
+.tip::after{
+  content:"Tooltip text";
+  position:absolute;
+  bottom:140%;
+  left:50%;
+  transform:translateX(-50%);
+  background:black;
+  color:white;
+  padding:6px 10px;
+  border-radius:6px;
+  opacity:0;
+  margin: 1opx;
+}
+.tip:hover::after{
+  opacity:1;
+}
