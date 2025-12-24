@@ -1,3 +1,17 @@
+.section-title{
+  font-size:28px;
+  position:relative;
+}
+.section-title::after{
+  content:"";
+  width:60px;height:4px;
+  background:#6366f1;
+  position:absolute;
+  bottom:-8px;left:0;
+}
+
+
+
 .skeleton{
   width:260px;
   height:160px;
@@ -93,3 +107,8 @@
 .tip:hover::after{
   opacity:1;
 }
+
+
+
+
+
