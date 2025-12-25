@@ -175,6 +175,23 @@
 
 
 
+.img-top-card{
+  width:260px;
+  border-radius:18px;
+  overflow:hidden;
+  background:white;
+}
+.img-top-card img{
+  width:100%;
+}
+.img-top-card p{
+  padding:20px;
+}
+
+
+
+
+
 .glow{
   padding:14px 30px;
   border:none;
