@@ -113,6 +113,17 @@
 }
 
 
+.icon-card{
+  padding:25px;
+  border-radius:16px;
+  text-align:center;
+  background:#f8fafc;
+}
+.icon-card span{
+  font-size:28px;
+}
+
+
 
 .price{
   padding:30px;
