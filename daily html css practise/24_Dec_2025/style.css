@@ -69,6 +69,23 @@
 
 
 
+.divider-text{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.divider-text::before,
+.divider-text::after{
+  content:"";
+  flex:1;
+  height:1px;
+  background:#d1d5db;
+}
+
+
+
+
+
 .blur-box{
   position:relative;
   width:260px;
