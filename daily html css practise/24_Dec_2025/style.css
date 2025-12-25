@@ -21,6 +21,13 @@
 }
 
 
+.breadcrumb{
+  font-size:14px;
+  color:#475569;
+}
+
+
+
 
 .skeleton{
   width:260px;
@@ -240,7 +247,7 @@
 .rotate{
   font-size:30px;
   transition:.4s;
-  align: center;
+
 }
 .rotate:hover{
   transform:rotate(180deg);
