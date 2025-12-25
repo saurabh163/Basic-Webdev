@@ -276,3 +276,45 @@
   }
 }
 
+.footer {
+  background: #020617;
+  color: #e5e7eb;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  color: #c7d2fe;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.copy {
+  display: block;
+  font-size: 13px;
+  opacity: 0.6;
+}
