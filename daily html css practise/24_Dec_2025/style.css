@@ -205,6 +205,22 @@
 
 
 
+.notify{
+  position:relative;
+  font-size:24px;
+}
+.notify span{
+  position:absolute;
+  top:-6px;right:-6px;
+  background:red;
+  color:white;
+  font-size:12px;
+  padding:2px 6px;
+  border-radius:50%;
+}
+
+
+
 .media{
   display:flex;
   gap:16px;
