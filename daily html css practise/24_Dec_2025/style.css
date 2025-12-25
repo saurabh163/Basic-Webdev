@@ -175,6 +175,19 @@
 
 
 
+.glow{
+  padding:14px 30px;
+  border:none;
+  background:#6366f1;
+  color:white;
+  border-radius:30px;
+}
+.glow:hover{
+  box-shadow:0 0 20px #6366f1;
+}
+
+
+
 .media{
   display:flex;
   gap:16px;
