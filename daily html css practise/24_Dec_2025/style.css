@@ -237,6 +237,16 @@
 }
 
 
+.rotate{
+  font-size:30px;
+  transition:.4s;
+  align: center;
+}
+.rotate:hover{
+  transform:rotate(180deg);
+}
+
+
 
 .media{
   display:flex;
