@@ -69,6 +69,34 @@
 
 
 
+.blur-box{
+  position:relative;
+  width:260px;
+}
+.blur-box img{
+  width:100%;
+  transition:.4s;
+}
+.blur-box span{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:rgb(85, 44, 44);
+  font-size:18px;
+  opacity:0;
+  margin: 10px;
+}
+.blur-box:hover img{
+  filter:blur(3px);
+}
+.blur-box:hover span{
+  opacity:1;
+}
+
+
+
 .progress{
   width:260px;
   height:10px;
