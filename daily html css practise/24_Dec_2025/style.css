@@ -246,6 +246,25 @@
 
 
 
+.caption{
+  position:relative;
+}
+.caption p{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background:rgba(0,0,0,.6);
+  color:white;
+  padding:10px;
+}
+
+
+
+
+
+
+
+
 
 .progress{
   width:260px;
