@@ -167,6 +167,31 @@
 
 
 
+.reveal{
+  padding:14px 30px;
+  background:#020617;
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+.reveal::after{
+  content:"Click Now";
+  position:absolute;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#6366f1;
+  transform:translateY(100%);
+  transition:.3s;
+}
+.reveal:hover::after{
+  transform:translateY(0);
+}
+
+
+
+
 
 .progress{
   width:260px;
