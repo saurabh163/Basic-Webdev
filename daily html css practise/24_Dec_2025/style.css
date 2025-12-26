@@ -217,6 +217,20 @@
 
 
 
+.search input{
+  padding:12px 18px;
+  width:260px;
+  border-radius:30px;
+  border:1px solid #cbd5f5;
+}
+.search input:focus{
+  outline:none;
+  box-shadow:0 0 0 3px #c7d2fe;
+}
+
+
+
+
 
 .progress{
   width:260px;
