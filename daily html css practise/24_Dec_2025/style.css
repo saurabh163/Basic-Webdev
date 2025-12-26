@@ -262,6 +262,14 @@
 
 
 
+.stats{
+  display:flex;
+  gap:30px;
+}
+.stats div{
+  text-align:center;
+}
+
 
 
 
