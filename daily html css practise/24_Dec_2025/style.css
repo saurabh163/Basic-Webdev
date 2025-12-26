@@ -192,6 +192,20 @@
 
 
 
+.masonry{
+  columns:3;
+  gap:16px;
+}
+.masonry div{
+  height:120px;
+  background:#e0e7ff;
+  margin-bottom:16px;
+  border-radius:12px;
+}
+
+
+
+
 
 .progress{
   width:260px;
