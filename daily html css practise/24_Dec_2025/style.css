@@ -232,6 +232,21 @@
 
 
 
+.acc{
+  max-height:40px;
+  overflow:hidden;
+  transition:.4s;
+  background:#f1f5f9;
+  padding:10px;
+}
+.acc:hover{
+  max-height:120px;
+}
+
+
+
+
+
 .progress{
   width:260px;
   height:10px;
