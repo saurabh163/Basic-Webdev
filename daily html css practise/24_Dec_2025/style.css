@@ -152,6 +152,21 @@
 
 
 
+.login-card{
+  width:260px;
+  padding:30px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+.login-card input,button{
+  width:100%;
+  margin-top:12px;
+  padding:10px;
+}
+
+
+
+
 
 .progress{
   width:260px;
