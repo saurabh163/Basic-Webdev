@@ -206,6 +206,17 @@
 
 
 
+.status{
+  padding:14px 24px;
+  border-radius:30px;
+  color:white;
+  width:fit-content;
+}
+.online{background:#22c55e;}
+
+
+
+
 
 .progress{
   width:260px;
