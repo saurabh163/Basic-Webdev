@@ -399,6 +399,18 @@
 
 
 
+.bubble{
+  padding:14px 20px;
+  background:#dbeafe;
+  border-radius:20px 20px 20px 0;
+  width:fit-content;
+}
+
+
+
+
+
+
 .info-box{
   padding:18px;
   background:#eff6ff;
