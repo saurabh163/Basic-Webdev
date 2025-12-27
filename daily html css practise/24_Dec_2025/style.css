@@ -29,6 +29,24 @@
 
 
 
+
+
+.v-menu li{
+  padding:12px;
+  border-left:4px solid transparent;
+}
+.v-menu li:hover{
+  border-color:#6366f1;
+}
+
+
+
+
+
+
+
+
+
 .skeleton{
   width:260px;
   height:160px;
@@ -354,6 +372,8 @@
 .shadow-img:hover{
   box-shadow:0 15px 30px rgba(0,0,0,.3);
 }
+
+
 
 
 
