@@ -302,6 +302,20 @@
 
 
 
+
+.tabs span{
+  padding:10px 20px;
+  cursor:pointer;
+}
+.tabs .active{
+  border-bottom:3px solid #6366f1;
+}
+
+
+
+
+
+
 .info-box{
   padding:18px;
   background:#eff6ff;
