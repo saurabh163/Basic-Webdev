@@ -326,6 +326,19 @@
 
 
 
+.circle{
+  width:100px;height:100px;
+  border-radius:50%;
+  border:10px solid #c7d2fe;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
 
 .info-box{
   padding:18px;
