@@ -378,6 +378,14 @@
 
 
 
+.mark{
+  background:linear-gradient(transparent 60%, #fde68a 40%);
+}
+
+
+
+
+
 
 .info-box{
   padding:18px;
