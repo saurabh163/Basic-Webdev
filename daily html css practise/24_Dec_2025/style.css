@@ -338,6 +338,16 @@
 
 
 
+.chip{
+  padding:6px 14px;
+  background:#e0e7ff;
+  border-radius:20px;
+  font-size:14px;
+}
+
+
+
+
 
 
 .info-box{
