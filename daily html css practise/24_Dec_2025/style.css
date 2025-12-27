@@ -348,6 +348,15 @@
 
 
 
+.shadow-img{
+  transition:.3s;
+}
+.shadow-img:hover{
+  box-shadow:0 15px 30px rgba(0,0,0,.3);
+}
+
+
+
 
 
 .info-box{
