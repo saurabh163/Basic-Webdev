@@ -385,6 +385,18 @@
 
 
 
+.rotate-card{
+  width:160px;
+  padding:30px;
+  transition:.4s;
+}
+.rotate-card:hover{
+  transform:rotate(3deg);
+}
+
+
+
+
 
 
 .info-box{
