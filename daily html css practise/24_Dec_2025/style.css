@@ -314,6 +314,17 @@
 
 
 
+.glow-card{
+  padding:30px;
+  border:2px solid transparent;
+  transition:.3s;
+}
+.glow-card:hover{
+  border-color:#22d3ee;
+}
+
+
+
 
 
 .info-box{
