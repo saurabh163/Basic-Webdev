@@ -202,6 +202,14 @@
 
 
 
+.blur-bg{
+  padding:30px;
+  background:#c7d2fe;
+  transition:.3s;
+}
+.blur-bg:hover{
+  filter:blur(1px);
+}
 
 
 
