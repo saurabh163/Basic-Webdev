@@ -79,6 +79,52 @@
 
 
 
+
+
+
+
+
+
+.fill-btn{
+  padding:12px 28px;
+  background:none;
+  border:2px solid #6366f1;
+  position:relative;
+  overflow:hidden;
+}
+.fill-btn::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:#6366f1;
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:.3s;
+  z-index:-1;
+}
+.fill-btn:hover::before{
+  transform:scaleX(1);
+}
+.fill-btn:hover{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icon-div{
   display:flex;
   align-items:center;
