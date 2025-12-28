@@ -42,6 +42,24 @@
 
 
 
+.steps span{
+  width:30px;height:30px;
+  border-radius:50%;
+  border:2px solid #cbd5f5;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:10px;
+}
+.done{
+  background:#22c55e;
+  color:white;
+}
+
+
+
+
+
 .icon-div{
   display:flex;
   align-items:center;
