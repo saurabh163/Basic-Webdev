@@ -159,6 +159,35 @@
 
 
 
+
+
+
+
+
+.expand-card{
+  width:180px;
+  padding:20px;
+  background:#e0e7ff;
+  transition:.3s;
+}
+.expand-card:hover{
+  width:240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icon-div{
   display:flex;
   align-items:center;
