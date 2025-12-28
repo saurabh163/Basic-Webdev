@@ -21,6 +21,15 @@
 }
 
 
+
+
+.grad-text{
+  background:linear-gradient(90deg,#6366f1,#22d3ee);
+  color:transparent;
+}
+
+
+
 .breadcrumb{
   font-size:14px;
   color:#475569;
