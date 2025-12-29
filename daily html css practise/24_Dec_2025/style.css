@@ -360,6 +360,21 @@
 
 
 
+.rotate-card{
+  width:180px;
+  padding:30px;
+  background:#fde68a;
+  transition:.3s;
+}
+.rotate-card:hover{
+  transform:rotate(3deg);
+}
+
+
+
+
+
+
 
 
 
