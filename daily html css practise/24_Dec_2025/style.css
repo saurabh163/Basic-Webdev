@@ -247,6 +247,35 @@
 
 
 
+.u-link{
+  position:relative;
+  text-decoration:none;
+  color:#1e40af;
+}
+.u-link::after{
+  content:"";
+  position:absolute;
+  width:0;
+  height:2px;
+  background:#1e40af;
+  left:0;
+  bottom:-4px;
+  transition:.3s;
+}
+.u-link:hover::after{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
