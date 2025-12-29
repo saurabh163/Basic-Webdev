@@ -273,6 +273,33 @@
 
 
 
+.img-box{
+  position:relative;
+  width:220px;
+}
+.img-box img{ width:100%; }
+.img-box span{
+  position:absolute;
+  inset:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  opacity:0;
+  transition:.3s;
+}
+.img-box:hover span{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
 
 
 
