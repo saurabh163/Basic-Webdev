@@ -458,6 +458,44 @@
 
 
 
+
+
+
+
+
+
+
+
+.price-card{
+  padding:30px;
+  border:2px solid #e5e7eb;
+  transition:.3s;
+}
+.price-card:hover{
+  border-color:#6366f1;
+  transform:scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .time-card{
   padding:16px;
   border-left:4px solid #22c55e;
