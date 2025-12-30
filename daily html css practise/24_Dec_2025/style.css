@@ -565,6 +565,26 @@
 
 
 
+.toggle{
+  width:50px;
+  height:26px;
+  background:#cbd5f5;
+  border-radius:999px;
+  position:relative;
+}
+.toggle::after{
+  content:"";
+  width:22px;
+  height:22px;
+  background:white;
+  border-radius:50%;
+  position:absolute;
+  top:2px;
+  left:2px;
+}
+ 
+
+
 
 
 
