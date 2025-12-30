@@ -621,6 +621,10 @@
 
 
 
+.title{
+  display:inline-block;
+  border-bottom:3px solid #22d3ee;
+}
 
 
 
