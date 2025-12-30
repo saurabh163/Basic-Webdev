@@ -543,6 +543,28 @@
 
 
 
+.blur-card{
+  padding:30px;
+  background:#93c5fd;
+  transition:.3s;
+}
+.blur-card:hover{
+  filter:blur(2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
