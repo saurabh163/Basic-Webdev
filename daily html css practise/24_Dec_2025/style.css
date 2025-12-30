@@ -595,6 +595,42 @@
 
 
 
+.fill-btn{
+  padding:12px 30px;
+  background:transparent;
+  border:2px solid #0ea5e9;
+  color:#0ea5e9;
+  transition:.3s;
+}
+.fill-btn:hover{
+  background:#0ea5e9;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .time-card{
   padding:16px;
   border-left:4px solid #22c55e;
