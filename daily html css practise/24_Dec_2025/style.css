@@ -486,6 +486,32 @@
 
 
 
+.steps span{
+  width:14px;height:14px;
+  border-radius:50%;
+  background:#cbd5f5;
+  margin-right:8px;
+}
+.steps .done{
+  background:#4f46e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
