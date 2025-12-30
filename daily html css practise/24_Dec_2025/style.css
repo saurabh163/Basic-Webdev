@@ -428,6 +428,27 @@
 
 
 
+.reveal-btn{
+  padding:12px 30px;
+  background:#0f172a;
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+.reveal-btn::after{
+  content:"Click Me";
+  position:absolute;
+  inset:0;
+  background:#22c55e;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transform:translateY(100%);
+  transition:.3s;
+}
+.reveal-btn:hover::after{
+  transform:translateY(0);
+}
 
 
 
