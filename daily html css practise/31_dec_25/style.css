@@ -22,3 +22,20 @@
 
 
 
+.features{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  padding:50px;
+}
+.box{
+  padding:30px;
+  background:white;
+  box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+
+
+
+
+
