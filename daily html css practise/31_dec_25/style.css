@@ -167,3 +167,12 @@
 
 
 
+.timeline li{
+  margin-bottom:15px;
+  border-left:3px solid #6366f1;
+  padding-left:10px;
+}
+
+
+
+
