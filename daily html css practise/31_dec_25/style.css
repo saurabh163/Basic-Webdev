@@ -101,3 +101,16 @@
 
 
 
+
+.stats{
+  display:flex;
+  justify-content:space-around;
+  padding:60px;
+  background:#f1f5f9;
+  font-size:22px;
+}
+
+
+
+
+
