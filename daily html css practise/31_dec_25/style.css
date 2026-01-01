@@ -114,3 +114,20 @@
 
 
 
+.logos{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  padding:20px;
+}
+
+.logos img{
+  width:200px;     
+  height:auto;
+}
+
+
+
+
+
+
