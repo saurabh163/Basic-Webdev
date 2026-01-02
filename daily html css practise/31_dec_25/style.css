@@ -346,4 +346,25 @@
 
 
 
+.social{
+  display:flex;
+  gap:15px;
+}
+.social a{
+  padding:10px 14px;
+  background:#e0e7ff;
+  border-radius:6px;
+  text-decoration:none;
+  color:#1e3a8a;
+  transition:0.3s;
+}
+.social a:hover{
+  background:#6366f1;
+  color:white;
+}
+
+
+
+
+
 
