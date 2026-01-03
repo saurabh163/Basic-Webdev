@@ -542,3 +542,13 @@
 
 
 
+.lift-btn{
+  padding:12px 28px;
+  background:#4f46e5;
+  color:white;
+  border:none;
+  transition:0.3s;
+}
+.lift-btn:hover{
+  transform:translateY(-4px);
+}
