@@ -404,3 +404,16 @@
   transform:scale(1.1);
 }
 
+
+
+
+
+
+.info-bar{
+  position:sticky;
+  top:0;
+  background:#22c55e;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
