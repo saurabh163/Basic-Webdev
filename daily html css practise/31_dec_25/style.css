@@ -485,3 +485,10 @@
 
 
 
+.toast{
+  padding:14px 22px;
+  background:#020617;
+  color:white;
+  border-radius:6px;
+  width:fit-content;
+}
