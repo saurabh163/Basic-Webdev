@@ -605,3 +605,12 @@
 
 
 
+.color-card{
+  padding:30px;
+  background:#e0e7ff;
+  transition:.3s;
+}
+.color-card:hover{
+  background:#6366f1;
+  color:white;
+}
