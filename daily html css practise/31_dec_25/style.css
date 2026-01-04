@@ -574,3 +574,10 @@
 
 
 
+.outline-btn{
+  padding:12px 26px;
+  border:2px solid #6366f1;
+  background:transparent;
+  border-radius:30px;
+  color:#6366f1;
+}
