@@ -676,3 +676,21 @@
   background:#dbeafe;
   border-left:4px solid #2563eb;
 }
+
+
+
+
+
+
+
+.grad-banner{
+  padding:20px;
+  text-align:center;
+  color:white;
+  background:linear-gradient(90deg,#6366f1,#22d3ee);
+}
+
+
+
+
+
