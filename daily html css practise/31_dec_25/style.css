@@ -694,3 +694,18 @@
 
 
 
+.hover-box{
+  padding:30px;
+  background:#f8fafc;
+  transition:.3s;
+}
+.hover-box:hover{
+  box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+
+
+
+
+
+
