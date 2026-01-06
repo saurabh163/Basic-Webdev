@@ -952,3 +952,18 @@
 
 
 
+.home{
+  display:flex;
+  gap:20px;
+  padding:40px;
+}
+@media(max-width:768px){
+  .home{
+    flex-direction:column;
+  }
+}
+
+
+
+
+
