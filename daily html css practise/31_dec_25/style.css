@@ -863,3 +863,22 @@
 
 
 
+.stats{
+  display:flex;
+  gap:20px;
+}
+.stat{
+  padding:20px;
+  background:#eef2ff;
+  border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
