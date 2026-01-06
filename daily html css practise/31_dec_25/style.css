@@ -829,3 +829,37 @@
   background:#020617;
   color:white;
 }
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+  width:200px;
+  min-height:100vh;
+  background:#f1f5f9;
+  padding:20px;
+}
+.sidebar a{
+  display:block;
+  padding:12px;
+  border-radius:6px;
+}
+.sidebar a:hover{
+  background:#e0e7ff;
+}
+
+
+
+
+
+
+
+
+
+
