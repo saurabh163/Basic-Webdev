@@ -926,3 +926,29 @@
 
 
 
+.slide-btn{
+  padding:12px 30px;
+  background:#22c55e;
+  color:white;
+  border:none;
+  position:relative;
+  overflow:hidden;
+}
+.slide-btn::after{
+  content:"✔";
+  position:absolute;
+  right:-20px;
+  transition:.3s;
+}
+.slide-btn:hover::after{
+  right:12px;
+}
+
+
+
+
+
+
+
+
+
