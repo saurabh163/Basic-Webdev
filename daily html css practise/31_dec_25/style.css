@@ -1085,6 +1085,21 @@
 
 
 
+.sticky{
+  position:sticky;
+  top:0;
+  background:#020617;
+  color:white;
+  padding:14px;
+}
+
+
+
+
+
+
+
+
 
 
 
