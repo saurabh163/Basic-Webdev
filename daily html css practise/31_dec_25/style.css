@@ -1006,6 +1006,19 @@
 
 
 
+.glass{
+  padding:30px;
+  backdrop-filter:blur(10px);
+  background:rgba(255,255,255,.4);
+  border-radius:16px;
+}
+
+
+
+
+
+
+
 
 
 
