@@ -1052,6 +1052,28 @@
 
 
 
+.acc{
+  padding:16px;
+  background:#f1f5f9;
+  cursor:pointer;
+}
+.acc:hover{
+  background:#e0e7ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .foot{
   padding:20px;
