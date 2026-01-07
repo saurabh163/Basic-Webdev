@@ -1130,6 +1130,16 @@
 
 
 
+.cta{
+  padding:40px;
+  text-align:center;
+  background:#6366f1;
+  color:white;
+  transition:.3s;
+}
+.cta:hover{
+  background:#4f46e5;
+}
 
 
 
