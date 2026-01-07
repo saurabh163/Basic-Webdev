@@ -1100,6 +1100,22 @@
 
 
 
+.reveal span{
+  display:block;
+  opacity:0;
+  transition:.3s;
+}
+.reveal:hover span{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
 
 
 
