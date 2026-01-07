@@ -983,6 +983,34 @@
 
 
 
+
+.notify{
+  display:inline-flex;
+  gap:8px;
+  padding:10px 16px;
+  background:#f8fafc;
+}
+.notify span{
+  background:red;
+  color:white;
+  padding:2px 8px;
+  border-radius:20px;
+  font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
