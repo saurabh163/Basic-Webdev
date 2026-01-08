@@ -1186,6 +1186,25 @@
 
 
 
+
+
+
+.ui-section {
+  padding: 40px 40px;
+  width: 250px;
+  border-radius: 15px;
+  background: #e738ca;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
