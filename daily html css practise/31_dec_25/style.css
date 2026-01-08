@@ -1214,6 +1214,19 @@
 
 
 
+.hover-btn {
+  padding: 14px 28px;
+  background: #22c55e;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hover-btn:hover {
+  transform: scale(1.1);
+} 
+
+
+
 
 
 
