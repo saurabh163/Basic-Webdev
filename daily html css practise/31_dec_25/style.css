@@ -1145,6 +1145,25 @@
 
 
 
+
+
+.card {
+  padding: 24px;
+  width: 280px;
+  border-radius: 14px;
+  background: rgb(218, 94, 237);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
