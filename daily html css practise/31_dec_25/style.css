@@ -1425,6 +1425,20 @@ input:focus{
 
 
 
+.soft-box{
+  padding:30px;
+  border-radius:20px;
+  background:white;
+  box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+
+
+
+
+
+
+
 
 
 
