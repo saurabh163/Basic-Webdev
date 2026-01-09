@@ -1369,6 +1369,30 @@ input:focus{
 
 
 
+.icon{
+  width:60px;height:60px;
+  border-radius:50%;
+  background:#e0e7ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  transition:.3s;
+}
+.icon:hover{
+  background:#6366f1;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
