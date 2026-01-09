@@ -1410,6 +1410,21 @@ input:focus{
 
 
 
+.alert{
+  padding:16px;
+  background:#dcfce7;
+  color:#166534;
+  border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
