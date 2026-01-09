@@ -1271,6 +1271,27 @@
 
 
 
+
+
+.ui-input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5f5;
+}
+.ui-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
