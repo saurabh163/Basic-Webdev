@@ -1352,6 +1352,23 @@ input:focus{
 
 
 
+.price-card{
+  width:220px;
+  padding:30px;
+  border-radius:18px;
+  background:#f1f5f9;
+  text-align:center;
+  transition:.3s;
+}
+.price-card:hover{
+  transform:scale(1.05);
+}
+
+
+
+
+
+
 
 
 
