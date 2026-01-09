@@ -1393,6 +1393,23 @@ input:focus{
 
 
 
+.divider{
+  border:none;
+  height:3px;
+  width:80px;
+  background:#2563eb;
+  margin:30px auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
