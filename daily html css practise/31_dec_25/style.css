@@ -1331,6 +1331,28 @@ input:focus{
 
 
 
+.border-btn{
+  padding:12px 28px;
+  background:none;
+  border:2px solid #2563eb;
+  color:#2563eb;
+  border-radius:8px;
+  transition:.3s;
+}
+.border-btn:hover{
+  background:#2563eb;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
