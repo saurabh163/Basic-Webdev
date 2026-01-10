@@ -1454,6 +1454,25 @@ input:focus{
 
 
 
+.side-item{
+  padding:14px;
+  transition:.3s;
+}
+.side-item:hover{
+  background:#e0e7ff;
+  padding-left:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
