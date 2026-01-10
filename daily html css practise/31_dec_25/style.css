@@ -1604,6 +1604,36 @@ input:focus{
 
 
 
+.u-link{
+  position:relative;
+}
+.u-link::after{
+  content:"";
+  height:2px;
+  width:0;
+  background:#6366f1;
+  position:absolute;
+  left:0;
+  bottom:-4px;
+  transition:.3s;
+}
+.u-link:hover::after{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
