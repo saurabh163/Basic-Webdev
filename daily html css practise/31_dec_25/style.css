@@ -1488,6 +1488,23 @@ input:focus{
 
 
 
+.lift{
+  padding:25px;
+  transition:.3s;
+}
+.lift:hover{
+  transform:translateY(-8px);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
