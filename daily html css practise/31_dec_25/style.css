@@ -1535,6 +1535,22 @@ input:focus{
 
 
 
+.alert{
+  padding:16px;
+  background:#ecfeff;
+  border-left:4px solid #06b6d4;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
