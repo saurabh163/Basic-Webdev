@@ -1705,6 +1705,24 @@ input:focus{
 
 
 
+.list-item{
+  padding:14px;
+  transition:.3s;
+}
+.list-item:hover{
+  background:#f1f5f9;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
