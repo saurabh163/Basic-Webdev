@@ -1818,6 +1818,28 @@ input:focus{
 
 
 
+.fade{
+  opacity:0;
+  animation:fadeIn .8s forwards;
+}
+@keyframes fadeIn{
+  to{ opacity:1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
