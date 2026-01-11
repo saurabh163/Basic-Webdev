@@ -1723,6 +1723,48 @@ input:focus{
 
 
 
+.toggle{
+  position:relative;
+  width:50px;
+  height:26px;
+}
+.toggle span{
+  position:absolute;
+  inset:0;
+  background:#cbd5f5;
+  border-radius:20px;
+  transition:.3s;
+}
+.toggle span::before{
+  content:"";
+  width:22px;
+  height:22px;
+  background:white;
+  border-radius:50%;
+  position:absolute;
+  top:2px;
+  left:2px;
+  transition:.3s;
+}
+.toggle input:checked + span{
+  background:#6366f1;
+}
+.toggle input:checked + span::before{
+  transform:translateX(24px);
+}
+.toggle input{ display:none; }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
