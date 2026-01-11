@@ -1687,6 +1687,24 @@ input:focus{
 
 
 
+.sticky{
+  position:sticky;
+  top:0;
+  padding:16px;
+  background:white;
+  box-shadow:0 4px 10px rgba(0,0,0,.05);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
