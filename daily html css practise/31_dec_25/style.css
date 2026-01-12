@@ -1976,6 +1976,38 @@ input:focus{
 
 
 
+.tip{
+  position:relative;
+  cursor:pointer;
+}
+.tip-text{
+  position:absolute;
+  bottom:120%;
+  background:#111827;
+  color:white;
+  padding:6px 10px;
+  border-radius:6px;
+  opacity:0;
+  transition:.3s;
+}
+.tip:hover .tip-text{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
