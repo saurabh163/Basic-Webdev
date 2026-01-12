@@ -1869,6 +1869,43 @@ input:focus{
 
 
 
+
+
+
+
+
+
+.progress{
+  height:10px;
+  background:#e5e7eb;
+  border-radius:6px;
+}
+.progress span{
+  display:block;
+  height:100%;
+  background:#6366f1;
+  border-radius:6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
