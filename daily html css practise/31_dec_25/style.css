@@ -1901,6 +1901,31 @@ input:focus{
 
 
 
+.glow-card{
+  padding:24px;
+  transition:.3s;
+}
+.glow-card:hover{
+  box-shadow:0 0 20px #6366f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
