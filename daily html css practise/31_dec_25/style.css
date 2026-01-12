@@ -2026,6 +2026,24 @@ input:focus{
 
 
 
+.scale-btn{
+  padding:12px 24px;
+  transition:.3s;
+}
+.scale-btn:hover{
+  transform:scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
