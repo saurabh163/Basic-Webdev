@@ -2008,6 +2008,24 @@ input:focus{
 
 
 
+.badge-title{
+  display:inline-block;
+  padding:6px 14px;
+  background:#eef2ff;
+  border-radius:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
