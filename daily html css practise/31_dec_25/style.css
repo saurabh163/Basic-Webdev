@@ -2056,6 +2056,20 @@ input:focus{
 
 
 
+.fade-link{
+  opacity:.6;
+  transition:.3s;
+}
+.fade-link:hover{
+  opacity:1;
+}
+
+
+
+
+
+
+
 
 
 
