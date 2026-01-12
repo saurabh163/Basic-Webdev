@@ -1954,6 +1954,28 @@ input:focus{
 
 
 
+.rotate{
+  display:inline-block;
+  transition:.3s;
+}
+.rotate:hover{
+  transform:rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
