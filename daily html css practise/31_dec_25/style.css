@@ -2216,6 +2216,24 @@ input:focus{
 
 
 
+.sticky-title{
+  position:sticky;
+  top:10px;
+  background:white;
+  padding:12px;
+  z-index:10;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
