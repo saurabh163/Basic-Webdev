@@ -2091,6 +2091,33 @@ input:focus{
 
 
 
+.steps span{
+  width:32px;
+  height:32px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:#e5e7eb;
+  margin-right:8px;
+}
+.steps .active{
+  background:#6366f1;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
