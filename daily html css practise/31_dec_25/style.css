@@ -2174,6 +2174,31 @@ input:focus{
 
 
 
+.corner{
+  position:relative;
+  padding:30px;
+}
+.corner span{
+  position:absolute;
+  top:8px;
+  right:8px;
+  background:#ef4444;
+  color:white;
+  padding:4px 10px;
+  font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
