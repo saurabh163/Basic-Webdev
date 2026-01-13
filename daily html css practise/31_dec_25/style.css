@@ -2234,6 +2234,19 @@ input:focus{
 
 
 
+.swap-card{
+  padding:24px;
+  background:#f1f5f9;
+  transition:.3s;
+}
+.swap-card:hover{
+  background:#6366f1;
+  color:white;
+}
+
+
+
+
 
 
 
