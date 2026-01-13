@@ -2155,6 +2155,25 @@ input:focus{
 
 
 
+.tab{
+  padding:10px 20px;
+  border:none;
+  background:none;
+  border-bottom:2px solid transparent;
+}
+.tab.active{
+  border-color:#6366f1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
