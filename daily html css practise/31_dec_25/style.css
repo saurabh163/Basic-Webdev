@@ -2072,6 +2072,27 @@ input:focus{
 
 
 
+.expand-box{
+  max-height:40px;
+  overflow:hidden;
+  transition:.4s;
+}
+.expand-box:hover{
+  max-height:120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
