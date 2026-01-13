@@ -2199,6 +2199,23 @@ input:focus{
 
 
 
+.spread{
+  padding:24px;
+  transition:.3s;
+}
+.spread:hover{
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
