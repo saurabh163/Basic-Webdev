@@ -2277,6 +2277,30 @@ input:focus{
 
 
 
+.soft-line{
+  border:none;
+  height:1px;
+  background:#e5e7eb;
+}
+.soft-line:hover{
+  background:#6366f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
