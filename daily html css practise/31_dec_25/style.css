@@ -2377,6 +2377,12 @@ input:focus{
 
 
 
+.mini{
+  font-size:12px;
+  padding:4px 10px;
+  background:#fde68a;
+  border-radius:8px;
+}
 
 
 
