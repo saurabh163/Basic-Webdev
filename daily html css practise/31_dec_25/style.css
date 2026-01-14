@@ -2252,6 +2252,36 @@ input:focus{
 
 
 
+
+
+
+
+
+.counter{
+  background:#ecfeff;
+  color:#0369a1;
+  padding:8px 16px;
+  border-radius:999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
