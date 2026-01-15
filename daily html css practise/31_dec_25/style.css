@@ -2388,6 +2388,42 @@ input:focus{
 
 
 
+
+
+
+
+
+
+
+
+
+.border-glow{
+  padding:20px;
+  border:1px solid #e5e7eb;
+}
+.border-glow:hover{
+  border-color:#6366f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .foot{
   padding:20px;
   text-align:center;
