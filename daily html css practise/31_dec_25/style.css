@@ -2545,6 +2545,21 @@ input:focus{
 
 
 
+.reveal-box{
+  padding:18px 22px;
+  background:#f1f5f9;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.reveal-box span{
+  opacity:0;
+  transition:.3s;
+  color:#6366f1;
+}
+.reveal-box:hover span{
+  opacity:1;
+}
 
 
 
