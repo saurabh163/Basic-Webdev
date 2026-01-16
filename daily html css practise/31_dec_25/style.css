@@ -2601,6 +2601,23 @@ input:focus{
 
 
 
+.info-row{
+  padding:16px;
+  transition:.3s;
+}
+.info-row:hover{
+  background:#eef2ff;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
