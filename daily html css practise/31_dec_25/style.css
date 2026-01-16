@@ -2676,6 +2676,30 @@ input:focus{
 
 
 
+.scale-badge{
+  padding:6px 12px;
+  background:#fee2e2;
+  border-radius:999px;
+  transition:.3s;
+}
+.scale-badge:hover{
+  transform:scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
