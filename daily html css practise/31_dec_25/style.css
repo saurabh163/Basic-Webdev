@@ -2639,6 +2639,25 @@ input:focus{
 
 
 
+.fade-text{
+  opacity:.7;
+  transition:.3s;
+}
+.fade-text:hover{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
