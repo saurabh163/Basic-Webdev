@@ -2700,6 +2700,25 @@ input:focus{
 
 
 
+.color-shift{
+  padding:30px;
+  background:#e5e7eb;
+  transition:.3s;
+}
+.color-shift:hover{
+  background:#c7d2fe;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
