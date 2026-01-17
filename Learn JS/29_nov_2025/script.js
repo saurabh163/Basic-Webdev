@@ -843,3 +843,10 @@ function sayHello() {
 
 sayHello();
  
+
+
+// problem 61 //
+
+let Numbers = [1, 2, 3, 4];
+console.log(numbers);
+ 
