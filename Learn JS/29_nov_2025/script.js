@@ -858,3 +858,11 @@ let fruits = ["apple", "banana", "mango"];
 console.log(fruits.length);
  
 
+// problem 63 //
+
+let items = [1, 2];
+items.push(3);
+console.log(items);
+
+
+
