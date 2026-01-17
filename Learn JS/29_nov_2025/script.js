@@ -850,3 +850,11 @@ sayHello();
 let Numbers = [1, 2, 3, 4];
 console.log(numbers);
  
+
+
+// problem 62 //
+
+let fruits = ["apple", "banana", "mango"];
+console.log(fruits.length);
+ 
+
