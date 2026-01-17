@@ -595,3 +595,225 @@ let marks = 85;
   else 
     console.log(" Fail ");
  
+
+  // problem 42 //
+
+  let Mitrmandali = ["abhishek", "vaishnavi", "nikita", "saurah", "abhijeet"];
+
+for (let i = 0; i < Mitrmandali.length; i++) {
+  if (Mitrmandali[i].length > 4) {
+    console.log(Mitrmandali[i]);
+  }
+}
+
+// problem 43 //
+
+let Arr = [2, 4, 6, 8];
+let sum = 0;
+
+for (let i = 0; i < Arr.length; i++) {
+  sum += Arr[i];
+}
+console.log("Sum:", sum);
+
+
+// problem 44//
+
+function checkNumbers(nums) {
+
+    for (let i = 0; i < nums.length; i++) {
+        let n = nums[i];
+
+        if (n > 0) {
+            console.log(n + " is Positive");
+
+        } else if (n < 0) {
+            console.log(n + " is Negative");
+            
+        } else {
+            console.log(n + " is Zero");
+        }
+    }
+}
+
+checkNumbers([5, -2, 0, 10, -7]);
+
+
+// problem 45 //
+
+let marKs = 85; 
+
+ if (marKs >= 90) 
+    console.log(" Grade A ");
+
+  else if (marKs >= 75) 
+    console.log(" Grade B ");
+
+  else if (marKs >= 50) 
+    console.log(" Grade C ");
+
+  else 
+    console.log(" Fail ");
+ 
+
+  // problem 46 //
+
+  for (let i = 1; i <= 5; i++) {
+
+    if (i % 2 === 0) {
+        console.log(i + " is Even");
+
+    } else {
+        console.log(i + " is Odd");
+    }
+}
+
+
+// problem 47 //
+
+let carBrands = ["Tata", "BMW", "Audi", "Kia"];
+let searchCar = "Audi";
+let foundIndex = -1;
+
+for (let i = 0; i < carBrands.length; i++) {
+  if (carBrands[i] === searchCar) {
+    foundIndex = i;
+    break;
+  }
+}
+console.log("Index of", searchCar, "is:", foundIndex);
+
+
+// problem 48 //
+
+let RandomNums = [2, 3, 4, 5];
+let totalProduct = 1;
+
+for (let i = 0; i < RandomNums.length; i++) {
+  totalProduct *= RandomNums[i];
+}
+console.log("Product of all numbers:", totalProduct);
+
+
+// problem 49 //
+
+let numCollection = [12, 15, 7, 24, 33, 50];
+
+for (let i = 0; i < numCollection.length; i++) {
+  if (numCollection[i] % 2 !== 0) {
+    console.log("Odd number:", numCollection[i]);
+  }
+}
+
+
+// problem 50 //
+
+let fruitBasket = ["Apple", "Mango", "Banana"];
+let searchFruit = "Mango";
+
+if (fruitBasket.includes(searchFruit)) {
+  console.log(searchFruit, "is available ");
+} else {
+  console.log(searchFruit, "not found");
+}
+
+// problem 51 //
+
+function formatName() {
+  let input = document.getElementById("name");
+  let words = input.value.split(" ");
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length > 0) {
+      words[i] = words[i][0].toUpperCase() + words[i].substring(1).toLowerCase();
+    }
+  }
+  input.value = words.join(" ");
+  document.getElementById("result").innerText = "Formatted!";
+}
+
+// problem 52//
+function confirmEmail() {
+  let e1 = document.getElementById("email1").value;
+  let e2 = document.getElementById("email2").value;
+
+  if (e1 === "" || e2 === "") {
+    document.getElementById("msg").innerText = "Please fill both emails";
+    return false;
+  }
+
+  if (e1 !== e2) {
+    document.getElementById("msg").innerText = "Emails do not match";
+    return false;
+  }
+
+  document.getElementById("msg").innerText = "Emails match ";
+  return true;
+}
+
+// problem 53 //
+
+function highlightEmpty() {
+  let n = document.getElementById("n");
+  let e = document.getElementById("e");
+  let valid = true;
+
+  if (n.value === "") {
+    n.style.border = "2px solid red";
+    valid = false;
+  } else {
+    n.style.border = "2px solid green";
+  }
+
+  if (e.value === "") {
+    e.style.border = "2px solid red";
+    valid = false;
+  } else {
+    e.style.border = "2px solid green";
+  }
+
+  return valid;
+}
+
+
+// problem 54 //
+
+function showGender(ele) {
+  document.getElementById("msg").innerText = "Selected: " + ele.value;
+}
+
+
+//problem 55 //
+
+function limitText() {
+  let text = document.getElementById("bio").value;
+  if (text.length > 20) {
+    document.getElementById("msg").innerText = "Limit reached (20 chars max)!";
+    document.getElementById("bio").value = text.substring(0, 20);
+  } else {
+    document.getElementById("msg").innerText = text.length + "/20";
+  }
+}
+  
+
+// problem 56 //
+
+function checkPass() {
+  let pass = document.getElementById("pass").value;
+  let btn = document.getElementById("btn");
+
+  if (pass.length < 6) {
+    document.getElementById("msg").innerText = "Too short!";
+    btn.disabled = true;
+  } else {
+    document.getElementById("msg").innerText = "Looks strong!";
+    btn.disabled = false;
+  }
+}
+
+
+
+// problem 57 //
+
+console.log("Hello gys wlc back");
+
+
