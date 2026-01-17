@@ -877,3 +877,13 @@ if (num % 2 === 0) {
 }
 
 
+//  problem 65 //
+
+let i = 1;
+
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+ 
+
