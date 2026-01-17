@@ -866,3 +866,14 @@ console.log(items);
 
 
 
+// problem 64 //
+
+let nuM = 7;
+
+if (num % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+
