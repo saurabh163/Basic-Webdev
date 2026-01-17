@@ -817,3 +817,10 @@ function checkPass() {
 console.log("Hello gys wlc back");
 
 
+// problem 58 //
+
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+
