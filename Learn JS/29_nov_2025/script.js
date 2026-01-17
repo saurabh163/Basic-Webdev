@@ -835,3 +835,11 @@ if (age >= 18) {
 }
  
 
+// problem 60 //
+
+function sayHello() {
+  console.log("Hello Sir");
+}
+
+sayHello();
+ 
