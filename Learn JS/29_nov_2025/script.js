@@ -900,3 +900,11 @@ function isPositive(num) {
 console.log(isPositive(5));
 console.log(isPositive(-2));
  
+
+// problem 67 //
+
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+
