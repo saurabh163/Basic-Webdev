@@ -930,3 +930,12 @@ let arry = [10, 20, 30];
 console.log(arr[0]);
 
 
+// problem 71 //
+
+let fruitS = ["apple", "banana", "mango"];
+
+for (let i = 0; i < fruitS.length; i++) {
+  console.log(fruitS[i]);
+}
+
+
