@@ -950,3 +950,10 @@ if (NUm > 10) {
 }
  
 
+// problem 73 //
+
+let nums = [1, 2, 3, 4];
+
+console.log(nums.includes(3));
+
+
