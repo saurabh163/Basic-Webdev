@@ -915,3 +915,12 @@ for (let i = 2; i <= 10; i += 2) {
 }
 
 
+// problem 69 //
+
+function sum(a, b) {
+  console.log(a + b);
+}
+
+sum(5, 3);
+
+
