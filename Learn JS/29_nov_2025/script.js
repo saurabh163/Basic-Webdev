@@ -969,3 +969,10 @@ let city = "nagpur";
 console.log(city.toUpperCase());
 
 
+// problem 76 //
+
+const greet = () => {
+  console.log("Hello Sir");
+};
+
+greet();
