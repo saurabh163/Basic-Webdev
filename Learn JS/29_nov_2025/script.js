@@ -957,9 +957,15 @@ let nums = [1, 2, 3, 4];
 console.log(nums.includes(3));
 
 
-// problem //
+// problem 74 //
 
 let name = "Saurabh";
 console.log(name.length);
+
+
+// problem 75 //
+
+let city = "nagpur";
+console.log(city.toUpperCase());
 
 
