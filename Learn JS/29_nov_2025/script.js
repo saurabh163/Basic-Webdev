@@ -957,3 +957,9 @@ let nums = [1, 2, 3, 4];
 console.log(nums.includes(3));
 
 
+// problem //
+
+let name = "Saurabh";
+console.log(name.length);
+
+
