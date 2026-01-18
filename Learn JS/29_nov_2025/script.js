@@ -976,3 +976,16 @@ const greet = () => {
 };
 
 greet();
+
+
+// problem 77 //
+
+let data = [];
+
+if (data.length === 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
