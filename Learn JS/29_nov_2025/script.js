@@ -924,3 +924,9 @@ function sum(a, b) {
 sum(5, 3);
 
 
+// problem 70//
+
+let arry = [10, 20, 30];
+console.log(arr[0]);
+
+
