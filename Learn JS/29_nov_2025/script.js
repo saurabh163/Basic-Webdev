@@ -989,3 +989,11 @@ if (data.length === 0) {
 }
 
 
+// problem 78 //
+
+let nums = [1, 2, 3];
+nums.reverse();
+
+console.log(nums);
+ 
+
