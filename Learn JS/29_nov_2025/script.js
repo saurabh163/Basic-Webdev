@@ -908,3 +908,10 @@ for (let i = 1; i <= 5; i++) {
 }
 
 
+// problem 68 //
+
+for (let i = 2; i <= 10; i += 2) {
+  console.log(i);
+}
+
+
