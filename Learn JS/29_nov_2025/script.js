@@ -939,3 +939,14 @@ for (let i = 0; i < fruitS.length; i++) {
 }
 
 
+// problem 72  //
+
+let NUm = 12;
+
+if (NUm > 10) {
+  console.log("Greater than 10");
+} else {
+  console.log("10 or less");
+}
+ 
+
