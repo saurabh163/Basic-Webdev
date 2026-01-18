@@ -997,3 +997,11 @@ nums.reverse();
 console.log(nums);
  
 
+//problem 79 //
+
+function getLength(arr) {
+  return arr.length;
+}
+
+console.log(getLength([5, 6, 7, 8]));
+ 
