@@ -1029,3 +1029,12 @@ if (a > b) {
   console.log(b);
 }
 
+// problem 82 //
+
+let Colors = ["red", "green", "blue"];
+
+Colors.forEach(function(color) {
+  console.log(color);
+});
+
+
