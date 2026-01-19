@@ -1055,3 +1055,11 @@ function add(a, b) {
 console.log(add(4, 6));
 
 
+// problem 85 //
+
+let numb = 100;
+let str = numb.toString();
+
+console.log(str);
+
+
