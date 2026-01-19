@@ -1018,3 +1018,14 @@ if (nbr > 0) {
   console.log("Zero");
 }
 
+// problem 81 //
+
+let a = 10;
+let b = 20;
+
+if (a > b) {
+  console.log(a);
+} else {
+  console.log(b);
+}
+
