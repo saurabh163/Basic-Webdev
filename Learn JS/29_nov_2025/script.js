@@ -1063,3 +1063,10 @@ let str = numb.toString();
 console.log(str);
 
 
+// problem 86 //
+
+let Value = true;
+
+console.log(typeof Value);
+
+
