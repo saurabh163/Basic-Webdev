@@ -1070,3 +1070,10 @@ let Value = true;
 console.log(typeof Value);
 
 
+// problem 87 //
+
+let Items = [1, 2, 3, 4];
+items.pop();
+
+console.log(Items);
+
