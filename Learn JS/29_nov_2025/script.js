@@ -1077,3 +1077,12 @@ items.pop();
 
 console.log(Items);
 
+
+// problem 88 //
+
+let isOn = false;
+
+isOn = !isOn;
+
+console.log(isOn);
+
