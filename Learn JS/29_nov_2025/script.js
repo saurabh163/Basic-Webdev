@@ -1038,11 +1038,20 @@ Colors.forEach(function(color) {
 });
 
 
-// problem 82 //
+// problem 83 //
 
 let text = "JavaScript";
 let Count = text.length;
 
 console.log(Count);
+
+
+// problem 84 //
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(4, 6));
 
 
