@@ -991,10 +991,10 @@ if (data.length === 0) {
 
 // problem 78 //
 
-let nums = [1, 2, 3];
+let nuMS = [1, 2, 3];
 nums.reverse();
 
-console.log(nums);
+console.log(nuMS);
  
 
 //problem 79 //
@@ -1005,3 +1005,16 @@ function getLength(arr) {
 
 console.log(getLength([5, 6, 7, 8]));
  
+
+// problem 80 //
+
+let nbr = 0;
+
+if (nbr > 0) {
+  console.log("Positive");
+} else if (nbr < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
+
