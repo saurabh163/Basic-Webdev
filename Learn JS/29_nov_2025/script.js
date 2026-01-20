@@ -1160,3 +1160,11 @@ if (loginName === "user" && loginPin === "0000") {
 }
 
 
+// problem 96 //
+
+let rollNumbers = [2, 3, 4];
+rollNumbers.unshift(1);
+
+console.log(rollNumbers);
+
+
