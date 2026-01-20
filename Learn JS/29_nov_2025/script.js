@@ -1097,3 +1097,15 @@ for (let step = 1; step <= 10; step++) {
 }
 
 
+// problem 90 //
+
+let firstValue = 15;
+let secondValue = 9;
+
+if (firstValue > secondValue) {
+  console.log(firstValue);
+} else {
+  console.log(secondValue);
+}
+
+
