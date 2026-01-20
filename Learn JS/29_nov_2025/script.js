@@ -1168,3 +1168,10 @@ rollNumbers.unshift(1);
 console.log(rollNumbers);
 
 
+// problem 98 //
+
+for (let counter = 1; counter <= 10; counter += 2) {
+  console.log(counter);
+}
+ 
+
