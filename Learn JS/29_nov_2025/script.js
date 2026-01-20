@@ -1148,3 +1148,15 @@ let lastCity = cityNames[cityNames.length - 1];
 console.log(lastCity);
 
 
+// problem 95 //
+
+let loginName = "user";
+let loginPin = "0000";
+
+if (loginName === "user" && loginPin === "0000") {
+  console.log("Access Granted");
+} else {
+  console.log("Access Denied");
+}
+
+
