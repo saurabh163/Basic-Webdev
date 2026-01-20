@@ -1132,3 +1132,11 @@ if (userinput === "") {
 }
 
 
+// problem 93 //
+
+let marksText = "80";
+let marksNumber = Number(marksText);
+
+console.log(marksNumber);
+
+
