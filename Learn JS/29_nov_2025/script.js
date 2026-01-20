@@ -1121,3 +1121,14 @@ for (let index = 0; index < scoreList.length; index++) {
 console.log(totalCount);
  
 
+// problem 92 //
+
+let userinput = "";
+
+if (userinput === "") {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
