@@ -1140,3 +1140,11 @@ let marksNumber = Number(marksText);
 console.log(marksNumber);
 
 
+// problem 94 //
+
+let cityNames = ["Nagpur", "Pune", "Mumbai"];
+
+let lastCity = cityNames[cityNames.length - 1];
+console.log(lastCity);
+
+
