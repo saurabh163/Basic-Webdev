@@ -1109,3 +1109,15 @@ if (firstValue > secondValue) {
 }
 
 
+// problem 91 //
+
+let scoreList = [10, 20, 30];
+let totalCount = 0;
+
+for (let index = 0; index < scoreList.length; index++) {
+  totalCount++;
+}
+
+console.log(totalCount);
+ 
+
