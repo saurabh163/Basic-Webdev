@@ -1086,3 +1086,14 @@ isOn = !isOn;
 
 console.log(isOn);
 
+
+
+// problem 89 //
+
+let multiplier = 3;
+
+for (let step = 1; step <= 10; step++) {
+  console.log(multiplier + " x " + step + " = " + (multiplier * step));
+}
+
+
