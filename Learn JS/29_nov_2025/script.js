@@ -1175,3 +1175,11 @@ for (let counter = 1; counter <= 10; counter += 2) {
 }
  
 
+// problem 99 //
+
+let tempResult;
+
+if (tempResult === undefined) {
+  console.log("Value is undefined");
+}
+ 
