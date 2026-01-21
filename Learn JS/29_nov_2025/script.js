@@ -1202,3 +1202,14 @@ if (testValue % 5 === 0) {
 }
 
 
+// problem 102 //
+
+let totalMarks = [60, 70, 80];
+let sumMarks = 0;
+
+for (let position = 0; position < totalMarks.length; position++) {
+  sumMarks += totalMarks[position];
+}
+
+let averageMarks = sumMarks / totalMarks.length;
+console.log(averageMarks);
