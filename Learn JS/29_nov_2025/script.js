@@ -1183,3 +1183,10 @@ if (tempResult === undefined) {
   console.log("Value is undefined");
 }
  
+
+// problem 100 //
+
+for (let countdown = 5; countdown >= 1; countdown--) {
+  console.log(countdown);
+}
+
