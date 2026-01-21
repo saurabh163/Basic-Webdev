@@ -1223,3 +1223,14 @@ let statusText = loginStatus.toString();
 console.log(statusText);
 
 
+// roblem 104 //
+
+let messageText = "Learning JavaScript is easy";
+
+if (messageText.includes("JavaScript")) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
