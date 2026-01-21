@@ -1190,3 +1190,15 @@ for (let countdown = 5; countdown >= 1; countdown--) {
   console.log(countdown);
 }
 
+
+// problem 101 //
+
+let testValue = 25;
+
+if (testValue % 5 === 0) {
+  console.log("Multiple of 5");
+} else {
+  console.log("Not a multiple of 5");
+}
+
+
