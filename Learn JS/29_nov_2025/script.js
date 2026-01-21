@@ -1213,3 +1213,13 @@ for (let position = 0; position < totalMarks.length; position++) {
 
 let averageMarks = sumMarks / totalMarks.length;
 console.log(averageMarks);
+
+
+// problem 103 //
+
+let loginStatus = true;
+let statusText = loginStatus.toString();
+
+console.log(statusText);
+
+
