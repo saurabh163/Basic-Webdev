@@ -1265,3 +1265,47 @@ function checkResult(marks) {
 checkResult(0);  
 checkResult(25); 
 checkResult(60);  
+
+
+// problem 107 //
+
+function calculateGrade(marks) {
+
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else if (marks <= 50) {
+    console.log("Grade: C");
+  } 
+
+  else if (marks <= 75) {
+    console.log("Grade: B");
+  } 
+
+  else if (marks <= 90) {
+    console.log("Grade: A");
+  } 
+
+  else if (marks <= 100) {
+    console.log("Grade: A+");
+  } 
+
+  else {
+    console.log("Marks cannot be more than 100");
+  }
+}
+
+// function use krun output bgn //
+calculateGrade(-5);   
+calculateGrade(20);   
+calculateGrade(40);   
+calculateGrade(65);   
+calculateGrade(85);   
+calculateGrade(95);   
+calculateGrade(120);  
+
