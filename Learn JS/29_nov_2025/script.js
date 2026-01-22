@@ -1243,3 +1243,25 @@ for (let step = 1; step <= 10; step++) {
 } 
 
 
+// problem 106 /
+
+function checkResult(marks) {
+  
+  if (marks <= 0) {
+    console.log("Invalid Marks");
+  } 
+
+  else if (marks < 35) {
+    console.log("Fail");
+  } 
+
+  else {
+    console.log("Pass");
+  }
+}
+
+// function calls kiya gaya// 
+
+checkResult(0);  
+checkResult(25); 
+checkResult(60);  
