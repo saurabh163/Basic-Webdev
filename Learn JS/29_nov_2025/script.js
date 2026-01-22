@@ -1234,3 +1234,12 @@ if (messageText.includes("JavaScript")) {
 }
 
 
+// roblem 105 //
+
+let multiply = 3;
+
+for (let step = 1; step <= 10; step++) {
+  console.log(multiply + " x " + step + " = " + (multiply * step));
+} 
+
+
