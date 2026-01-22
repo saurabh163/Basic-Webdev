@@ -1313,7 +1313,7 @@ calculateGrade(120);
 
 // problem 109//
 
-function calculateDiscount(amount) 
+function  (amount) 
 {
   if (amount <= 0) {
     console.log("Invalid Amount");
@@ -1352,3 +1352,24 @@ calculateDiscount(6000);
 
 
 
+// problem 110 //
+
+function checkNumber(num) {
+
+  num = Number(num);
+
+  if (num > 0) {
+    console.log("Number is positive");
+
+  } else if (num < 0) {
+    console.log("Number is negative");
+
+  } else {
+    console.log("Number is zero");
+  }
+}
+
+let UserInput = prompt("Enter a number:");
+
+// Call function with input//
+checkNumber(userInput);
