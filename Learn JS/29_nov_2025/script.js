@@ -1422,3 +1422,11 @@ if (itemCollection.length > 3) {
 }
 
 
+//problem 116 //
+
+let scoreValue = 1;
+let booleanResult = Boolean(scoreValue);
+
+console.log(booleanResult);
+
+
