@@ -1446,3 +1446,15 @@ queueList.shift();
 console.log(queueList);
  
 
+// problem 119 //
+
+let firstWord = "js";
+let secondWord = "js";
+
+if (firstWord === secondWord) {
+  console.log("Same");
+} else {
+  console.log("Different");
+}
+ 
+
