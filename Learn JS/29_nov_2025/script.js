@@ -1382,3 +1382,14 @@ for (let stepCount = 1; stepCount <= 3; stepCount++) {
 }
 
 
+// problem 112 //
+
+let checkValue = 0;
+
+if (checkValue === 0) {
+  console.log("Zero");
+} else {
+  console.log("Not Zero");
+}
+
+
