@@ -1430,3 +1430,11 @@ let booleanResult = Boolean(scoreValue);
 console.log(booleanResult);
 
 
+// problem 117 //
+
+let nameList = ["Ram", "Shyam", "Aman"];
+
+let FoundIndex = nameList.indexOf("Shyam");
+console.log(FoundIndex);
+
+
