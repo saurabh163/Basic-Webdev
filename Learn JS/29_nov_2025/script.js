@@ -1438,3 +1438,11 @@ let FoundIndex = nameList.indexOf("Shyam");
 console.log(FoundIndex);
 
 
+// problem 118 //
+
+let queueList = [10, 20, 30];
+queueList.shift();
+
+console.log(queueList);
+ 
+
