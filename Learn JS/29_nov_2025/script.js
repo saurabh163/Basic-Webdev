@@ -1313,7 +1313,7 @@ calculateGrade(120);
 
 // problem 109//
 
-function  (amount) 
+function discount (amount) 
 {
   if (amount <= 0) {
     console.log("Invalid Amount");
@@ -1373,3 +1373,12 @@ let UserInput = prompt("Enter a number:");
 
 // Call function with input//
 checkNumber(userInput);
+
+
+// problem 111 //
+
+for (let stepCount = 1; stepCount <= 3; stepCount++) {
+  console.log(stepCount);
+}
+
+
