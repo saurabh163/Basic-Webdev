@@ -1402,3 +1402,12 @@ function addValues(firstNum, secondNum) {
 console.log(addValues(4, 6));
 
 
+// problem 114 //
+
+let sampleText = "Hello";
+
+for (let charIndex = 0; charIndex < sampleText.length; charIndex++) {
+  console.log(sampleText[charIndex]);
+}
+
+
