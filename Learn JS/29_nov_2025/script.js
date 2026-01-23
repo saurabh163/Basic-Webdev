@@ -1411,3 +1411,14 @@ for (let charIndex = 0; charIndex < sampleText.length; charIndex++) {
 }
 
 
+// problem 115 //
+
+let itemCollection = [1, 2, 3, 4];
+
+if (itemCollection.length > 3) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
