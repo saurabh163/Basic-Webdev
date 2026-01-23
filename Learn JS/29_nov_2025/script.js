@@ -1393,3 +1393,12 @@ if (checkValue === 0) {
 }
 
 
+// problem 113 //
+
+function addValues(firstNum, secondNum) {
+  return firstNum + secondNum;
+}
+
+console.log(addValues(4, 6));
+
+
