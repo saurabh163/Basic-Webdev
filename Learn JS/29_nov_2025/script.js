@@ -1501,3 +1501,19 @@ for (let i = originalText.length - 1; i >= 0; i--) {
 console.log(reversedText);
 
 
+// problem 123 //
+
+let wordInput = "madam";
+let reversedWord = "";
+
+for (let i = wordInput.length - 1; i >= 0; i--) {
+  reversedWord += wordInput[i];
+}
+
+if (wordInput === reversedWord) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
