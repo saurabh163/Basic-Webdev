@@ -1529,3 +1529,18 @@ for (let step = 0; step < valueBucket.length; step++) {
 console.log(totalSum);
 
 
+
+// problem 125 //
+
+let mixedValues = [1, 2, 2, 3, 1];
+let uniqueValues = [];
+
+for (let k = 0; k < mixedValues.length; k++) {
+  if (!uniqueValues.includes(mixedValues[k])) {
+    uniqueValues.push(mixedValues[k]);
+  }
+}
+
+console.log(uniqueValues);
+
+
