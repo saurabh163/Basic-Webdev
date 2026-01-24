@@ -1557,3 +1557,18 @@ for (let count = 1; count <= factorialNumber; count++) {
 console.log(factorialResult);
  
 
+// problem 127 //
+
+let primeCandidate = 7;
+let isPrimeFlag = true;
+
+for (let div = 2; div < primeCandidate; div++) {
+  if (primeCandidate % div === 0) {
+    isPrimeFlag = false;
+    break;
+  }
+}
+
+console.log(isPrimeFlag);
+
+
