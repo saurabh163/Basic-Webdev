@@ -1489,3 +1489,15 @@ console.log(vowelTotal);
 
 
 
+// problem 122 //
+
+let originalText = "hello";
+let reversedText = "";
+
+for (let i = originalText.length - 1; i >= 0; i--) {
+  reversedText += originalText[i];
+}
+
+console.log(reversedText);
+
+
