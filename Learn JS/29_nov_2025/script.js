@@ -1458,3 +1458,17 @@ if (firstWord === secondWord) {
 }
  
 
+// problem 120 //
+
+let numberSet = [12, 45, 7, 30];
+let largestValue = numberSet[0];
+
+for (let idx = 1; idx < numberSet.length; idx++) {
+  if (numberSet[idx] > largestValue) {
+    largestValue = numberSet[idx];
+  }
+}
+
+console.log(largestValue);
+
+
