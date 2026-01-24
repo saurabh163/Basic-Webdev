@@ -1517,3 +1517,15 @@ if (wordInput === reversedWord) {
 }
 
 
+// problem 124 //
+
+let valueBucket = [5, 10, 15];
+let totalSum = 0;
+
+for (let step = 0; step < valueBucket.length; step++) {
+  totalSum += valueBucket[step];
+}
+
+console.log(totalSum);
+
+
