@@ -1593,3 +1593,16 @@ for (let p = 0; p < scoreArray.length; p++) {
 console.log(secondLargestScore);
  
 
+// problem 129 //
+
+let sortedCheckList = [1, 2, 3, 4];
+let isSortedFlag = true;
+
+for (let i = 0; i < sortedCheckList.length - 1; i++) {
+  if (sortedCheckList[i] > sortedCheckList[i + 1]) {
+    isSortedFlag = false;
+    break;
+  }
+}
+
+console.log(isSortedFlag);
