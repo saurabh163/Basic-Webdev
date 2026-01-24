@@ -1472,3 +1472,20 @@ for (let idx = 1; idx < numberSet.length; idx++) {
 console.log(largestValue);
 
 
+// problem 121 //
+
+let textLine = "javascript";
+let vowelTotal = 0;
+
+for (let pos = 0; pos < textLine.length; pos++) {
+  let letter = textLine[pos];
+
+  if ("aeiou".includes(letter)) {
+    vowelTotal++;
+  }
+}
+
+console.log(vowelTotal);
+
+
+
