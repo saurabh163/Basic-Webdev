@@ -1544,3 +1544,16 @@ for (let k = 0; k < mixedValues.length; k++) {
 console.log(uniqueValues);
 
 
+
+// problem 126 //
+
+let factorialNumber = 5;
+let factorialResult = 1;
+
+for (let count = 1; count <= factorialNumber; count++) {
+  factorialResult *= count;
+}
+
+console.log(factorialResult);
+ 
+
