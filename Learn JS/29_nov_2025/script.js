@@ -1572,3 +1572,24 @@ for (let div = 2; div < primeCandidate; div++) {
 console.log(isPrimeFlag);
 
 
+// problem 128 //
+
+let scoreArray = [10, 40, 30, 20];
+let largestScore = -Infinity;
+let secondLargestScore = -Infinity;
+
+for (let p = 0; p < scoreArray.length; p++) {
+  if (scoreArray[p] > largestScore) {
+    secondLargestScore = largestScore;
+    largestScore = scoreArray[p];
+  } else if (
+    scoreArray[p] > secondLargestScore &&
+    scoreArray[p] !== largestScore
+  ) {
+    secondLargestScore = scoreArray[p];
+  }
+}
+
+console.log(secondLargestScore);
+ 
+
