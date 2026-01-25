@@ -1706,3 +1706,17 @@ for (let i = 0; i < wordData.length; i++) {
 console.log(vowelCount);
  
 
+// problem 138 //
+
+let numS = [-2, 4, -1, 5];
+let positives = [];
+
+for (let i = 0; i < numS.length; i++) {
+  if (numS[i] >= 0) {
+    positives.push(numS[i]);
+  }
+}
+
+console.log(positives);
+ 
+
