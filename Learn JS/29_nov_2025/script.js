@@ -1653,3 +1653,17 @@ for (let i = inputList.length - 1; i >= 0; i--) {
 console.log(reversedList);
 
 
+// problem 134 //
+
+let numberBox = [1, 2, 3, 4, 5, 6];
+let evenSum = 0;
+
+for (let i = 0; i < numberBox.length; i++) {
+  if (numberBox[i] % 2 === 0) {
+    evenSum += numberBox[i];
+  }
+}
+
+console.log(evenSum);
+
+
