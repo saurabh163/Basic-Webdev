@@ -1679,3 +1679,16 @@ for (let i = textValue.length - 1; i >= 0; i--) {
 console.log(textValue === reverseText);
 
 
+// problem 136 //
+
+let MarksList = [60, 70, 80];
+let ToTal = 0;
+
+for (let i = 0; i < MarksList.length; i++) {
+  ToTal += MarksList[i];
+}
+
+let avg = ToTal / MarksList.length;
+console.log(avg);
+
+
