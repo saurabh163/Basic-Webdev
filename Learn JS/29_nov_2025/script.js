@@ -1720,3 +1720,19 @@ for (let i = 0; i < numS.length; i++) {
 console.log(positives);
  
 
+// problem 139 //
+
+let listData = [10, 20, 30];
+let searchValue = 20;
+let Foundindex = -1;
+
+for (let i = 0; i < listData.length; i++) {
+  if (listData[i] === searchValue) {
+    Foundindex = i;
+    break;
+  }
+}
+
+console.log(Foundindex);
+
+
