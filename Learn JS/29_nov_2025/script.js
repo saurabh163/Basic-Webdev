@@ -1641,3 +1641,15 @@ for (let i = 0; i < values.length; i++) {
 console.log(positiveCount);
 
 
+// problem 132 //
+
+let inputList = [1, 2, 3];
+let reversedList = [];
+
+for (let i = inputList.length - 1; i >= 0; i--) {
+  reversedList.push(inputList[i]);
+}
+
+console.log(reversedList);
+
+
