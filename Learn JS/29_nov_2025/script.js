@@ -1692,3 +1692,17 @@ let avg = ToTal / MarksList.length;
 console.log(avg);
 
 
+// problem 137 //
+
+let wordData = "javascript";
+let vowelCount = 0;
+
+for (let i = 0; i < wordData.length; i++) {
+  if ("aeiou".includes(wordData[i])) {
+    vowelCount++;
+  }
+}
+
+console.log(vowelCount);
+ 
+
