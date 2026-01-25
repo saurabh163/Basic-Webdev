@@ -1667,3 +1667,15 @@ for (let i = 0; i < numberBox.length; i++) {
 console.log(evenSum);
 
 
+// problem 135 //
+
+let textValue = "level";
+let reverseText = "";
+
+for (let i = textValue.length - 1; i >= 0; i--) {
+  reverseText += textValue[i];
+}
+
+console.log(textValue === reverseText);
+
+
