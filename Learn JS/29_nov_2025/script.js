@@ -1606,3 +1606,24 @@ for (let i = 0; i < sortedCheckList.length - 1; i++) {
 }
 
 console.log(isSortedFlag);
+
+
+// problem 130 //
+
+let aValue = 10;
+let bValue = 25;
+let cValue = 15;
+
+let biggest = aValue;
+
+if (bValue > biggest) {
+  biggest = bValue;
+}
+
+if (cValue > biggest) {
+  biggest = cValue;
+}
+
+console.log(biggest);
+ 
+
