@@ -1736,3 +1736,10 @@ for (let i = 0; i < listData.length; i++) {
 console.log(Foundindex);
 
 
+// problem 140 //
+
+let nameText = "saurabh";
+let result =
+  nameText[0].toUpperCase() + nameText.slice(1);
+
+console.log(result);
