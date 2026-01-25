@@ -1627,3 +1627,17 @@ if (cValue > biggest) {
 console.log(biggest);
  
 
+// problem 131 //
+
+let values = [2, -1, 5, -3, 4];
+let positiveCount = 0;
+
+for (let i = 0; i < values.length; i++) {
+  if (values[i] > 0) {
+    positiveCount++;
+  }
+}
+
+console.log(positiveCount);
+
+
