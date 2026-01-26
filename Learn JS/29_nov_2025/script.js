@@ -1743,3 +1743,19 @@ let result =
   nameText[0].toUpperCase() + nameText.slice(1);
 
 console.log(result);
+
+
+// problem 141 //
+
+let digitList = [1, 2, 3, 4, 5, 6];
+let oddTotal = 0;
+
+for (let i = 0; i < digitList.length; i++) {
+  if (digitList[i] % 2 !== 0) {
+    oddTotal++;
+  }
+}
+
+console.log(oddTotal);
+ 
+
