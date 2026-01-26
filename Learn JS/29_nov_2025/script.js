@@ -1841,3 +1841,19 @@ console.log(resultWord);
 
 
 
+// problem 148 //
+
+let testArray = [2, 5, 8, 1];
+let allPositive = true;
+
+for (let i = 0; i < testArray.length; i++) {
+  if (testArray[i] < 0) {
+    allPositive = false;
+    break;
+  }
+}
+
+console.log(allPositive);
+
+
+
