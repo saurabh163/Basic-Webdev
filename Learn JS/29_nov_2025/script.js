@@ -1827,3 +1827,17 @@ for (let i = 0; i < sentenceLine.length; i++) {
 console.log(spaceCount);
 
 
+
+// problem 147 //
+
+let wordSample = "coding";
+
+let resultWord =
+  wordSample[0].toUpperCase() +
+  wordSample.slice(1, wordSample.length - 1) +
+  wordSample[wordSample.length - 1].toUpperCase();
+
+console.log(resultWord);
+
+
+
