@@ -1759,3 +1759,17 @@ for (let i = 0; i < digitList.length; i++) {
 console.log(oddTotal);
  
 
+// problem 142 //
+
+let dataBox = [12, 4, 20, 7];
+let smallest = dataBox[0];
+
+for (let i = 1; i < dataBox.length; i++) {
+  if (dataBox[i] < smallest) {
+    smallest = dataBox[i];
+  }
+}
+
+console.log(smallest);
+
+
