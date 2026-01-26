@@ -1813,3 +1813,17 @@ for (let i = 0; i < numberLine.length; i++) {
 console.log(resultList);
 
 
+// problem 146 //
+
+let sentenceLine = "I love Niks";
+let spaceCount = 0;
+
+for (let i = 0; i < sentenceLine.length; i++) {
+  if (sentenceLine[i] === " ") {
+    spaceCount++;
+  }
+}
+
+console.log(spaceCount);
+
+
