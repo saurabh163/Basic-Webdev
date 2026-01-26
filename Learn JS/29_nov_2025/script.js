@@ -1788,3 +1788,13 @@ for (let i = 0; i < inputText.length; i++) {
 console.log(hasDigit);
 
 
+// problem 144 //
+
+let firstList = [1, 2];
+let secondList = [3, 4];
+
+let mergedList = firstList.concat(secondList);
+
+console.log(mergedList);
+
+
