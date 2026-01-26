@@ -1773,3 +1773,18 @@ for (let i = 1; i < dataBox.length; i++) {
 console.log(smallest);
 
 
+// problem 143 //
+
+let inputText = "abc123";
+let hasDigit = false;
+
+for (let i = 0; i < inputText.length; i++) {
+  if (inputText[i] >= "0" && inputText[i] <= "9") {
+    hasDigit = true;
+    break;
+  }
+}
+
+console.log(hasDigit);
+
+
