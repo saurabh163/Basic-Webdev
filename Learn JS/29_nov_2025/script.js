@@ -1798,3 +1798,18 @@ let mergedList = firstList.concat(secondList);
 console.log(mergedList);
 
 
+// problem 145 //
+
+let numberLine = [1, 2, 3, 4];
+let removeItem = 3;
+let resultList = [];
+
+for (let i = 0; i < numberLine.length; i++) {
+  if (numberLine[i] !== removeItem) {
+    resultList.push(numberLine[i]);
+  }
+}
+
+console.log(resultList);
+
+
