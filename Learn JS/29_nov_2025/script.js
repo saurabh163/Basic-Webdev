@@ -1909,5 +1909,12 @@ console.log(isSame);
 
 
 
+// problem 152 //
+
+let messageLine = "I Love Niks";
+
+let resultLine = messageLine.split(" ").join("-");
+
+console.log(resultLine);
 
 
