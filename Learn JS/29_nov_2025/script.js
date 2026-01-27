@@ -1968,3 +1968,16 @@ for (let i = startNum; i <= endNum; i++) {
 console.log(rangeList);
 
 
+// problem 157 //
+
+let firstData = 5;
+let secondData = 10;
+
+let tempStore = firstData;
+firstData = secondData;
+secondData = tempStore;
+
+console.log(firstData, secondData);
+
+
+
