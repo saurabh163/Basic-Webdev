@@ -1981,3 +1981,18 @@ console.log(firstData, secondData);
 
 
 
+// problem 158 //
+
+let sampleWord = "banana";
+let targetLetter = "a";
+let countTimes = 0;
+
+for (let i = 0; i < sampleWord.length; i++) {
+  if (sampleWord[i] === targetLetter) {
+    countTimes++;
+  }
+}
+
+console.log(countTimes);
+
+
