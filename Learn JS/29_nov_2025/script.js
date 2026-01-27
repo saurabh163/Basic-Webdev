@@ -1918,3 +1918,15 @@ let resultLine = messageLine.split(" ").join("-");
 console.log(resultLine);
 
 
+// problem 153 //
+
+let dataValues = [2, 3, 4];
+let productResult = 1;
+
+for (let i = 0; i < dataValues.length; i++) {
+  productResult *= dataValues[i];
+}
+
+console.log(productResult);
+
+
