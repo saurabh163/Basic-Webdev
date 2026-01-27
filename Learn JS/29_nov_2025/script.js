@@ -1857,3 +1857,24 @@ console.log(allPositive);
 
 
 
+/// problem 149 //
+
+let numberList = [8, 3, 5, 1];
+let smallestVal = Infinity;
+let secondSmallestVal = Infinity;
+
+for (let i = 0; i < numberList.length; i++) {
+  if (numberList[i] < smallestVal) {
+    secondSmallestVal = smallestVal;
+    smallestVal = numberList[i];
+  } else if (
+    numberList[i] < secondSmallestVal &&
+    numberList[i] !== smallestVal
+  ) {
+    secondSmallestVal = numberList[i];
+  }
+}
+
+console.log(secondSmallestVal);
+
+
