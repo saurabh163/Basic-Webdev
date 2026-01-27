@@ -1955,3 +1955,16 @@ let startLetter = "J";
 console.log(wordText.startsWith(startLetter));
  
 
+// problem 156 //
+
+let startNum = 1;
+let endNum = 5;
+let rangeList = [];
+
+for (let i = startNum; i <= endNum; i++) {
+  rangeList.push(i);
+}
+
+console.log(rangeList);
+
+
