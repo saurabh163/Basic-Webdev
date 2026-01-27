@@ -1878,3 +1878,20 @@ for (let i = 0; i < numberList.length; i++) {
 console.log(secondSmallestVal);
 
 
+// problem 150 //
+
+let textData = "HeLLo";
+
+let upperCount = 0;
+
+for (let i = 0; i < textData.length; i++) {
+  if (textData[i] >= "A" && textData[i] <= "Z") {
+    upperCount++;
+  }
+}
+
+console.log(upperCount);
+
+
+
+
