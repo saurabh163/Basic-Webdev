@@ -1893,5 +1893,21 @@ for (let i = 0; i < textData.length; i++) {
 console.log(upperCount);
 
 
+// problem 151 //
+
+let numSeries = [1, 2, 1];
+let isSame = true;
+
+for (let i = 0; i < numSeries.length / 2; i++) {
+  if (numSeries[i] !== numSeries[numSeries.length - 1 - i]) {
+    isSame = false;
+    break;
+  }
+}
+
+console.log(isSame);
+
+
+
 
 
