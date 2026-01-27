@@ -1930,3 +1930,20 @@ for (let i = 0; i < dataValues.length; i++) {
 console.log(productResult);
 
 
+// problem 154 //
+
+let numbers = [10, 200, 5];
+let longestNum = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (
+    numbers[i].toString().length >
+    longestNum.toString().length
+  ) {
+    longestNum = numbers[i];
+  }
+}
+
+console.log(longestNum);
+
+
