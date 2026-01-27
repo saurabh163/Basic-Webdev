@@ -1947,3 +1947,11 @@ for (let i = 1; i < numbers.length; i++) {
 console.log(longestNum);
 
 
+// problem 155 //
+
+let wordText = "JavaScript";
+let startLetter = "J";
+
+console.log(wordText.startsWith(startLetter));
+ 
+
