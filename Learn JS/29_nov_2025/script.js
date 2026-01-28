@@ -2065,3 +2065,13 @@ for (let i = 1; i <= 5; i++) {
 }
 
 
+// problem 162 //
+
+for (let i = 1; i <= 10; i++) {
+
+    if (i % 3 === 0) {
+        console.log(i + " is divisible by 3");  
+    } else {
+        console.log(i + " is not divisible by 3");
+    }
+}
