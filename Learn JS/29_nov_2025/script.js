@@ -2108,3 +2108,8 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// problem 165 //
+
+let Color = ["Red", "Green", "Blue"];
+
+console.log("Array length is:", Color.length);
