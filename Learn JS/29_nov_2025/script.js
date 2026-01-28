@@ -1932,15 +1932,15 @@ console.log(productResult);
 
 // problem 154 //
 
-let numbers = [10, 200, 5];
-let longestNum = numbers[0];
+let numbErs = [10, 200, 5];
+let longestNum = numbErs[0];
 
-for (let i = 1; i < numbers.length; i++) {
+for (let i = 1; i < numbErs.length; i++) {
   if (
-    numbers[i].toString().length >
+    numbErs[i].toString().length >
     longestNum.toString().length
   ) {
-    longestNum = numbers[i];
+    longestNum = numbErs[i];
   }
 }
 
@@ -1994,5 +1994,20 @@ for (let i = 0; i < sampleWord.length; i++) {
 }
 
 console.log(countTimes);
+
+
+// problem 159 //
+
+let Age = prompt("18");
+
+
+age = Number(Age);
+
+if (Age >= 18) {
+    console.log("You can drive.");
+
+} else {
+    console.log("You cannot drive yet.");
+}
 
 
