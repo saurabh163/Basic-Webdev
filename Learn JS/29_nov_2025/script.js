@@ -2075,3 +2075,27 @@ for (let i = 1; i <= 10; i++) {
         console.log(i + " is not divisible by 3");
     }
 }
+
+
+// problem 163 //
+
+let studentName = "Ravi";
+let AGe = 17;
+let mark = 55;
+
+console.log("Checking eligibility for: " + studentName);
+
+if (AGe >= 18 && mark >= 50) {
+    console.log("Student can appear for exam");
+
+} else if (AGe < 18 && mark >= 50) { 
+    console.log("Student too young");
+
+} else if (AGe >= 18 && mark < 50) {
+    console.log("Student failed");
+
+} else {
+    console.log("Student too young and failed");
+}
+
+
