@@ -2099,3 +2099,12 @@ if (AGe >= 18 && mark >= 50) {
 }
 
 
+// problem 164 //
+
+let Num = 7;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(Num + " x " + i + " = " + (Num * i)); 
+}
+
+
