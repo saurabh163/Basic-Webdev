@@ -2113,3 +2113,16 @@ for (let i = 1; i <= 10; i++) {
 let Color = ["Red", "Green", "Blue"];
 
 console.log("Array length is:", Color.length);
+
+
+// problem  166  //
+
+let N = 12;
+
+if (N % 4 === 0) {
+    console.log("Even Number");
+    
+} else {
+    console.log("Odd Number");
+}
+
