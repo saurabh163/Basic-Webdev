@@ -2126,3 +2126,18 @@ if (N % 4 === 0) {
     console.log("Odd Number");
 }
 
+
+// problem 167 //
+
+let inputValue = 4567;
+let digitCount = 0;
+
+while (inputValue > 0) {
+  inputValue = Math.floor(inputValue / 10);
+  digitCount++;
+}
+
+console.log(digitCount);
+
+
+
