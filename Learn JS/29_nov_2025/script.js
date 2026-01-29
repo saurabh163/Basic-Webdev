@@ -2168,4 +2168,16 @@ console.log(avgLength);
 
 
 
+// problem 170 //
+
+let numericList = [1, 2, 3];
+let stringList = [];
+
+for (let i = 0; i < numericList.length; i++) {
+  stringList.push(numericList[i].toString());
+}
+
+console.log(stringList);
+ 
+
 
