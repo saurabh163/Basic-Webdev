@@ -2154,4 +2154,18 @@ while (tempNum > 0) {
 console.log(originalNum === reverseNum);
  
 
+// problem 169 //
+
+let wordArray = ["hi", "hello", "bye"];
+let totalLength = 0;
+
+for (let i = 0; i < wordArray.length; i++) {
+  totalLength += wordArray[i].length;
+}
+
+let avgLength = totalLength / wordArray.length;
+console.log(avgLength);
+
+
+
 
