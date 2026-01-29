@@ -2180,4 +2180,18 @@ for (let i = 0; i < numericList.length; i++) {
 console.log(stringList);
  
 
+// problem 171 //
+
+let dataSet = [0, 1, 0, 2, 3];
+let cleanList = [];
+
+for (let i = 0; i < dataSet.length; i++) {
+  if (dataSet[i] !== 0) {
+    cleanList.push(dataSet[i]);
+  }
+}
+
+console.log(cleanList);
+
+
 
