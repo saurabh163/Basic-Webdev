@@ -2213,4 +2213,19 @@ for (let i = 0; i < testText.length; i++) {
 console.log(onlyLetters);
 
 
+// problen 173 //
+
+let firstArr = [1, 2, 3];
+let secondArr = [2, 3, 4];
+let commonList = [];
+
+for (let i = 0; i < firstArr.length; i++) {
+  if (secondArr.includes(firstArr[i])) {
+    commonList.push(firstArr[i]);
+  }
+}
+
+console.log(commonList);
+
+
 
