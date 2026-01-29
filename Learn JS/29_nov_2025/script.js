@@ -2140,4 +2140,18 @@ while (inputValue > 0) {
 console.log(digitCount);
 
 
+// problem 168 //
+
+let originalNum = 121;
+let tempNum = originalNum;
+let reverseNum = 0;
+
+while (tempNum > 0) {
+  reverseNum = reverseNum * 10 + (tempNum % 10);
+  tempNum = Math.floor(tempNum / 10);
+}
+
+console.log(originalNum === reverseNum);
+ 
+
 
