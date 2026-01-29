@@ -2194,4 +2194,23 @@ for (let i = 0; i < dataSet.length; i++) {
 console.log(cleanList);
 
 
+// problem 172 //
+
+let testText = "Hello";
+
+let onlyLetters = true;
+
+for (let i = 0; i < testText.length; i++) {
+  if (
+    !(testText[i] >= "A" && testText[i] <= "Z") &&
+    !(testText[i] >= "a" && testText[i] <= "z")
+  ) {
+    onlyLetters = false;
+    break;
+  }
+}
+
+console.log(onlyLetters);
+
+
 
