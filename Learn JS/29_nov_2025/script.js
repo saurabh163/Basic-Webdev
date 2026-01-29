@@ -2228,4 +2228,16 @@ for (let i = 0; i < firstArr.length; i++) {
 console.log(commonList);
 
 
+// problem 174 //
+
+let baseText = "Hi";
+let repeatedText = "";
+
+for (let i = 0; i < 3; i++) {
+  repeatedText += baseText;
+}
+
+console.log(repeatedText);
+
+
 
