@@ -2241,3 +2241,14 @@ console.log(repeatedText);
 
 
 
+// problem 175  //
+
+let keyList = ["name", "age"];
+let valueList = ["Amit", 25];
+let resultObject = {};
+
+for (let i = 0; i < keyList.length; i++) {
+  resultObject[keyList[i]] = valueList[i];
+}
+
+console.log(resultObject);
