@@ -2252,3 +2252,20 @@ for (let i = 0; i < keyList.length; i++) {
 }
 
 console.log(resultObject);
+
+
+// problem 176 //
+
+let valueArray = [0, 0, 5, 3];
+let firstNonZero = null;
+
+for (let i = 0; i < valueArray.length; i++) {
+  if (valueArray[i] !== 0) {
+    firstNonZero = valueArray[i];
+    break;
+  }
+}
+
+console.log(firstNonZero);
+
+
