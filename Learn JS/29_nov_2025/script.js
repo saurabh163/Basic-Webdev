@@ -2343,3 +2343,12 @@ for (let i = 0; i < mixedData.length; i++) {
 console.log(allNumbers);
 
 
+// problem 183 //
+
+let dataList = [10, 20, 30, 40, 50];
+
+let middleIndex = Math.floor(dataList.length / 2);
+console.log(dataList[middleIndex]);
+
+
+
