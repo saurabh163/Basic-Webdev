@@ -2269,3 +2269,21 @@ for (let i = 0; i < valueArray.length; i++) {
 console.log(firstNonZero);
 
 
+// problem 178 //
+
+let textWord = "coding";
+let consonantCount = 0;
+
+for (let i = 0; i < textWord.length; i++) {
+  if (
+    !"aeiou".includes(textWord[i]) &&
+    textWord[i] >= "a" &&
+    textWord[i] <= "z"
+  ) {
+    consonantCount++;
+  }
+}
+
+console.log(consonantCount);
+
+
