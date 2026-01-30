@@ -2301,3 +2301,17 @@ console.log(reversedNum);
 
 
 
+// problem 180 //
+
+let lineText = "I love JS";
+let charCount = 0;
+
+for (let i = 0; i < lineText.length; i++) {
+  if (lineText[i] !== " ") {
+    charCount++;
+  }
+}
+
+console.log(charCount);
+
+
