@@ -2327,3 +2327,19 @@ let initials =
 console.log(initials);
 
 
+
+// problem  182 //
+
+let mixedData = [1, 2, 3];
+let allNumbers = true;
+
+for (let i = 0; i < mixedData.length; i++) {
+  if (typeof mixedData[i] !== "number") {
+    allNumbers = false;
+    break;
+  }
+}
+
+console.log(allNumbers);
+
+
