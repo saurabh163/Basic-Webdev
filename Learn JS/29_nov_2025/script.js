@@ -2315,3 +2315,15 @@ for (let i = 0; i < lineText.length; i++) {
 console.log(charCount);
 
 
+
+// problem 181 //
+
+let fullName = "Saurabh Lanjewar";
+let nameParts = fullName.split(" ");
+
+let initials =
+  nameParts[0][0] + nameParts[1][0];
+
+console.log(initials);
+
+
