@@ -2287,3 +2287,17 @@ for (let i = 0; i < textWord.length; i++) {
 console.log(consonantCount);
 
 
+// problem 179 //
+
+let givenNum = 123;
+let reversedNum = 0;
+
+while (givenNum > 0) {
+  reversedNum = reversedNum * 10 + (givenNum % 10);
+  givenNum = Math.floor(givenNum / 10);
+}
+
+console.log(reversedNum);
+
+
+
