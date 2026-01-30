@@ -2352,3 +2352,12 @@ console.log(dataList[middleIndex]);
 
 
 
+// problem 184 //
+
+let sentenceData = "JavaScript is fun";
+
+let WordArray = sentenceData.split(" ");
+
+console.log(WordArray);
+
+
