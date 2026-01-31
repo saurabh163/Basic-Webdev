@@ -2400,3 +2400,17 @@ let isLower = TextValue === TextValue.toLowerCase();
 console.log(isLower);
 
 
+// problem 188 //
+
+let evenNums = [2, 3, 4, 5, 6];
+let sumEven = 0;
+
+for (let i = 0; i < evenNums.length; i++) {
+  if (evenNums[i] % 2 === 0) {
+    sumEven += evenNums[i];
+  }
+}
+
+console.log(sumEven);
+
+
