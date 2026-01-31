@@ -2436,3 +2436,14 @@ let average = tOtal / ScoreList.length;
 console.log(average);
 
 
+// problem 191 //
+
+let checkNum = 25;
+
+if (checkNum % 5 === 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
