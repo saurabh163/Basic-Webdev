@@ -2414,3 +2414,11 @@ for (let i = 0; i < evenNums.length; i++) {
 console.log(sumEven);
 
 
+// problem 189 //
+
+let MessageLine = "I love coding";
+
+let newLine = MessageLine.replaceAll(" ", "-");
+console.log(newLine);
+
+
