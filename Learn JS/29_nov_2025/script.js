@@ -2447,3 +2447,15 @@ if (checkNum % 5 === 0) {
 }
 
 
+// problem 192 //
+
+
+let sentenceValue = "javascript is cool";
+
+let resultText =
+  sentenceValue[0].toUpperCase() +
+  sentenceValue.slice(1);
+
+console.log(resultText);
+
+
