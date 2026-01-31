@@ -2459,3 +2459,11 @@ let resultText =
 console.log(resultText);
 
 
+// problem 193 //
+
+let textline = "I love Niks";
+
+let words = textline.split(" ");
+console.log(words.length);
+
+
