@@ -2378,3 +2378,17 @@ console.log(lastEven);
 
 
 
+// problem 186 //
+
+let numList = [2, -3, 4, -1];
+let negativeTotal = 0;
+
+for (let i = 0; i < numList.length; i++) {
+  if (numList[i] < 0) {
+    negativeTotal++;
+  }
+}
+
+console.log(negativeTotal);
+
+
