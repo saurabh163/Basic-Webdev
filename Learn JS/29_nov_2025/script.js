@@ -2467,3 +2467,13 @@ let words = textline.split(" ");
 console.log(words.length);
 
 
+// problem 194 //
+
+let myList = [1, 2, 3];
+
+if (myList.length % 2 === 0) {
+  console.log("Even Length");
+} else {
+  console.log("Odd Length");
+}
+
