@@ -2361,3 +2361,20 @@ let WordArray = sentenceData.split(" ");
 console.log(WordArray);
 
 
+
+// problem 185 //
+
+let numbersPack = [1, 4, 7, 8, 9, 10];
+let lastEven = null;
+
+for (let i = numbersPack.length - 1; i >= 0; i--) {
+  if (numbersPack[i] % 2 === 0) {
+    lastEven = numbersPack[i];
+    break;
+  }
+}
+
+console.log(lastEven);
+
+
+
