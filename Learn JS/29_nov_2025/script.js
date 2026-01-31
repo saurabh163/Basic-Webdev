@@ -2422,3 +2422,17 @@ let newLine = MessageLine.replaceAll(" ", "-");
 console.log(newLine);
 
 
+
+// problem 190 //
+
+let ScoreList = [10, 20, 30];
+let tOtal = 0;
+
+for (let i = 0; i < ScoreList.length; i++) {
+  tOtal += ScoreList[i];
+}
+
+let average = tOtal / ScoreList.length;
+console.log(average);
+
+
