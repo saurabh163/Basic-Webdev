@@ -2392,3 +2392,11 @@ for (let i = 0; i < numList.length; i++) {
 console.log(negativeTotal);
 
 
+// problem 187 //
+
+let TextValue = "hello";
+
+let isLower = TextValue === TextValue.toLowerCase();
+console.log(isLower);
+
+
