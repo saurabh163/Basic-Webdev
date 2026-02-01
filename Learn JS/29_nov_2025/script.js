@@ -2557,3 +2557,14 @@ let Result = String(myNum);
 console.log(Result);
 
 
+// problem 202 //
+
+let sampleArr = [];
+
+if (sampleArr.length === 0) {
+  console.log("Empty Array");
+} else {
+  console.log("Not Empty");
+}
+
+
