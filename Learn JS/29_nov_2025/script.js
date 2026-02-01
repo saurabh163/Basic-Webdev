@@ -2477,3 +2477,20 @@ if (myList.length % 2 === 0) {
   console.log("Odd Length");
 }
 
+
+
+// problem 195 //
+
+let Values = [3, -2, 5, -1, 4];
+let positiveSum = 0;
+
+for (let i = 0; i < Values.length; i++) {
+  if (Values[i] > 0) {
+    positiveSum += Values[i];
+  }
+}
+
+console.log(positiveSum);
+
+
+
