@@ -2534,3 +2534,18 @@ let reversed = checkWord.split("").reverse().join("");
 console.log(checkWord === reversed);
 
 
+// problem 200  //
+
+let sentence = "I love JavaScript coding";
+let Words = sentence.split(" ");
+let longest = Words[0];
+
+for (let i = 1; i < Words.length; i++) {
+  if (Words[i].length > longest.length) {
+    longest = Words[i];
+  }
+}
+
+console.log(longest);
+
+
