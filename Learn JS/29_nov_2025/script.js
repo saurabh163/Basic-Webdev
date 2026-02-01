@@ -2580,3 +2580,15 @@ BValue = temp;
 console.log(AValue, BValue);
 
 
+// problem 204 //
+
+let inputLine = "HeLLo";
+let UpperCount = 0;
+
+for (let i = 0; i < inputLine.length; i++) {
+  if (inputLine[i] >= "A" && inputLine[i] <= "Z") {
+    UpperCount++;
+  }
+}
+
+console.log(UpperCount);
