@@ -2518,3 +2518,11 @@ for (let i = 0; i < baseArray.length; i++) {
 console.log(newArray);
 
 
+// problem 198 //
+
+let myNumbers = [5, 10, 15];
+
+myNumbers.shift();
+console.log(myNumbers);
+
+
