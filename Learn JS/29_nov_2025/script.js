@@ -2568,3 +2568,15 @@ if (sampleArr.length === 0) {
 }
 
 
+// problem 203 //
+
+let AValue = 5;
+let BValue = 10;
+
+let temp = AValue;
+AValue = BValue;
+BValue = temp;
+
+console.log(AValue, BValue);
+
+
