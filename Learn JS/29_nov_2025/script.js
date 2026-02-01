@@ -2592,3 +2592,18 @@ for (let i = 0; i < inputLine.length; i++) {
 }
 
 console.log(UpperCount);
+
+
+
+ // problem 205 //
+
+ let NumSeries = [2, 3, 4];
+let squareList = [];
+
+for (let i = 0; i < NumSeries.length; i++) {
+  squareList.push(NumSeries[i] * NumSeries[i]);
+}
+
+console.log(squareList);
+
+
