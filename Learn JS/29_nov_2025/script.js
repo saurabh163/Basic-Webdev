@@ -2494,3 +2494,15 @@ console.log(positiveSum);
 
 
 
+// problem 196 //
+
+let WordText = "apple";
+let firstChar = WordText[0].toLowerCase();
+
+if ("aeiou".includes(firstChar)) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
