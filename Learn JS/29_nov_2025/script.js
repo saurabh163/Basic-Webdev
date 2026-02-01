@@ -2526,3 +2526,11 @@ myNumbers.shift();
 console.log(myNumbers);
 
 
+// problem 199 //
+
+let checkWord = "level";
+let reversed = checkWord.split("").reverse().join("");
+
+console.log(checkWord === reversed);
+
+
