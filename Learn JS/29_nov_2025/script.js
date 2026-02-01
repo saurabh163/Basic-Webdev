@@ -2506,3 +2506,15 @@ if ("aeiou".includes(firstChar)) {
 }
 
 
+// problem 197 //
+
+let baseArray = [2, 4, 6];
+let newArray = [];
+
+for (let i = 0; i < baseArray.length; i++) {
+  newArray.push(baseArray[i] * 2);
+}
+
+console.log(newArray);
+
+
