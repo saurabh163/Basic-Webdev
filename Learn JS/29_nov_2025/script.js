@@ -2696,3 +2696,12 @@ let sentenceCheck = "Hello.";
 console.log(sentenceCheck.endsWith("."));
 
 
+// problem 212 //
+
+let colorsList = ["red", "blue", "green"];
+
+let ResultText = colorsList.join(", ");
+
+console.log(ResultText);
+
+
