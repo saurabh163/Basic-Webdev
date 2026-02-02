@@ -2705,3 +2705,14 @@ let ResultText = colorsList.join(", ");
 console.log(ResultText);
 
 
+// problem 213 //
+
+let valueCheck = 15;
+
+if (valueCheck >= 10 && valueCheck <= 20) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
