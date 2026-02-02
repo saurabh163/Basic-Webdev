@@ -2622,3 +2622,22 @@ for (let i = 0; i < InputLine.length; i++) {
 console.log(upperCount);
 
 
+// problem 207 //
+
+let testNum = 7;
+let isPrime = true;
+
+if (testNum <= 1) {
+  isPrime = false;
+} else {
+  for (let i = 2; i < testNum; i++) {
+    if (testNum % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+}
+
+console.log(isPrime);
+
+
