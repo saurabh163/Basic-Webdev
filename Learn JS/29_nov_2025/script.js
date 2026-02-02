@@ -2607,3 +2607,18 @@ for (let i = 0; i < NumSeries.length; i++) {
 console.log(squareList);
 
 
+
+// poblem 206 //
+
+let InputLine = "HeLLo";
+let Uppercount = 0;
+
+for (let i = 0; i < InputLine.length; i++) {
+  if (InputLine[i] >= "A" && InputLine[i] <= "Z") {
+    upperCount++;
+  }
+}
+
+console.log(upperCount);
+
+
