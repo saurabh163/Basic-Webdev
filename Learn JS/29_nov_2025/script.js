@@ -2655,3 +2655,15 @@ for (let i = 0; i < SampleText.length; i++) {
 console.log(VowelCount);
 
 
+// problem 209 //
+
+let NumberSet = [1, 2, 3];
+let reversedArr = [];
+
+for (let i = NumberSet.length - 1; i >= 0; i--) {
+  reversedArr.push(NumberSet[i]);
+}
+
+console.log(reversedArr);
+
+
