@@ -2689,3 +2689,10 @@ for (let i = 0; i < dataNums.length; i++) {
 console.log(secondLargest);
 
 
+// problem 211 //
+
+let sentenceCheck = "Hello.";
+
+console.log(sentenceCheck.endsWith("."));
+
+
