@@ -2641,3 +2641,17 @@ if (testNum <= 1) {
 console.log(isPrime);
 
 
+// problem 208 //
+
+let SampleText = "javascript";
+let VowelCount = 0;
+
+for (let i = 0; i < SampleText.length; i++) {
+  if ("aeiou".includes(SampleText[i])) {
+    VowelCount++;
+  }
+}
+
+console.log(VowelCount);
+
+
