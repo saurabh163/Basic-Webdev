@@ -2667,3 +2667,25 @@ for (let i = NumberSet.length - 1; i >= 0; i--) {
 console.log(reversedArr);
 
 
+// problem 210 //
+
+let dataNums = [10, 40, 30, 20];
+
+let largest = -Infinity;
+let secondLargest = -Infinity;
+
+for (let i = 0; i < dataNums.length; i++) {
+  if (dataNums[i] > largest) {
+    secondLargest = largest;
+    largest = dataNums[i];
+  } else if (
+    dataNums[i] > secondLargest &&
+    dataNums[i] !== largest
+  ) {
+    secondLargest = dataNums[i];
+  }
+}
+
+console.log(secondLargest);
+
+
