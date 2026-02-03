@@ -2791,3 +2791,12 @@ let Resul = textSample.toLowerCase();
 console.log(Resul);
 
 
+// problem 220 //
+
+let tableNum = 5;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(tableNum + " x " + i + " = " + (tableNum * i));
+}
+
+
