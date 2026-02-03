@@ -2731,3 +2731,16 @@ for (let i = 0; i < numarray.length - 1; i++) {
 console.log(isSorted);
 
 
+// problem 215 //
+
+let myNumber = 4567;
+let DigitCount = 0;
+
+while (myNumber > 0) {
+  DigitCount++;
+  myNumber = Math.floor(myNumber / 10);
+}
+
+console.log(DigitCount);
+
+
