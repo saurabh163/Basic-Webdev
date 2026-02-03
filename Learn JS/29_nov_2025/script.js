@@ -2744,3 +2744,19 @@ while (myNumber > 0) {
 console.log(DigitCount);
 
 
+// problem 216 //
+
+let fruitsArr = ["apple", "banana", "mango"];
+let searchItem = "banana";
+let foundindex = -1;
+
+for (let i = 0; i < fruitsArr.length; i++) {
+  if (fruitsArr[i] === searchItem) {
+    foundindex = i;
+    break;
+  }
+}
+
+console.log(foundindex);
+
+
