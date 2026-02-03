@@ -2768,3 +2768,18 @@ let newWord = worddata.slice(0, -1);
 console.log(newWord);
 
 
+// problem 218 //
+
+let numberArr = [1, 3, 7, 8];
+let hasEven = false;
+
+for (let i = 0; i < numberArr.length; i++) {
+  if (numberArr[i] % 2 === 0) {
+    hasEven = true;
+    break;
+  }
+}
+
+console.log(hasEven);
+
+
