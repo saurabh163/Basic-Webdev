@@ -2716,3 +2716,18 @@ if (valueCheck >= 10 && valueCheck <= 20) {
 }
 
 
+/// problem 214 //
+
+let numarray = [2, 5, 8, 10];
+let isSorted = true;
+
+for (let i = 0; i < numarray.length - 1; i++) {
+  if (numarray[i] > numarray[i + 1]) {
+    isSorted = false;
+    break;
+  }
+}
+
+console.log(isSorted);
+
+
