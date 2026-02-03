@@ -2760,3 +2760,11 @@ for (let i = 0; i < fruitsArr.length; i++) {
 console.log(foundindex);
 
 
+// problem 217 //
+
+let worddata = "Hello";
+let newWord = worddata.slice(0, -1);
+
+console.log(newWord);
+
+
