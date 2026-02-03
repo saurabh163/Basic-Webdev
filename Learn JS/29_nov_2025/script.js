@@ -2783,3 +2783,11 @@ for (let i = 0; i < numberArr.length; i++) {
 console.log(hasEven);
 
 
+// problem 219 //
+
+let textSample = "HELLO";
+
+let Resul = textSample.toLowerCase();
+console.log(Resul);
+
+
