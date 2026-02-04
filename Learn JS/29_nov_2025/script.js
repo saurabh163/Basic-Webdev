@@ -2917,3 +2917,11 @@ for (let i = 1; i < numss.length; i++) {
 console.log(index);
 
 
+// problem 230 //
+
+let celsius = 25;
+let fahrenheit = (celsius * 9) / 5 + 32;
+
+console.log(fahrenheit);
+
+
