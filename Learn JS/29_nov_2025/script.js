@@ -2815,3 +2815,15 @@ for (let i = 0; i < DataNums.length; i++) {
 console.log(firstEven);
 
 
+// problem 222 //
+
+let NumList = [1, 2, 3];
+let strList = [];
+
+for (let i = 0; i < NumList.length; i++) {
+  strList.push(String(NumList[i]));
+}
+
+console.log(strList);
+
+
