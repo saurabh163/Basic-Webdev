@@ -2874,3 +2874,17 @@ for (let i = 1; i < Number.length; i++) {
 console.log(Max, Min);
 
 
+// problem 227 //
+
+let boolArr = [true, false, true];
+let trueCount = 0;
+
+for (let i = 0; i < boolArr.length; i++) {
+  if (boolArr[i] === true) {
+    trueCount++;
+  }
+}
+
+console.log(trueCount);
+
+
