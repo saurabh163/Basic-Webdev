@@ -2860,3 +2860,17 @@ for (let i = 1; i <= numValue; i++) {
 console.log(fact);
 
 
+// problem 226 //
+
+let Number = [5, 2, 9, 1];
+let Max = Number[0];
+let Min = Number[0];
+
+for (let i = 1; i < Number.length; i++) {
+  if (Number[i] > Max) Max = Number[i];
+  if (Number[i] < Min) Min = Number[i];
+}
+
+console.log(Max, Min);
+
+
