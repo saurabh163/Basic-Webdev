@@ -2848,3 +2848,15 @@ let Sentence = "Hello World";
 console.log(Sentence.includes(" "));
 
 
+// problem 225 //
+
+let numValue = 5;
+let fact = 1;
+
+for (let i = 1; i <= numValue; i++) {
+  fact *= i;
+}
+
+console.log(fact);
+
+
