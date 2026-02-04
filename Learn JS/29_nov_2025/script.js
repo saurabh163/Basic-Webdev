@@ -2841,3 +2841,10 @@ for (let i = 0; i < Item.length; i++) {
 console.log(uniqueItems);
 
 
+// problem 224 //
+
+let Sentence = "Hello World";
+
+console.log(Sentence.includes(" "));
+
+
