@@ -2899,3 +2899,21 @@ for (let i = 0; i < times; i++) {
 }
 
 console.log(Results);
+
+
+// problem 229 //
+
+let numss = [5, 9, 3];
+let Largest = nums[0];
+let index = 0;
+
+for (let i = 1; i < numss.length; i++) {
+  if (numss[i] > Largest) {
+    Largest = numss[i];
+    index = i;
+  }
+}
+
+console.log(index);
+
+
