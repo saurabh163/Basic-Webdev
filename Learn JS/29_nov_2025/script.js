@@ -2800,3 +2800,18 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// problem 221 //
+
+let DataNums = [3, 5, 8, 9];
+let firstEven = null;
+
+for (let i = 0; i < DataNums.length; i++) {
+  if (DataNums[i] % 2 === 0) {
+    firstEven = DataNums[i];
+    break;
+  }
+}
+
+console.log(firstEven);
+
+
