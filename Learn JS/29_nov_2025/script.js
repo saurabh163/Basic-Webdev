@@ -2888,3 +2888,14 @@ for (let i = 0; i < boolArr.length; i++) {
 console.log(trueCount);
 
 
+// problem 228 //
+
+let word = "Hi";
+let times = 3;
+let Results = "";
+
+for (let i = 0; i < times; i++) {
+  Results += word;
+}
+
+console.log(Results);
