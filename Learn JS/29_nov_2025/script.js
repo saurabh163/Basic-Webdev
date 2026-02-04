@@ -2945,3 +2945,14 @@ while (numberData > 0) {
 console.log(sum);
 
 
+// problem 233 //
+
+let TextData = "hello";
+let Reversed = "";
+
+for (let i = TextData.length - 1; i >= 0; i--) {
+  Reversed += TextData[i];
+}
+
+console.log(Reversed);
+
