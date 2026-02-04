@@ -2827,3 +2827,17 @@ for (let i = 0; i < NumList.length; i++) {
 console.log(strList);
 
 
+// problem 223 //
+
+let Item = [1, 2, 2, 3];
+let uniqueItems = [];
+
+for (let i = 0; i < Item.length; i++) {
+  if (!uniqueItems.includes(Item[i])) {
+    uniqueItems.push(Item[i]);
+  }
+}
+
+console.log(uniqueItems);
+
+
