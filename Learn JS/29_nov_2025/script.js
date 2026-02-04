@@ -2925,3 +2925,10 @@ let fahrenheit = (celsius * 9) / 5 + 32;
 console.log(fahrenheit);
 
 
+// problem 231 //
+
+let Text = "";
+
+console.log(Text.length === 0);
+
+
