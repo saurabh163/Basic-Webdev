@@ -2932,3 +2932,16 @@ let Text = "";
 console.log(Text.length === 0);
 
 
+// problem 232 //
+
+let numberData = 123;
+let sum = 0;
+
+while (numberData > 0) {
+  sum += numberData % 10;
+  numberData = Math.floor(numberData / 10);
+}
+
+console.log(sum);
+
+
