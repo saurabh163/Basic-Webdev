@@ -3034,3 +3034,18 @@ for (let i = 0; i < dataArr.length; i++) {
 console.log(hasDuplicate);
 
 
+// problem 239 //
+
+let SentenceLine = "i love js";
+let wordsArr = SentenceLine.split(" ");
+let resultArr = [];
+
+for (let i = 0; i < wordsArr.length; i++) {
+  let word = wordsArr[i];
+  let capitalWord = word[0].toUpperCase() + word.slice(1);
+  resultArr.push(capitalWord);
+}
+
+console.log(resultArr.join(" "));
+
+
