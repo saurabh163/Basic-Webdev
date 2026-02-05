@@ -3049,3 +3049,9 @@ for (let i = 0; i < wordsArr.length; i++) {
 console.log(resultArr.join(" "));
 
 
+// problem 240 //
+
+let randomNum = Math.floor(Math.random() * 10) + 1;
+console.log(randomNum);
+
+
