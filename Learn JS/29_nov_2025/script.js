@@ -3003,3 +3003,17 @@ for (let i = 0; i < arrOne.length; i++) {
 console.log(common);
 
 
+// problem 237 //
+
+let inputStr = "javascript";
+let resultStr = "";
+
+for (let i = 0; i < inputStr.length; i++) {
+  if (!"aeiou".includes(inputStr[i])) {
+    resultStr += inputStr[i];
+  }
+}
+
+console.log(resultStr);
+ 
+
