@@ -2972,3 +2972,19 @@ for (let i = 1; i * i <= CheckValue; i++) {
 console.log(isPerfectSquare);
 
 
+// problem 235 //
+
+let numData = 24831;
+let evenDigitCount = 0;
+
+while (numData > 0) {
+  let digit = numData % 10;
+  if (digit % 2 === 0) {
+    evenDigitCount++;
+  }
+  numData = Math.floor(numData / 10);
+}
+
+console.log(evenDigitCount);
+
+
