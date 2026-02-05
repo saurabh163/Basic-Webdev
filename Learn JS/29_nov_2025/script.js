@@ -3017,3 +3017,20 @@ for (let i = 0; i < inputStr.length; i++) {
 console.log(resultStr);
  
 
+// problem 238 //
+
+let dataArr = [1, 2, 3, 2];
+let hasDuplicate = false;
+
+for (let i = 0; i < dataArr.length; i++) {
+  for (let j = i + 1; j < dataArr.length; j++) {
+    if (dataArr[i] === dataArr[j]) {
+      hasDuplicate = true;
+      break;
+    }
+  }
+}
+
+console.log(hasDuplicate);
+
+
