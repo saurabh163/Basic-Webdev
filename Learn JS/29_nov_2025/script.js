@@ -2956,3 +2956,19 @@ for (let i = TextData.length - 1; i >= 0; i--) {
 
 console.log(Reversed);
 
+
+// problem 234  //
+
+let CheckValue = 16;
+let isPerfectSquare = false;
+
+for (let i = 1; i * i <= CheckValue; i++) {
+  if (i * i === CheckValue) {
+    isPerfectSquare = true;
+    break;
+  }
+}
+
+console.log(isPerfectSquare);
+
+
