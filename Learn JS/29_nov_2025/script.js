@@ -2988,3 +2988,18 @@ while (numData > 0) {
 console.log(evenDigitCount);
 
 
+// problem 236 //
+
+let arrOne = [1, 2, 3];
+let arrTwo = [2, 3, 4];
+let common = [];
+
+for (let i = 0; i < arrOne.length; i++) {
+  if (arrTwo.includes(arrOne[i])) {
+    common.push(arrOne[i]);
+  }
+}
+
+console.log(common);
+
+
