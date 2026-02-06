@@ -3099,3 +3099,17 @@ while (numCheck > 1) {
 console.log(isPowerTwo);
 
 
+// problem 244 //
+
+let Numlist = [1, 2, 3, 4, 5];
+let oddSum = 0;
+
+for (let i = 0; i < Numlist.length; i++) {
+  if (Numlist[i] % 2 !== 0) {
+    oddSum += Numlist[i];
+  }
+}
+
+console.log(oddSum);
+
+
