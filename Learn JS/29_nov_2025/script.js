@@ -3113,3 +3113,20 @@ for (let i = 0; i < Numlist.length; i++) {
 console.log(oddSum);
 
 
+// problem 245 //
+
+let Textline = "apple";
+let resulttext = "";
+let removed = false;
+
+for (let i = 0; i < Textline.length; i++) {
+  if (!removed && "aeiou".includes(Textline[i])) {
+    removed = true;
+    continue;
+  }
+  resulttext += Textline[i];
+}
+
+console.log(resulttext);
+
+
