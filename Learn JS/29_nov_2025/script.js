@@ -3161,3 +3161,18 @@ for (let i = 0; i < dataarr.length - 1; i++) {
 console.log(newArr);
 
 
+// problem 249 //
+
+let textvalue = "Hello";
+let hasUpper = false;
+
+for (let i = 0; i < textvalue.length; i++) {
+  if (textvalue[i] >= "A" && textvalue[i] <= "Z") {
+    hasUpper = true;
+    break;
+  }
+}
+
+console.log(hasUpper);
+
+
