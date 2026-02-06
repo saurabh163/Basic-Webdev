@@ -3176,3 +3176,13 @@ for (let i = 0; i < textvalue.length; i++) {
 console.log(hasUpper);
 
 
+// problem 250 //
+
+let Worddata = "code";
+let charArr = [];
+
+for (let i = 0; i < Worddata.length; i++) {
+  charArr.push(Worddata[i]);
+}
+
+console.log(charArr);
