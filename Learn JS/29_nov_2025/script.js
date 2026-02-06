@@ -3137,3 +3137,15 @@ let sampletext = "coding";
 console.log(sampleText.length > 5);
 
 
+//  problem 247 //
+
+let numbersArr = [2, 3, 4];
+let product = 1;
+
+for (let i = 0; i < numbersArr.length; i++) {
+  product *= numbersArr[i];
+}
+
+console.log(product);
+
+
