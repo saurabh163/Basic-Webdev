@@ -3083,3 +3083,19 @@ for (let i = 0; i < WordsArr.length; i++) {
 console.log(totalChars);
 
 
+// problem 243 //
+
+let numCheck = 8;
+let isPowerTwo = true;
+
+while (numCheck > 1) {
+  if (numCheck % 2 !== 0) {
+    isPowerTwo = false;
+    break;
+  }
+  numCheck = numCheck / 2;
+}
+
+console.log(isPowerTwo);
+
+
