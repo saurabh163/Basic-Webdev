@@ -3070,3 +3070,16 @@ while (TempNum > 0) {
 console.log(sum === numberVal);
 
 
+// problem 242 //
+
+
+let WordsArr = ["hi", "js", "code"];
+let totalChars = 0;
+
+for (let i = 0; i < WordsArr.length; i++) {
+  totalChars += WordsArr[i].length;
+}
+
+console.log(totalChars);
+
+
