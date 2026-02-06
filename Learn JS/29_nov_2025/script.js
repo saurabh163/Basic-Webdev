@@ -3149,3 +3149,15 @@ for (let i = 0; i < numbersArr.length; i++) {
 console.log(product);
 
 
+// problem 248 //
+
+let dataarr = [10, 20, 30];
+let newArr = [];
+
+for (let i = 0; i < dataarr.length - 1; i++) {
+  newArr.push(dataarr[i]);
+}
+
+console.log(newArr);
+
+
