@@ -3055,3 +3055,18 @@ let randomNum = Math.floor(Math.random() * 10) + 1;
 console.log(randomNum);
 
 
+// problem 241 //
+
+let numberVal = 153;
+let TempNum = numberVal;
+let sum = 0;
+
+while (TempNum > 0) {
+  let digit = TempNum % 10;
+  sum += digit * digit * digit;
+  TempNum = Math.floor(TempNum / 10);
+}
+
+console.log(sum === numberVal);
+
+
