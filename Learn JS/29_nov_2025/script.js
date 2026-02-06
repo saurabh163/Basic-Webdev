@@ -3130,3 +3130,10 @@ for (let i = 0; i < Textline.length; i++) {
 console.log(resulttext);
 
 
+// problem 246 //
+
+let sampletext = "coding";
+
+console.log(sampleText.length > 5);
+
+
