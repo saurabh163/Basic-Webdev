@@ -3186,3 +3186,19 @@ for (let i = 0; i < Worddata.length; i++) {
 }
 
 console.log(charArr);
+
+
+// problem 251 //
+
+let alphaText = "education";
+let VowelTotal = 0;
+
+for (let x = 0; x < alphaText.length; x++) {
+  if ("aeiou".includes(alphaText[x])) {
+    VowelTotal++;
+  }
+}
+
+console.log(VowelTotal);
+
+
