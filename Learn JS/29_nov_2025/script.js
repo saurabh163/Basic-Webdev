@@ -3224,3 +3224,14 @@ if (singleValue % 2 === 0) {
 }
 
 
+// problem 254 //
+let wordInput = "coding";
+let flippedWord = "";
+
+for (let z = wordInput.length - 1; z >= 0; z--) {
+  flippedWord += wordInput[z];
+}
+
+console.log(flippedWord);
+
+
