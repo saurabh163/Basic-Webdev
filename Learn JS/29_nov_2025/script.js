@@ -3214,3 +3214,13 @@ for (let y = 0; y < digitBucket.length; y++) {
 console.log(bucketSum);
 
 
+// problem 253 //
+let singleValue = 11;
+
+if (singleValue % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+
