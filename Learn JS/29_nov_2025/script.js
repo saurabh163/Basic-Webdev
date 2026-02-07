@@ -3202,3 +3202,15 @@ for (let x = 0; x < alphaText.length; x++) {
 console.log(VowelTotal);
 
 
+// problem 252 //
+
+let digitBucket = [3, 6, 9];
+let bucketSum = 0;
+
+for (let y = 0; y < digitBucket.length; y++) {
+  bucketSum += digitBucket[y];
+}
+
+console.log(bucketSum);
+
+
