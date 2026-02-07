@@ -3235,3 +3235,17 @@ for (let z = wordInput.length - 1; z >= 0; z--) {
 console.log(flippedWord);
 
 
+// problem 255 //
+
+let valueChain = [4, 15, 8];
+let topValue = valueChain[0];
+
+for (let a = 1; a < valueChain.length; a++) {
+  if (valueChain[a] > topValue) {
+    topValue = valueChain[a];
+  }
+}
+
+console.log(topValue);
+
+
