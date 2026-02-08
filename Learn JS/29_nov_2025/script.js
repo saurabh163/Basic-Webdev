@@ -3277,3 +3277,11 @@ for (let loopCounterValue = 1; loopCounterValue <= 10; loopCounterValue++) {
 
 
 
+// problem 259 //
+
+let minuteInputAmount = 5;
+let secondOutputTotal = minuteInputAmount * 60;
+
+console.log(secondOutputTotal);
+
+
