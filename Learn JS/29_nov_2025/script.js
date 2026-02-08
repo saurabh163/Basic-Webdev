@@ -3285,3 +3285,11 @@ let secondOutputTotal = minuteInputAmount * 60;
 console.log(secondOutputTotal);
 
 
+// problem 260 //
+
+let baseWordData = "developer";
+let searchCharValue = "e";
+
+console.log(baseWordData.includes(searchCharValue));
+
+
