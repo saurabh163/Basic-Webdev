@@ -3249,3 +3249,14 @@ for (let a = 1; a < valueChain.length; a++) {
 console.log(topValue);
 
 
+// problem 256 //
+
+let checkDigitValue = -4;
+
+if (checkDigitValue > 0) {
+  console.log("Positive");
+} else {
+  console.log("Negative");
+}
+
+
