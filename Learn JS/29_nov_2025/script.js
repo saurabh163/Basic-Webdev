@@ -3260,3 +3260,10 @@ if (checkDigitValue > 0) {
 }
 
 
+// problem 257 //
+
+let inputSentenceData = "JavaScript";
+
+console.log(inputSentenceData.length);
+
+
