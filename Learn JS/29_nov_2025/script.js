@@ -3302,3 +3302,11 @@ let additionResultValue = firstNumericInput + secondNumericInput;
 console.log(additionResultValue);
 
 
+// problem 262 //
+
+let dividendAmountValue = 17;
+let divisorAmountValue = 5;
+
+console.log(dividendAmountValue % divisorAmountValue);
+
+
