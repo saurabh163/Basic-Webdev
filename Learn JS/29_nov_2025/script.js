@@ -3293,3 +3293,12 @@ let searchCharValue = "e";
 console.log(baseWordData.includes(searchCharValue));
 
 
+// problem 261 //
+
+let firstNumericInput = 12;
+let secondNumericInput = 8;
+let additionResultValue = firstNumericInput + secondNumericInput;
+
+console.log(additionResultValue);
+
+
