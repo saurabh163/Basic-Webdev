@@ -3267,3 +3267,13 @@ let inputSentenceData = "JavaScript";
 console.log(inputSentenceData.length);
 
 
+// problem 258 //
+
+for (let loopCounterValue = 1; loopCounterValue <= 10; loopCounterValue++) {
+  if (loopCounterValue % 2 === 0) {
+    console.log(loopCounterValue);
+  }
+}
+
+
+
