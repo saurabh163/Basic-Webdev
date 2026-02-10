@@ -3375,3 +3375,13 @@ let searchNumericItem = 6;
 console.log(numberStorageSet.includes(searchNumericItem));
 
 
+// problem 271//
+
+let firstSwapValue = 3;
+let secondSwapValue = 7;
+
+firstSwapValue = firstSwapValue + secondSwapValue;
+secondSwapValue = firstSwapValue - secondSwapValue;
+firstSwapValue = firstSwapValue - secondSwapValue;
+
+console.log(firstSwapValue, secondSwapValue);
