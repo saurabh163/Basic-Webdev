@@ -3329,3 +3329,10 @@ let uppercaseResultText = textSourceInput.toUpperCase();
 console.log(uppercaseResultText);
 
 
+// problem 265 //
+
+let elementCollectionBox = [5, 10, 15, 20];
+
+console.log(elementCollectionBox.length);
+ 
+
