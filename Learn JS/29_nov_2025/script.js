@@ -3310,3 +3310,14 @@ let divisorAmountValue = 5;
 console.log(dividendAmountValue % divisorAmountValue);
 
 
+// problem 263 //
+
+let numericProbeValue = 0;
+
+if (numericProbeValue === 0) {
+  console.log("Zero");
+} else {
+  console.log("Not Zero");
+}
+
+
