@@ -3367,3 +3367,11 @@ let minuteQuantityResult = hourQuantityInput * 60;
 console.log(minuteQuantityResult);
  
 
+// problem 270 //
+
+let numberStorageSet = [2, 4, 6, 8];
+let searchNumericItem = 6;
+
+console.log(numberStorageSet.includes(searchNumericItem));
+
+
