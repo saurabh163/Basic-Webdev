@@ -3336,3 +3336,10 @@ let elementCollectionBox = [5, 10, 15, 20];
 console.log(elementCollectionBox.length);
  
 
+// problem 266 //
+
+for (let reverseCounterIndex = 5; reverseCounterIndex >= 1; reverseCounterIndex--) {
+  console.log(reverseCounterIndex);
+}
+ 
+
