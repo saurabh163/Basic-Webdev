@@ -3343,3 +3343,11 @@ for (let reverseCounterIndex = 5; reverseCounterIndex >= 1; reverseCounterIndex-
 }
  
 
+//problem 267 //
+
+let sentenceCheckData = "coding";
+let endingLetterTarget = "g";
+
+console.log(sentenceCheckData.endsWith(endingLetterTarget));
+
+
