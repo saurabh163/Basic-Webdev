@@ -3321,3 +3321,11 @@ if (numericProbeValue === 0) {
 }
 
 
+// problem 264 //
+
+let textSourceInput = "hello world";
+let uppercaseResultText = textSourceInput.toUpperCase();
+
+console.log(uppercaseResultText);
+
+
