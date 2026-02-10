@@ -3351,3 +3351,11 @@ let endingLetterTarget = "g";
 console.log(sentenceCheckData.endsWith(endingLetterTarget));
 
 
+// problem 268 //
+
+let baseNumericUnit = 6;
+let squaredOutcomeValue = baseNumericUnit * baseNumericUnit;
+
+console.log(squaredOutcomeValue);
+ 
+
