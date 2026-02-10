@@ -3359,3 +3359,11 @@ let squaredOutcomeValue = baseNumericUnit * baseNumericUnit;
 console.log(squaredOutcomeValue);
  
 
+// problem 269 //
+
+let hourQuantityInput = 2;
+let minuteQuantityResult = hourQuantityInput * 60;
+
+console.log(minuteQuantityResult);
+ 
+
