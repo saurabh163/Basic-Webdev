@@ -3428,3 +3428,27 @@ checkGrade(studentMarks);
 
 // peoblrm 274 //
 
+function calculateDiscount(billAmount) {
+    let discount = 0;
+
+    if (billAmount >= 5000) {
+        discount = 0.20;
+
+    } else if (billAmount >= 2000) {
+        discount = 0.10;
+
+    } else if (billAmount >= 1000) {
+        discount = 0.05;
+
+    } else {
+        discount = 0;
+    }
+
+    console.log("Original Bill");
+    console.log("Discount Applied");
+    console.log("Final Price");
+}
+
+// Test function  
+let myBill = 3200;
+calculateDiscount(myBill);
