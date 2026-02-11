@@ -3452,3 +3452,8 @@ function calculateDiscount(billAmount) {
 // Test function  
 let myBill = 3200;
 calculateDiscount(myBill);
+
+
+
+// problem 275 //
+
