@@ -3425,3 +3425,6 @@ function checkGrade(marks) {
 // test the function work//
 let studentMarks = 65; 
 checkGrade(studentMarks);
+
+// peoblrm 274 //
+
