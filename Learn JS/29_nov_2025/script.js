@@ -3385,3 +3385,19 @@ secondSwapValue = firstSwapValue - secondSwapValue;
 firstSwapValue = firstSwapValue - secondSwapValue;
 
 console.log(firstSwapValue, secondSwapValue);
+
+
+// problem 272 //
+
+let Aage = prompt("18");
+
+
+Aage = Number(Aage);
+
+if (Aage >= 18) {
+    console.log("You can drive.");
+
+} else {
+    console.log("You cannot drive yet.");
+}
+
