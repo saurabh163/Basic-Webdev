@@ -3484,3 +3484,11 @@ for (let tripleFactorIterator = 1; tripleFactorIterator <= 10; tripleFactorItera
 }
 
 
+// problem 280 //
+
+let cubicBaseDigitValue = 4;
+let cubicResultOutput = cubicBaseDigitValue ** 3;
+
+console.log(cubicResultOutput);
+
+
