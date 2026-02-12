@@ -3517,3 +3517,10 @@ let stringStateOutput = String(booleanStateInput);
 console.log(stringStateOutput);
 
 
+// problem 283 //
+
+let divisibilityProbeValue = 49;
+
+console.log(divisibilityProbeValue % 7 === 0);
+
+
