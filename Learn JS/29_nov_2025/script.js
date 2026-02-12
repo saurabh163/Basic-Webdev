@@ -3225,11 +3225,11 @@ if (singleValue % 2 === 0) {
 
 
 // problem 254 //
-let wordInput = "coding";
+let WordInput = "coding";
 let flippedWord = "";
 
-for (let z = wordInput.length - 1; z >= 0; z--) {
-  flippedWord += wordInput[z];
+for (let z = WordInput.length - 1; z >= 0; z--) {
+  flippedWord += WordInput[z];
 }
 
 console.log(flippedWord);
@@ -3460,5 +3460,12 @@ calculateDiscount(myBill);
 for (let i = 1; i <= 10; i++) {
     console.log("Number: " + i);
 }
+
+
+// problem 276 //
+
+let numericThresholdInput = 145;
+
+console.log(numericThresholdInput > 100);
 
 
