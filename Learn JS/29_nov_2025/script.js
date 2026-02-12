@@ -3477,3 +3477,10 @@ let characterArrayOutput = characterSequenceSource.split("");
 console.log(characterArrayOutput);
 
 
+// problem 279 //
+
+for (let tripleFactorIterator = 1; tripleFactorIterator <= 10; tripleFactorIterator++) {
+  console.log(tripleFactorIterator * 3);
+}
+
+
