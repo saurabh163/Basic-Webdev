@@ -3500,3 +3500,12 @@ let startingLetterCheck = "j";
 console.log(textStartSampleInput.startsWith(startingLetterCheck));
 
 
+// problem 281 //
+
+let divisionSourceAmount = 50;
+let halfResultValueOutput = divisionSourceAmount / 2;
+
+console.log(halfResultValueOutput);
+
+
+
