@@ -3492,3 +3492,11 @@ let cubicResultOutput = cubicBaseDigitValue ** 3;
 console.log(cubicResultOutput);
 
 
+// problem 280//
+
+let textStartSampleInput = "javascript";
+let startingLetterCheck = "j";
+
+console.log(textStartSampleInput.startsWith(startingLetterCheck));
+
+
