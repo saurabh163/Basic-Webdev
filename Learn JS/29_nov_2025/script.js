@@ -3469,3 +3469,11 @@ let numericThresholdInput = 145;
 console.log(numericThresholdInput > 100);
 
 
+// problem 278 //
+
+let characterSequenceSource = "hello";
+let characterArrayOutput = characterSequenceSource.split("");
+
+console.log(characterArrayOutput);
+
+
