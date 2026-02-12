@@ -3509,3 +3509,11 @@ console.log(halfResultValueOutput);
 
 
 
+// problem 282 //
+
+let booleanStateInput = true;
+let stringStateOutput = String(booleanStateInput);
+
+console.log(stringStateOutput);
+
+
