@@ -3571,3 +3571,11 @@ let extractedLastSymbolResult = lastCharacterSourceText.slice(-1);
 console.log(extractedLastSymbolResult);
 
 
+// problem 291 //
+
+let spaceSentenceInputData = "hello world";
+let letterCountResultValue = spaceSentenceInputData.replace(/ /g, "").length;
+
+console.log(letterCountResultValue);
+
+
