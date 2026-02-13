@@ -3532,3 +3532,11 @@ let divisibilityNineCheckInput = 81;
 console.log(divisibilityNineCheckInput % 9 === 0);
 
 
+// problem 285 //
+
+let numericLengthSourceValue = 12345;
+let digitLengthResultOutput = String(numericLengthSourceValue).length;
+
+console.log(digitLengthResultOutput);
+
+
