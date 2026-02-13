@@ -3540,3 +3540,10 @@ let digitLengthResultOutput = String(numericLengthSourceValue).length;
 console.log(digitLengthResultOutput);
 
 
+// problem 286 //
+
+for (let squareSeriesIteratorIndex = 1; squareSeriesIteratorIndex <= 5; squareSeriesIteratorIndex++) {
+  console.log(squareSeriesIteratorIndex * squareSeriesIteratorIndex);
+}
+
+
