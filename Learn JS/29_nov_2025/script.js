@@ -3586,3 +3586,11 @@ let multipleFourProbeValue = 28;
 console.log(multipleFourProbeValue % 4 === 0);
 
 
+// problem 293 //
+
+let booleanStringSourceValue = "true";
+let booleanConvertedOutput = booleanStringSourceValue === "true";
+
+console.log(booleanConvertedOutput);
+
+
