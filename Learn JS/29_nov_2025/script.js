@@ -3563,3 +3563,11 @@ let minuteConvertedOutput = secondQuantityInputValue / 60;
 console.log(minuteConvertedOutput);
 
 
+/// problem 290 //
+
+let lastCharacterSourceText = "developer";
+let extractedLastSymbolResult = lastCharacterSourceText.slice(-1);
+
+console.log(extractedLastSymbolResult);
+
+
