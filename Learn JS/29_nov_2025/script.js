@@ -3525,3 +3525,10 @@ console.log(divisibilityProbeValue % 7 === 0);
 
 
  
+// problem 284//
+
+let divisibilityNineCheckInput = 81;
+
+console.log(divisibilityNineCheckInput % 9 === 0);
+
+
