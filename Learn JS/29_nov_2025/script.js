@@ -3547,3 +3547,11 @@ for (let squareSeriesIteratorIndex = 1; squareSeriesIteratorIndex <= 5; squareSe
 }
 
 
+// problem 287 //
+
+let alphaNumericSampleInput = "code123";
+let hasDigitResultFlag = /\d/.test(alphaNumericSampleInput);
+
+console.log(hasDigitResultFlag);
+
+
