@@ -3555,3 +3555,11 @@ let hasDigitResultFlag = /\d/.test(alphaNumericSampleInput);
 console.log(hasDigitResultFlag);
 
 
+// problem 289 //
+
+let secondQuantityInputValue = 300;
+let minuteConvertedOutput = secondQuantityInputValue / 60;
+
+console.log(minuteConvertedOutput);
+
+
