@@ -3579,3 +3579,10 @@ let letterCountResultValue = spaceSentenceInputData.replace(/ /g, "").length;
 console.log(letterCountResultValue);
 
 
+// problem 292 //
+
+let multipleFourProbeValue = 28;
+
+console.log(multipleFourProbeValue % 4 === 0);
+
+
