@@ -3642,3 +3642,10 @@ let multiplicationResultOutputValue = multiplicationFirstOperandValue * multipli
 console.log(multiplicationResultOutputValue);
 
 
+// problem 300//
+
+let multipleSixCheckInputValue = 42;
+
+console.log(multipleSixCheckInputValue % 6 === 0);
+
+
