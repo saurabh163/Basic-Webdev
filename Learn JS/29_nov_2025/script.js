@@ -3594,3 +3594,9 @@ let booleanConvertedOutput = booleanStringSourceValue === "true";
 console.log(booleanConvertedOutput);
 
 
+// problem 294 //
+
+let divisibilityElevenInputValue = 121;
+
+console.log(divisibilityElevenInputValue % 11 === 0);
+
