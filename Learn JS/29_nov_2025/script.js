@@ -3625,3 +3625,11 @@ let middleIndexCalculatedValue = Math.floor(middleCharSourceInputText.length / 2
 console.log(middleCharSourceInputText[middleIndexCalculatedValue]);
 
 
+// problem 298 //
+
+let arrayLengthSourceCollectionValue = [1, 2, 3, 4];
+let lengthGreaterResultFlag = arrayLengthSourceCollectionValue.length > 3;
+
+console.log(lengthGreaterResultFlag);
+
+
