@@ -3649,3 +3649,9 @@ let multipleSixCheckInputValue = 42;
 console.log(multipleSixCheckInputValue % 6 === 0);
 
 
+// problem 301 //
+
+let stringLengthSourceTextValue = "developer";
+let numericLengthConvertedOutputValue = Number(stringLengthSourceTextValue.length);
+
+console.log(numericLengthConvertedOutputValue);
