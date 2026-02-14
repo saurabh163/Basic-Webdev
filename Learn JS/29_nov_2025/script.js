@@ -3600,3 +3600,11 @@ let divisibilityElevenInputValue = 121;
 
 console.log(divisibilityElevenInputValue % 11 === 0);
 
+// problem 295 //
+
+for (let divisibleFiveLoopCounterIndex = 1; divisibleFiveLoopCounterIndex <= 50; divisibleFiveLoopCounterIndex++) {
+  if (divisibleFiveLoopCounterIndex % 5 === 0) {
+    console.log(divisibleFiveLoopCounterIndex);
+  }
+}
+
