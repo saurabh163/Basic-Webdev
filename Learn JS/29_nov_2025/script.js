@@ -3617,3 +3617,11 @@ let hourConvertedResultOutput = dayUnitSourceValue * 24;
 console.log(hourConvertedResultOutput);
 
 
+// problem 297 //
+
+let middleCharSourceInputText = "coding";
+let middleIndexCalculatedValue = Math.floor(middleCharSourceInputText.length / 2);
+
+console.log(middleCharSourceInputText[middleIndexCalculatedValue]);
+
+
