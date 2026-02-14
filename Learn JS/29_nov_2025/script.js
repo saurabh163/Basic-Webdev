@@ -3633,3 +3633,12 @@ let lengthGreaterResultFlag = arrayLengthSourceCollectionValue.length > 3;
 console.log(lengthGreaterResultFlag);
 
 
+// problem 299 //
+
+let multiplicationFirstOperandValue = 6;
+let multiplicationSecondOperandValue = 7;
+let multiplicationResultOutputValue = multiplicationFirstOperandValue * multiplicationSecondOperandValue;
+
+console.log(multiplicationResultOutputValue);
+
+
