@@ -3608,3 +3608,12 @@ for (let divisibleFiveLoopCounterIndex = 1; divisibleFiveLoopCounterIndex <= 50;
   }
 }
 
+
+// problem 296 //
+
+let dayUnitSourceValue = 3;
+let hourConvertedResultOutput = dayUnitSourceValue * 24;
+
+console.log(hourConvertedResultOutput);
+
+
