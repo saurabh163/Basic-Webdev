@@ -3737,3 +3737,11 @@ let threeDigitCheckInputNumberValue = 456;
 console.log(threeDigitCheckInputNumberValue >= 100 && threeDigitCheckInputNumberValue <= 999);
 
 
+// problem 311 //
+
+let charSplitSourceTextInputValue = "hello";
+let charArrayConvertedOutputValue = [...charSplitSourceTextInputValue];
+
+console.log(charArrayConvertedOutputValue);
+
+
