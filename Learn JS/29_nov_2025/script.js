@@ -3655,3 +3655,11 @@ let stringLengthSourceTextValue = "developer";
 let numericLengthConvertedOutputValue = Number(stringLengthSourceTextValue.length);
 
 console.log(numericLengthConvertedOutputValue);
+
+
+// problem 302 //
+
+let divisibilityTwelveProbeValue = 144;
+console.log(divisibilityTwelveProbeValue % 12 === 0);
+
+
