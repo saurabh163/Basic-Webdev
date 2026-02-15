@@ -3759,3 +3759,11 @@ for (let consonantLoopIndexValue = 0; consonantLoopIndexValue < consonantSourceW
 console.log(consonantCountResultValue);
 
 
+// problem 313 //
+
+let remainderSourceNumberValue = 77;
+let remainderResultOutputValue = remainderSourceNumberValue % 8;
+
+console.log(remainderResultOutputValue);
+
+
