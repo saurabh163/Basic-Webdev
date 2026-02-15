@@ -3684,3 +3684,11 @@ console.log(reversedCollectionOutputData);
 
 
 
+// problem 305 //
+
+let uppercaseCheckSourceTextValue = "Code";
+let uppercasePresenceFlagResult = /[A-Z]/.test(uppercaseCheckSourceTextValue);
+
+console.log(uppercasePresenceFlagResult);
+ 
+
