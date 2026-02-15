@@ -3714,3 +3714,11 @@ for (let greaterLoopIndexTrackerValue = 0; greaterLoopIndexTrackerValue < greate
 console.log(greaterCountResultTotalValue);
 
 
+// problem 308 //
+
+let dashReplaceSourceSentenceValue = "hello world js";
+let dashReplacedOutputSentenceValue = dashReplaceSourceSentenceValue.replace(/ /g, "-");
+
+console.log(dashReplacedOutputSentenceValue);
+
+
