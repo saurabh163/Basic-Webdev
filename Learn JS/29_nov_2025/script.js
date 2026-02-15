@@ -3745,3 +3745,17 @@ let charArrayConvertedOutputValue = [...charSplitSourceTextInputValue];
 console.log(charArrayConvertedOutputValue);
 
 
+// problem 312 //
+
+let consonantSourceWordValue = "javascript";
+let consonantCountResultValue = 0;
+
+for (let consonantLoopIndexValue = 0; consonantLoopIndexValue < consonantSourceWordValue.length; consonantLoopIndexValue++) {
+  if (!"aeiou".includes(consonantSourceWordValue[consonantLoopIndexValue])) {
+    consonantCountResultValue++;
+  }
+}
+
+console.log(consonantCountResultValue);
+
+
