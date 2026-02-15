@@ -3722,3 +3722,11 @@ let dashReplacedOutputSentenceValue = dashReplaceSourceSentenceValue.replace(/ /
 console.log(dashReplacedOutputSentenceValue);
 
 
+// problem 309 //
+
+let asciiSourceCharacterValue = "A";
+let asciiCodeOutputValue = asciiSourceCharacterValue.charCodeAt(0);
+
+console.log(asciiCodeOutputValue);
+
+
