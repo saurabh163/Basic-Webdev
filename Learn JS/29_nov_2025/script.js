@@ -3767,3 +3767,11 @@ let remainderResultOutputValue = remainderSourceNumberValue % 8;
 console.log(remainderResultOutputValue);
 
 
+// problem 314 //
+
+let booleanNumericSourceValue = true;
+let booleanNumericConvertedOutputValue = Number(booleanNumericSourceValue);
+
+console.log(booleanNumericConvertedOutputValue);
+
+
