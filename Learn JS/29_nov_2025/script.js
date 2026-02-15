@@ -3671,3 +3671,16 @@ let lastDigitExtractedOutput = numericTailSourceValue % 10;
 console.log(lastDigitExtractedOutput);
 
 
+// problem 304 //
+
+let reverseCollectionInputData = [1, 2, 3];
+let reversedCollectionOutputData = [];
+
+for (let reverseIteratorIndexValue = reverseCollectionInputData.length - 1; reverseIteratorIndexValue >= 0; reverseIteratorIndexValue--) {
+  reversedCollectionOutputData.push(reverseCollectionInputData[reverseIteratorIndexValue]);
+}
+
+console.log(reversedCollectionOutputData);
+
+
+
