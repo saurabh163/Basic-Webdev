@@ -3692,3 +3692,11 @@ let uppercasePresenceFlagResult = /[A-Z]/.test(uppercaseCheckSourceTextValue);
 console.log(uppercasePresenceFlagResult);
  
 
+// problem 306 //
+
+let kilometerInputMeasurementValue = 5;
+let meterConvertedOutputMeasurementValue = kilometerInputMeasurementValue * 1000;
+
+console.log(meterConvertedOutputMeasurementValue);
+
+
