@@ -3663,3 +3663,11 @@ let divisibilityTwelveProbeValue = 144;
 console.log(divisibilityTwelveProbeValue % 12 === 0);
 
 
+// problem 303//
+
+let numericTailSourceValue = 987;
+let lastDigitExtractedOutput = numericTailSourceValue % 10;
+
+console.log(lastDigitExtractedOutput);
+
+
