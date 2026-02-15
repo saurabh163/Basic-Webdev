@@ -3700,3 +3700,17 @@ let meterConvertedOutputMeasurementValue = kilometerInputMeasurementValue * 1000
 console.log(meterConvertedOutputMeasurementValue);
 
 
+// problem 307 //
+
+let greaterCheckArrayInputSet = [5, 15, 20, 8];
+let greaterCountResultTotalValue = 0;
+
+for (let greaterLoopIndexTrackerValue = 0; greaterLoopIndexTrackerValue < greaterCheckArrayInputSet.length; greaterLoopIndexTrackerValue++) {
+  if (greaterCheckArrayInputSet[greaterLoopIndexTrackerValue] > 10) {
+    greaterCountResultTotalValue++;
+  }
+}
+
+console.log(greaterCountResultTotalValue);
+
+
