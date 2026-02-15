@@ -3730,3 +3730,10 @@ let asciiCodeOutputValue = asciiSourceCharacterValue.charCodeAt(0);
 console.log(asciiCodeOutputValue);
 
 
+// problem 310 //
+
+let threeDigitCheckInputNumberValue = 456;
+
+console.log(threeDigitCheckInputNumberValue >= 100 && threeDigitCheckInputNumberValue <= 999);
+
+
