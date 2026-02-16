@@ -3775,3 +3775,10 @@ let booleanNumericConvertedOutputValue = Number(booleanNumericSourceValue);
 console.log(booleanNumericConvertedOutputValue);
 
 
+//problem 315 //
+
+for (let tinyCounterValue = 1; tinyCounterValue <= 3; tinyCounterValue++) {
+  console.log(tinyCounterValue);
+}
+
+
