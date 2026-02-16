@@ -3790,3 +3790,10 @@ let addedResultValueOutput = baseInputNumberValue + 10;
 console.log(addedResultValueOutput);
 
 
+// problem 317 //
+
+let lengthCheckSourceTextValue = "code";
+
+console.log(lengthCheckSourceTextValue.length > 3);
+
+
