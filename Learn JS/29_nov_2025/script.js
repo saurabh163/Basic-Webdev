@@ -3804,3 +3804,11 @@ let firstItemSourceArrayValue = [9, 8, 7];
 console.log(firstItemSourceArrayValue[0]);
 
 
+// problem 319 //
+
+let numericConvertSourceValue = 44;
+let stringConvertedOutputValue = String(numericConvertSourceValue);
+
+console.log(stringConvertedOutputValue);
+
+
