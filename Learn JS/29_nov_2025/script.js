@@ -3782,3 +3782,11 @@ for (let tinyCounterValue = 1; tinyCounterValue <= 3; tinyCounterValue++) {
 }
 
 
+// problem 316 //
+
+let baseInputNumberValue = 5;
+let addedResultValueOutput = baseInputNumberValue + 10;
+
+console.log(addedResultValueOutput);
+
+
