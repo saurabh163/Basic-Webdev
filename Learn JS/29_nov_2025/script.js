@@ -3819,3 +3819,11 @@ let greaterCheckNumericValue = 60;
 console.log(greaterCheckNumericValue > 50);
 
 
+// problem 321 //
+
+let multiplySourceDigitValue = 9;
+let multipliedOutputResultValue = multiplySourceDigitValue * 2;
+
+console.log(multipliedOutputResultValue);
+
+
