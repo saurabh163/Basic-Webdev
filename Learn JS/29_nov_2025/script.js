@@ -3797,3 +3797,10 @@ let lengthCheckSourceTextValue = "code";
 console.log(lengthCheckSourceTextValue.length > 3);
 
 
+// problem 318 //
+
+let firstItemSourceArrayValue = [9, 8, 7];
+
+console.log(firstItemSourceArrayValue[0]);
+
+
