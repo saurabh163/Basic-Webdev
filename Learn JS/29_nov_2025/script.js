@@ -3812,3 +3812,10 @@ let stringConvertedOutputValue = String(numericConvertSourceValue);
 console.log(stringConvertedOutputValue);
 
 
+// problem 320 //
+
+let greaterCheckNumericValue = 60;
+
+console.log(greaterCheckNumericValue > 50);
+
+
