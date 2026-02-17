@@ -3827,3 +3827,10 @@ let multipliedOutputResultValue = multiplySourceDigitValue * 2;
 console.log(multipliedOutputResultValue);
 
 
+// problem 322  //
+
+for (let smallLoopTrackerValue = 1; smallLoopTrackerValue <= 5; smallLoopTrackerValue++) {
+  console.log(smallLoopTrackerValue);
+}
+
+
