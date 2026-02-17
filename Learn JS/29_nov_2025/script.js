@@ -3881,3 +3881,10 @@ let divisionResultOutputValue = divisionSourceNumericValue / 2;
 console.log(divisionResultOutputValue);
 
 
+// problem 329 //
+
+let lengthEqualArraySourceValue = [5, 6, 7];
+
+console.log(lengthEqualArraySourceValue.length === 3);
+
+
