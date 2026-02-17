@@ -3850,3 +3850,11 @@ let lessCheckNumericValue = 7;
 console.log(lessCheckNumericValue < 10);
 
 
+// problem 325 //
+
+let lastItemSourceArrayValue = [1, 2, 3, 4];
+let lastItemOutputValue = lastItemSourceArrayValue[lastItemSourceArrayValue.length - 1];
+
+console.log(lastItemOutputValue);
+
+
