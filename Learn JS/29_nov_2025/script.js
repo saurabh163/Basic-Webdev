@@ -3834,3 +3834,12 @@ for (let smallLoopTrackerValue = 1; smallLoopTrackerValue <= 5; smallLoopTracker
 }
 
 
+// problem 323 //
+
+let subtractionFirstInputValue = 20;
+let subtractionSecondInputValue = 6;
+let subtractionResultOutputValue = subtractionFirstInputValue - subtractionSecondInputValue;
+
+console.log(subtractionResultOutputValue);
+
+
