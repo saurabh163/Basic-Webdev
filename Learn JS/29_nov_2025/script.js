@@ -3873,3 +3873,11 @@ let equalityCheckTextValue = "hello";
 console.log(equalityCheckTextValue === "hello");
 
 
+// problem 328 //
+
+let divisionSourceNumericValue = 40;
+let divisionResultOutputValue = divisionSourceNumericValue / 2;
+
+console.log(divisionResultOutputValue);
+
+
