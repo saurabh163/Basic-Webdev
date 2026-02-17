@@ -3866,3 +3866,10 @@ let numericConvertedOutputValue = Number(numericStringSourceValue);
 console.log(numericConvertedOutputValue);
 
 
+// problem 327 //
+
+let equalityCheckTextValue = "hello";
+
+console.log(equalityCheckTextValue === "hello");
+
+
