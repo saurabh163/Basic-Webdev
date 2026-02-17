@@ -3858,3 +3858,11 @@ let lastItemOutputValue = lastItemSourceArrayValue[lastItemSourceArrayValue.leng
 console.log(lastItemOutputValue);
 
 
+// problem 326 //
+
+let numericStringSourceValue = "25";
+let numericConvertedOutputValue = Number(numericStringSourceValue);
+
+console.log(numericConvertedOutputValue);
+
+
