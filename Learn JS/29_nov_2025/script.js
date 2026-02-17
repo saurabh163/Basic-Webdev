@@ -3888,3 +3888,10 @@ let lengthEqualArraySourceValue = [5, 6, 7];
 console.log(lengthEqualArraySourceValue.length === 3);
 
 
+// problem 330 //
+
+let greetingMessageSourceValue = "Hello JS";
+
+console.log(greetingMessageSourceValue);
+
+
