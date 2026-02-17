@@ -3843,3 +3843,10 @@ let subtractionResultOutputValue = subtractionFirstInputValue - subtractionSecon
 console.log(subtractionResultOutputValue);
 
 
+// problem 324 //
+
+let lessCheckNumericValue = 7;
+
+console.log(lessCheckNumericValue < 10);
+
+
