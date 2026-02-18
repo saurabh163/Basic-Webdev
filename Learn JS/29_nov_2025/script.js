@@ -3955,3 +3955,8 @@ if (checkFiveValue === 5) {
 }
 
 
+// problem 338 //
+
+for (let reverseCounterValue = 10; reverseCounterValue >= 1; reverseCounterValue--) {
+  console.log(reverseCounterValue);
+}
