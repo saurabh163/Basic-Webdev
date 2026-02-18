@@ -3944,3 +3944,14 @@ if (numberInput >= 0) {
 }
 
 
+// problem 337 //
+
+let checkFiveValue = 5;
+
+if (checkFiveValue === 5) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+
