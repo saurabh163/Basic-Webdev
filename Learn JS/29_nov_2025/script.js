@@ -3895,3 +3895,14 @@ let greetingMessageSourceValue = "Hello JS";
 console.log(greetingMessageSourceValue);
 
 
+// problem 331 //
+
+let NumValue = 4;
+
+if (NumValue % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+
