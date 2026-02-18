@@ -3933,3 +3933,14 @@ for (let x = 1; x <= 10; x++) {
 }
 
 
+//problem 336 //
+
+let numberInput = -3;
+
+if (numberInput >= 0) {
+  console.log("Positive");
+} else {
+  console.log("Negative");
+}
+
+
