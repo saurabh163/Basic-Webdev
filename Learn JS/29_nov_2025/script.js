@@ -3913,3 +3913,14 @@ for (let i = 1; i <= 5; i++) {
 }
 
 
+// problem 334 //
+
+let valueNum = 15;
+
+if (valueNum > 10) {
+  console.log("Greater");
+} else {
+  console.log("Smaller");
+}
+
+
