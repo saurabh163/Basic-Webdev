@@ -3960,3 +3960,16 @@ if (checkFiveValue === 5) {
 for (let reverseCounterValue = 10; reverseCounterValue >= 1; reverseCounterValue--) {
   console.log(reverseCounterValue);
 }
+
+
+// problem 339 //
+
+let positiveCheckDigit = 8;
+
+if (positiveCheckDigit > 0) {
+  console.log("Positive");
+} else {
+  console.log("Not Positive");
+}
+
+
