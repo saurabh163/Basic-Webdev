@@ -3991,3 +3991,12 @@ if (hundredCheckValue === 100) {
 }
 
 
+// problem 342 //
+
+for (let oddTrackerCount = 1; oddTrackerCount <= 7; oddTrackerCount++) {
+  if (oddTrackerCount % 2 !== 0) {
+    console.log(oddTrackerCount);
+  }
+}
+
+
