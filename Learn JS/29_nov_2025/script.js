@@ -3973,3 +3973,10 @@ if (positiveCheckDigit > 0) {
 }
 
 
+// problem 340 //
+
+for (let tinyLoopIndex = 1; tinyLoopIndex <= 3; tinyLoopIndex++) {
+  console.log(tinyLoopIndex);
+}
+
+
