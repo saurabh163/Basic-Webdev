@@ -4011,3 +4011,10 @@ if (smallNumberProbe < 5) {
 }
 
 
+// problem 344  //
+
+for (let helloRepeatIndex = 1; helloRepeatIndex <= 5; helloRepeatIndex++) {
+  console.log("Hello");
+}
+
+
