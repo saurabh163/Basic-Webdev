@@ -3980,3 +3980,14 @@ for (let tinyLoopIndex = 1; tinyLoopIndex <= 3; tinyLoopIndex++) {
 }
 
 
+// problem 341 //
+
+let hundredCheckValue = 100;
+
+if (hundredCheckValue === 100) {
+  console.log("Correct");
+} else {
+  console.log("Wrong");
+}
+
+
