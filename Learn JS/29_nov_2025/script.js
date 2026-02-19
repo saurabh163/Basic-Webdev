@@ -4000,3 +4000,14 @@ for (let oddTrackerCount = 1; oddTrackerCount <= 7; oddTrackerCount++) {
 }
 
 
+// problem 343 //
+
+let smallNumberProbe = 2;
+
+if (smallNumberProbe < 5) {
+  console.log("Small");
+} else {
+  console.log("Big");
+}
+
+
