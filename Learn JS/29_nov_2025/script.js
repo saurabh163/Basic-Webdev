@@ -4058,3 +4058,10 @@ if (oneCheckNumber === 1) {
 }
 
 
+// problem 349 //
+
+for (let midLoopCounter = 5; midLoopCounter <= 8; midLoopCounter++) {
+  console.log(midLoopCounter);
+}
+ 
+
