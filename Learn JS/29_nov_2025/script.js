@@ -4047,3 +4047,14 @@ for (let zeroLoopIndex = 0; zeroLoopIndex <= 4; zeroLoopIndex++) {
 }
 
 
+// problem 348 //
+
+let oneCheckNumber = 1;
+
+if (oneCheckNumber === 1) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+
