@@ -4029,3 +4029,14 @@ if (divisibleTestNumber % 3 === 0) {
 }
 
 
+// prolem 346 //
+
+let skyColorValue = "blue";
+
+if (skyColorValue === "blue") {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
