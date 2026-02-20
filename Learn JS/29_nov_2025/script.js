@@ -4102,3 +4102,15 @@ for (let tableTwoIndex = 1; tableTwoIndex <= 10; tableTwoIndex++) {
  
 
 
+// problem 354 //
+
+
+let negativeTestValue = -5;
+
+if (negativeTestValue < 0) {
+  console.log("Negative");
+} else {
+  console.log("Positive");
+}
+
+
