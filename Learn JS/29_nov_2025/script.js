@@ -4040,3 +4040,10 @@ if (skyColorValue === "blue") {
 }
 
 
+// problem 347 //
+
+for (let zeroLoopIndex = 0; zeroLoopIndex <= 4; zeroLoopIndex++) {
+  console.log(zeroLoopIndex);
+}
+
+
