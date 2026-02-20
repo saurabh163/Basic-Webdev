@@ -4065,3 +4065,14 @@ for (let midLoopCounter = 5; midLoopCounter <= 8; midLoopCounter++) {
 }
  
 
+// problem 350 //
+
+let evenCheckDigit = 12;
+
+if (evenCheckDigit % 2 === 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
