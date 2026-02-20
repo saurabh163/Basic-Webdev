@@ -4083,3 +4083,14 @@ for (let helloLoopCount = 1; helloLoopCount <= 3; helloLoopCount++) {
 }
 
 
+// problem 352 //
+
+let twentyCheckValue = 15;
+
+if (twentyCheckValue < 20) {
+  console.log("Small");
+} else {
+  console.log("Big");
+}
+
+
