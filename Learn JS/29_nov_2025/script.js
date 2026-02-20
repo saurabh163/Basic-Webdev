@@ -4094,3 +4094,11 @@ if (twentyCheckValue < 20) {
 }
 
 
+// problem 353 //
+
+for (let tableTwoIndex = 1; tableTwoIndex <= 10; tableTwoIndex++) {
+  console.log(2 * tableTwoIndex);
+}
+ 
+
+
