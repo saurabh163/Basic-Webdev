@@ -4076,3 +4076,10 @@ if (evenCheckDigit % 2 === 0) {
 }
 
 
+// problem 351 //
+
+for (let helloLoopCount = 1; helloLoopCount <= 3; helloLoopCount++) {
+  console.log("Hello");
+}
+
+
