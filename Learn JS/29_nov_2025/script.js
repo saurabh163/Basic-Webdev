@@ -4114,3 +4114,15 @@ if (negativeTestValue < 0) {
 }
 
 
+// problem 355 //
+
+let fiftyCompareNumber = 72;
+
+if (fiftyCompareNumber > 50) {
+  console.log("Greater");
+} else {
+  console.log("Smaller");
+}
+
+
+
