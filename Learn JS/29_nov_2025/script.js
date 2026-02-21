@@ -4133,3 +4133,14 @@ for (let smallRangeCounter = 3; smallRangeCounter <= 6; smallRangeCounter++) {
 }
 
 
+// problem 357 //
+
+let divisibleFiveValue = 25;
+
+if (divisibleFiveValue % 5 === 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
