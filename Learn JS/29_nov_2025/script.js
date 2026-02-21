@@ -4126,3 +4126,10 @@ if (fiftyCompareNumber > 50) {
 
 
 
+// problem 356 //
+
+for (let smallRangeCounter = 3; smallRangeCounter <= 6; smallRangeCounter++) {
+  console.log(smallRangeCounter);
+}
+
+
