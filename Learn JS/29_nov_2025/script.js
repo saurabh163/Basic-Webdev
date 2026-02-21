@@ -4151,3 +4151,10 @@ for (let byeRepeatIndex = 1; byeRepeatIndex <= 4; byeRepeatIndex++) {
 }
 
 
+// problem 359 //
+
+let fruitStorageList = ["Apple", "Banana", "Mango"];
+
+console.log(fruitStorageList[0]);
+
+
