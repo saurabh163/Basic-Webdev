@@ -4144,3 +4144,10 @@ if (divisibleFiveValue % 5 === 0) {
 }
 
 
+// problem 358 //
+
+for (let byeRepeatIndex = 1; byeRepeatIndex <= 4; byeRepeatIndex++) {
+  console.log("Bye");
+}
+
+
