@@ -4164,3 +4164,13 @@ let snackBoxItems = ["Chips", "Biscuit", "Chocolate"];
 
 console.log(snackBoxItems[snackBoxItems.length - 1]);
 
+
+
+// problem 361 //
+
+
+let cityNameCollection = ["Nagpur", "Pune", "Mumbai"];
+
+console.log(cityNameCollection.length);
+
+
