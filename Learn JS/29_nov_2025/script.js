@@ -4158,3 +4158,9 @@ let fruitStorageList = ["Apple", "Banana", "Mango"];
 console.log(fruitStorageList[0]);
 
 
+// problem 360 //
+
+let snackBoxItems = ["Chips", "Biscuit", "Chocolate"];
+
+console.log(snackBoxItems[snackBoxItems.length - 1]);
+
