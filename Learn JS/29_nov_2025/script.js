@@ -4192,4 +4192,12 @@ toyStorageArray.pop();
 console.log(toyStorageArray);
 
 
+// problem 364 //
+
+let studentNameBatch = ["Amit", "Rahul", "Sita"];
+
+for (let loopIndexStudent = 0; loopIndexStudent < studentNameBatch.length; loopIndexStudent++) {
+  console.log(studentNameBatch[loopIndexStudent]);
+}
+
 
