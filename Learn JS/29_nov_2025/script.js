@@ -4183,4 +4183,13 @@ colorPaletteList.push("Blue");
 console.log(colorPaletteList);
 
 
+// problem 363 //
+
+let toyStorageArray = ["Car", "Ball", "Doll"];
+
+toyStorageArray.pop();
+
+console.log(toyStorageArray);
+
+
 
