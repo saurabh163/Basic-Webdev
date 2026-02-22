@@ -4174,3 +4174,13 @@ let cityNameCollection = ["Nagpur", "Pune", "Mumbai"];
 console.log(cityNameCollection.length);
 
 
+// problem 362 //
+
+let colorPaletteList = ["Red", "Green"];
+
+colorPaletteList.push("Blue");
+
+console.log(colorPaletteList);
+
+
+
