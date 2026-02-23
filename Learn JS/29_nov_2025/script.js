@@ -4242,4 +4242,16 @@ for (let wordLoopIndexValue = 0; wordLoopIndexValue < wordStorageArray.length; w
 
 
 
+// problem 368 //
+
+let numberSumArrayBox = [5, 10, 15, 20];
+let totalSumValueHolder = 0;
+
+for (let sumLoopIndexCounter = 0; sumLoopIndexCounter < numberSumArrayBox.length; sumLoopIndexCounter++) {
+  totalSumValueHolder += numberSumArrayBox[sumLoopIndexCounter];
+}
+
+console.log(totalSumValueHolder);
+
+
 
