@@ -4200,4 +4200,19 @@ for (let loopIndexStudent = 0; loopIndexStudent < studentNameBatch.length; loopI
   console.log(studentNameBatch[loopIndexStudent]);
 }
 
+// problem 365 //
+
+let evenCheckArrayBox = [2, 5, 8, 11, 14, 7];
+let evenTotalCounterValue = 0;
+
+for (let evenLoopIndex = 0; evenLoopIndex < evenCheckArrayBox.length; evenLoopIndex++) {
+  if (evenCheckArrayBox[evenLoopIndex] % 2 === 0) {
+    evenTotalCounterValue++;
+  }
+}
+
+console.log(evenTotalCounterValue);
+
+
+
 
