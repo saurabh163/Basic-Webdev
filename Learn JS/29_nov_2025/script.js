@@ -4230,4 +4230,16 @@ console.log(biggestStoredValue);
 
 
 
+// problem 367 //
+
+let wordStorageArray = ["car", "banana", "dog", "elephant", "cat"];
+
+for (let wordLoopIndexValue = 0; wordLoopIndexValue < wordStorageArray.length; wordLoopIndexValue++) {
+  if (wordStorageArray[wordLoopIndexValue].length > 4) {
+    console.log(wordStorageArray[wordLoopIndexValue]);
+  }
+}
+
+
+
 
