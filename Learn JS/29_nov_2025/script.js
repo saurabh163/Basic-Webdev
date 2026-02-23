@@ -4215,4 +4215,19 @@ console.log(evenTotalCounterValue);
 
 
 
+// problem 366 //
+
+let biggestFinderArrayList = [4, 9, 1, 20, 7];
+let biggestStoredValue = biggestFinderArrayList[0];
+
+for (let biggestLoopTracker = 0; biggestLoopTracker < biggestFinderArrayList.length; biggestLoopTracker++) {
+  if (biggestFinderArrayList[biggestLoopTracker] > biggestStoredValue) {
+    biggestStoredValue = biggestFinderArrayList[biggestLoopTracker];
+  }
+}
+
+console.log(biggestStoredValue);
+
+
+
 
