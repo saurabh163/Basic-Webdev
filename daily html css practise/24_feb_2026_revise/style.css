@@ -58,3 +58,21 @@
 }
 
 
+
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#e0f2fe;
+}
+.box{
+  padding:40px;
+  background:#6366f1;
+  color:white;
+  border-radius:12px;
+}
+
+
+
