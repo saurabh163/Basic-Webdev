@@ -1,14 +1,17 @@
 .nav{
   display:flex;
   justify-content:space-between;
-  padding:15px 15px;
+  align-items:center;
+  padding:15px 40px;
   background:#111827;
-}
-.nav a{
   color:white;
+}
+.links a{
   margin-left:20px;
   text-decoration:none;
+  color:white;
 }
+
 
 
 
@@ -73,6 +76,7 @@
   color:white;
   border-radius:12px;
 }
+
 
 
 
