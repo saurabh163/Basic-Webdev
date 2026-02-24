@@ -24,3 +24,19 @@
 
 
 
+.btn{
+  padding:12px 25px;
+  background:#6366f1;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:.3s;
+}
+.btn:hover{
+  background:#4338ca;
+}
+
+
+
+
+
