@@ -1,8 +1,26 @@
+.nav{
+  display:flex;
+  justify-content:space-between;
+  padding:15px 15px;
+  background:#111827;
+}
+.nav a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+
+
+
+
 .card{
   width:250px;
   padding:20px;
   background:#f1f5f9;
   border-radius:12px;
 }
+
+
 
 
