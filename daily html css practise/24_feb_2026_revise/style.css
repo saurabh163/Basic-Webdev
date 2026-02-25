@@ -143,3 +143,17 @@
 }
 
 
+
+.hero{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:300px;
+  background:#111827;
+  color:white;
+}
+.hero:hover{
+  letter-spacing:2px;
+}
+
+
