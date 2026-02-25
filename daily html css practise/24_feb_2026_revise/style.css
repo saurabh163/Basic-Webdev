@@ -96,3 +96,31 @@
 
 
 
+ 
+.row{
+  display:flex;
+  gap:20px;
+}
+.row button{
+  padding:12px 22px;
+  border:none;
+  background:#072634;
+  color:white;
+  transition:.3s;
+}
+.row button:hover{
+  background:#a7d8f1;
+}
+
+
+
+.profile{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#f1f5f9;
+}
+.profile button:hover{
+  transform:scale(1.1);
+}
+
