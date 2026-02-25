@@ -123,3 +123,23 @@
 .profile button:hover{
   transform:scale(1.1);
 }
+
+
+
+.features{
+  display:flex;
+  gap:20px;
+}
+.features div{
+  flex:1;
+  padding:30px;
+  background:#e0e7ff;
+  text-align:center;
+  transition:.3s;
+}
+.features div:hover{
+  background:#e707c2;
+  color:white;
+}
+
+
