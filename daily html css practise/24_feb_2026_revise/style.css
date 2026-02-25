@@ -80,3 +80,19 @@
 
 
 
+.card{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:150px;
+  background:#922a96;
+  color:white;
+  border-radius:16px;
+  transition:.3s;
+}
+.card:hover{
+  transform:translateY(-10px);
+}
+
+
+
