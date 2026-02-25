@@ -157,3 +157,17 @@
 }
 
 
+.menu{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+.menu li{
+  cursor:pointer;
+}
+.menu li:hover{
+  color:#6366f1;
+}
+
+
+
