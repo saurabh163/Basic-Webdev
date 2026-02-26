@@ -171,3 +171,40 @@
 
 
 
+.pricing{
+  display:flex;
+  gap:20px;
+}
+.plan{
+  flex:1;
+  padding:40px;
+  text-align:center;
+  background:#f1f5f9;
+  border-radius:16px;
+  transition:.3s;
+}
+.plan:hover{
+  transform:scale(1.05);
+}
+.pro{
+  background:#6366f1;
+  color:white;
+}.pricing{
+  display:flex;
+  gap:20px;
+}
+.plan{
+  flex:1;
+  padding:40px;
+  text-align:center;
+  background:#f1f5f9;
+  border-radius:16px;
+  transition:.3s;
+}
+.plan:hover{
+  transform:scale(1.05);
+}
+.pro{
+  background:#6366f1;
+  color:white;
+}
