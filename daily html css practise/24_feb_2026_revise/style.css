@@ -324,3 +324,18 @@
 
 
 
+.blocks{
+  display:flex;
+  gap:20px;
+}
+.blocks div{
+  flex:1;
+  padding:50px;
+  background:#bae6fd;
+  text-align:center;
+  transition:.3s;
+}
+.blocks div:hover{
+  transform:scale(1.08);
+}
+
