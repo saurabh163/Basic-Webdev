@@ -238,3 +238,20 @@
   background:#6366f1;
   color:white;
 }
+
+
+.sidebar{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  width:200px;
+}
+.sidebar div{
+  padding:15px;
+  background:#f3f4f6;
+  cursor:pointer;
+}
+.sidebar div:hover{
+  background:#6366f1;
+  color:white;
+}
