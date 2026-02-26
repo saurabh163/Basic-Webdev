@@ -290,3 +290,21 @@
 }
 
 
+
+.input-row{
+  display:flex;
+}
+.input-row input{
+  flex:1;
+  padding:12px;
+}
+.input-row button{
+  padding:12px 20px;
+  border:none;
+  background:#6366f1;
+  color:white;
+}
+.input-row button:hover{
+  background:#4338ca;
+}
+
