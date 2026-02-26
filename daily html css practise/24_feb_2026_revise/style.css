@@ -208,3 +208,16 @@
   background:#6366f1;
   color:white;
 }
+
+
+
+.notify{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 25px;
+  background:#fef9c3;
+}
+.notify button:hover{
+  background:#facc15;
+}
