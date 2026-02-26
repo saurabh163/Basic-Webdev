@@ -221,3 +221,20 @@
 .notify button:hover{
   background:#facc15;
 }
+
+
+.stats{
+  display:flex;
+  gap:15px;
+}
+.stats div{
+  flex:1;
+  padding:30px;
+  background:#e0e7ff;
+  text-align:center;
+  transition:.3s;
+}
+.stats div:hover{
+  background:#6366f1;
+  color:white;
+}
