@@ -255,3 +255,25 @@
   background:#6366f1;
   color:white;
 }
+
+
+
+
+.btn-group{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+}
+.btn-group button{
+  padding:12px 24px;
+  border:none;
+  background:#0ea5e9;
+  color:white;
+  transition:.3s;
+}
+.btn-group button:hover{
+  transform:translateY(-5px);
+}
+
+
+
