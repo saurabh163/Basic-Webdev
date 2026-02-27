@@ -359,3 +359,19 @@ body{
 }
 
 
+.profile-img{
+    width:120px;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+
+.role{
+    color:gray;
+    margin-top:-10px;
+}
+
+.desc{
+    font-size:14px;
+    color:#555;
+}
+
