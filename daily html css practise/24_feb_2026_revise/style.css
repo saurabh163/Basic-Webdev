@@ -445,3 +445,19 @@ body{
 }
 
 
+.card{
+    background:white;
+    padding:20px;
+    width:300px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.3s;
+    border:2px solid transparent;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#4facfe;
+}
+
