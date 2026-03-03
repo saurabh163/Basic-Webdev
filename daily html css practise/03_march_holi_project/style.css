@@ -50,3 +50,8 @@ body{
     transform:scale(1.1);
 }
 
+footer{
+    margin-top:80px;
+    padding:20px;
+    background:rgba(255,255,255,0.2);
+}
