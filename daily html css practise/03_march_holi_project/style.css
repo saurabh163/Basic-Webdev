@@ -33,3 +33,14 @@ body{
 .yellow{ background:yellow; }
 
 
+.btn{
+    margin-top:40px;
+    padding:12px 25px;
+    border:none;
+    background:#ff4757;
+    color:white;
+    font-size:16px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
