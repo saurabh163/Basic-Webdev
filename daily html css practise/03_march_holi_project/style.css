@@ -42,5 +42,11 @@ body{
     font-size:16px;
     border-radius:25px;
     cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#e84118;
+    transform:scale(1.1);
 }
 
