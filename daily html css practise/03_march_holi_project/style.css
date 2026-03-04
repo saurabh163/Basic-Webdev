@@ -50,15 +50,21 @@ body{
     transform:scale(1.1);
 }
 
-.stats{
-    display:flex;
-    justify-content:space-between;
-    margin-top:20px;
+
+
+.stats div{
+    text-align:center;
+}
+
+.stats p{
+    font-size:12px;
+    color:gray;
 }
 
 .stats h3{
     margin:0;
 }
+
 
 
 footer{
