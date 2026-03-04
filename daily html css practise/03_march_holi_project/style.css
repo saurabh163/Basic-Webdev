@@ -2,10 +2,16 @@ body{
     margin:0;
     text-align:center;
     font-family: Arial;
-    transition:0.4s;
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+    background:linear-gradient(-45deg,#4facfe,#00f2fe,#43e97b,#38f9d7);
+    background-size:400% 400%;
+    animation:gradientBG 8s ease infinite;
 }
 
+@keyframes gradientBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
 
 .hero{
     padding:100px 20px;
@@ -83,6 +89,7 @@ body{
     border-radius:20px;
     cursor:pointer;
 }
+
 
 
 footer{
