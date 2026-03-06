@@ -96,6 +96,8 @@ button{
     padding:10px 20px;
     margin:5px;
     display:flex;
+    justify-content:center;
+    
 }
 
 .stats div{
