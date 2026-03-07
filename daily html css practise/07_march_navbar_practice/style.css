@@ -2,10 +2,15 @@ body{
 font-family:Arial;
 }
 
+.navbar{
+background:#2f3542;
+padding:10px;
+}
+
 .menu{
 list-style:none;
 display:flex;
 gap:20px;
+color:white;
 }
-
 
