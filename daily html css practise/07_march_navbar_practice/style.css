@@ -5,13 +5,15 @@ font-family:Arial;
 .navbar{
 background:#2f3542;
 padding:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
 .menu{
 list-style:none;
 display:flex;
 gap:20px;
-justify-content:center;
 color:white;
 }
 
@@ -19,3 +21,4 @@ color:white;
 color:white;
 margin-left:10px;
 }
+
