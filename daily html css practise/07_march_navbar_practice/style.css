@@ -22,3 +22,8 @@ color:white;
 margin-left:10px;
 }
 
+
+.item:hover{
+color:#1e90ff;
+cursor:pointer;
+}
