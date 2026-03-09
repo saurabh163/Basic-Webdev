@@ -42,7 +42,10 @@ background:#0f6cd6;
 
 
 .hero{
-padding:80px;
+height:60vh;
+display:flex;
+justify-content:center;
+align-items:center;
 background:#f1f2f6;
 }
 
