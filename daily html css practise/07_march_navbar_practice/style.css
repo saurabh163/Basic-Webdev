@@ -2,6 +2,12 @@ body{
 font-family:Arial;
 }
 
+button:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+
+
 .navbar{
 background:#2f3542;
 padding:10px;
