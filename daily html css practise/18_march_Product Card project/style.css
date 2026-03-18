@@ -6,7 +6,7 @@ body{
 .card{
   background:white;
   padding:20px;
-  width:220px;
+  width:20px;
   text-align:center;
   border-radius:10px;
 }
@@ -21,3 +21,4 @@ button{
 button:hover{
   background:red;
 }
+
