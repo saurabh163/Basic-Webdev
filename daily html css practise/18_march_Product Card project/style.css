@@ -45,4 +45,8 @@ button{
   border:none;
 }
 
+.btn:hover{
+  background:red;
+}
+
 
