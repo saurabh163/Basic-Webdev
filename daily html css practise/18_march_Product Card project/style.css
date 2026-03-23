@@ -1,6 +1,8 @@
 body{
-  font-family: Arial;
-  background:#4f4157;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 
 .card{
@@ -42,4 +44,5 @@ button{
   padding:10px;
   border:none;
 }
+
 
